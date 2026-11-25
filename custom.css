@@ -9,21 +9,23 @@
 :root {
   --font-heading: "Cormorant Garamond", Georgia, serif;
   --font-body: Georgia, "Times New Roman", serif;
-  --color-l-background: #f8f4e9;
-  --color-l-foreground: #312d26;
-  --color-l-accent: #782b3c;
+  --color-l-background: #f4eddb;
+  --color-l-foreground: #29251e;
+  --color-l-accent: #9b3440;
   --color-d-background: #272422;
   --color-d-foreground: #eee5d3;
   --color-d-accent: #efbd9d;
   --wiki-rule: color-mix(in srgb, var(--color-foreground) 27%, var(--color-background));
   --wiki-muted: color-mix(in srgb, var(--color-foreground) 76%, var(--color-background));
-  --wiki-gold: #ebd19c;
+  --jacket-paper: #f4eddb;
+  --jacket-ink: #221f19;
+  --jacket-red: #a73c46;
   --wiki-width: 76rem;
   --wiki-gutter: clamp(1.25rem, 5vw, 4.8rem);
   --navbar-height: 4.3rem;
 }
 
-::selection { color: #fff4db; background: #743348; }
+::selection { color: #fff7e8; background: #953840; }
 :focus-visible { outline: 2px solid var(--color-accent); outline-offset: 4px; }
 .site-navbar { border-bottom: 1px solid var(--wiki-rule); }
 .site-navbar-inner, .site-footer-inner {
@@ -48,74 +50,53 @@
 }
 .wiki-home .heading-link { display: none; }
 .book-cover {
-  position: relative;
-  isolation: isolate;
-  padding: .95rem;
-  background: #602634 url("/assets/bookcloth.png") repeat;
-  color: #fff2d5;
+  color: var(--jacket-ink);
+  background: var(--jacket-paper);
+  padding: clamp(.85rem, 2.5vw, 2rem) 1rem 0;
 }
 .cover-frame {
-  position: relative;
-  display: grid;
-  grid-template-columns: minmax(0, 1.35fr) minmax(0, .85fr);
-  align-items: center;
-  column-gap: clamp(1.5rem, 4.5vw, 5rem);
-  max-width: calc(var(--wiki-width) - 1.9rem);
+  width: min(100%, 36.5rem);
+  min-height: clamp(33rem, 81svh, 44rem);
   margin-inline: auto;
-  padding: clamp(2.5rem, 4.1vw, 3.8rem) calc(var(--wiki-gutter) - .95rem);
+  border: 1px solid var(--jacket-red);
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  padding: clamp(2.5rem, 5.8vh, 4rem) min(3vw, 1.15rem) clamp(1.8rem, 4.8vh, 3.25rem);
 }
-.book-cover::before, .book-cover::after {
-  content: "";
-  position: absolute;
-  pointer-events: none;
-  inset: .8rem;
-  border: 1px solid #b99864;
-}
-.book-cover::after { inset: 1.06rem; border-color: #b9986466; }
 .wiki-home .cover-lettering h1 {
-  color: #fff0ce;
-  font-size: clamp(4.2rem, 7.4vw, 6.65rem);
-  font-weight: 500;
-  line-height: .91;
-  letter-spacing: -.045em;
-}
-.cover-lettering h1 em {
-  color: var(--wiki-gold);
-  font-family: Georgia, serif;
-  font-size: .62em;
-  font-weight: 400;
-  font-style: italic;
-  letter-spacing: -.055em;
+  color: var(--jacket-ink);
+  font: 700 clamp(2.3rem, 6.9vw, 3.25rem)/1.02 var(--font-heading);
+  letter-spacing: -.04em;
+  margin: 0 !important;
+  padding: 0 !important;
+  text-wrap: balance;
 }
 .cover-lettering p {
-  max-width: 34rem;
-  margin: 1.7rem 0 1.6rem;
-  color: #f3e5cd;
-  font-size: clamp(1.02rem, 1.48vw, 1.22rem);
-  line-height: 1.55;
-  text-wrap: pretty;
+  color: var(--jacket-ink);
+  margin: .32rem 0 0;
+  font: 650 clamp(1.12rem, 2.9vw, 1.5rem)/1.2 var(--font-heading);
 }
-.wiki-home .cover-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 1.2rem;
-  padding-bottom: .25rem;
-  border-bottom: 1px solid #d3af76;
-  color: #fff2d5;
-  text-decoration: none;
-  font-size: 1rem;
-  line-height: 1.45;
-}
-.cover-link span { color: var(--wiki-gold); }
-.wiki-home .cover-link:hover { border-color: #fff2d5; color: #fff; }
-.wiki-home .cover-link:focus-visible { outline-color: var(--wiki-gold); }
+.cover-lettering p span, .cover-links span { color: var(--jacket-red); }
 .cover-plate {
-  justify-self: center;
-  width: min(100%, 21.8rem);
+  width: clamp(8.5rem, 16vw, 11.5rem);
   aspect-ratio: 1;
-  background: url("/assets/courtyard.webp") center / contain no-repeat;
-  filter: saturate(.72);
+  align-self: start;
+  margin-block: clamp(2.85rem, 7.5vh, 5rem) 2.25rem;
+  background: url("/assets/builders-roundel.png") center / contain no-repeat;
 }
+.cover-links { color: var(--jacket-ink); }
+.cover-links p {
+  margin: 0;
+  font: 650 clamp(1.3rem, 3.4vw, 1.7rem)/1.28 var(--font-heading);
+}
+.cover-links p + p { margin-top: .3em; }
+.cover-links a { color: inherit; text-decoration: underline; text-decoration-color: #aa8b7966; text-decoration-thickness: 1px; text-underline-offset: .14em; }
+.cover-links a:hover, .cover-links a:focus-visible { color: var(--jacket-red); text-decoration-color: currentColor; }
+.cover-links a:focus-visible { outline-color: var(--jacket-red); }
+.cover-links span { padding-inline: .12em; }
 
 .wiki-contents {
   display: grid;
@@ -194,22 +175,20 @@
 .page-backlinks-title { font: 600 1.4rem/1.15 var(--font-heading); }
 
 @media (max-width: 800px) {
-  .cover-frame { column-gap: 1rem; padding-inline: max(1.3rem, 3.5vw); }
-  .wiki-home .cover-lettering h1 { font-size: clamp(3.4rem, 8.6vw, 4.3rem); }
   .wiki-contents { gap: 2.1rem; }
 }
 @media (max-width: 600px) {
   :root { --navbar-height: 3.6rem; }
   .site-navbar-site-name { font-size: 1.5rem; }
   .site-navbar-site-logo { width: 1.65rem; height: 1.65rem; }
-  .book-cover { padding: .85rem; }
-  .book-cover::before { inset: .55rem; }
-  .book-cover::after { inset: .78rem; }
-  .cover-frame { grid-template-columns: 1fr; gap: 1.2rem; text-align: center; padding: 1.45rem .85rem 1.6rem; }
-  .cover-plate { grid-row: 1; width: clamp(6rem, 24vw, 8.5rem); }
-  .wiki-home .cover-lettering h1 { font-size: clamp(3.65rem, 12.8vw, 4.8rem); }
-  .cover-lettering p { max-width: 26rem; margin: 1rem auto 1.05rem; font-size: 1rem; line-height: 1.48; }
-  .wiki-home .cover-link { font-size: .95rem; }
+  .book-cover { padding: .65rem .65rem 0; }
+  .cover-frame { min-height: clamp(30rem, 74svh, 38rem); padding: 2.5rem .68rem 2rem; }
+  .wiki-home .cover-lettering h1 { max-width: 12ch; font-size: clamp(2.6rem, 12.5vw, 3.8rem); }
+  .cover-lettering p { font-size: clamp(1.07rem, 4.5vw, 1.28rem); }
+  .cover-plate { width: clamp(7rem, 33vw, 9.5rem); margin-block: clamp(2rem, 5.5vh, 3rem) 1.5rem; }
+  .cover-links p { font-size: clamp(1.1rem, 5.35vw, 1.5rem); }
+  .cover-links p:last-child { display: flex; flex-direction: column; align-items: center; gap: .15em; }
+  .cover-links p:last-child span { display: none; }
   .wiki-contents { grid-template-columns: minmax(0, 1fr); gap: 1.65rem; padding-top: 2.4rem; }
   .wiki-home .contents-intro h2 { font-size: 2.7rem; }
   .contents-intro p, .contents-entry p { font-size: 1rem; line-height: 1.6; }
