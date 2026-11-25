@@ -5,9 +5,9 @@ description: How the order of design decisions shapes a place, from a Pasadena a
 
 # Generative codes
 
-Which comes first, the apartment building or its garden? In a sequence Christopher Alexander developed for Pasadena, the designer places the main garden early. A garden next door might give the new one a sheltered edge, or the street might benefit from an opening onto greenery. Once the garden has a place and a shape, the designer can decide where buildings will enclose it and where doors will open into it. Reverse those decisions and the best spot for the garden may already be occupied. (*The Nature of Order*, Book Two, chapter 11, pp. 307–312.)
+Which comes first, the apartment building or its garden? In a sequence Christopher Alexander developed for Pasadena, the designer places the main garden early. A garden next door might give the new one a sheltered edge, or the street might benefit from an opening onto greenery. Once the garden has a place and a shape, the designer can decide where buildings will enclose it and where doors will open into it. Reverse those decisions and the best spot for the garden may already be occupied.[^1]
 
-A **generative code** gives people an ordered set of decisions for making a place. Each step asks them to attend to something they can see or establish on the site. What they do there changes the conditions for the next step. Two groups can follow the same sequence and produce quite different buildings. Alexander illustrates this with designs for individual Pasadena lots of varying widths and depths. The sequence was proposed for the city’s zoning ordinance and omitted from the adopted version. (*The Nature of Order*, Book Two, chapter 11, pp. 313–316 and endnote 7.)
+A **generative code** gives people an ordered set of decisions for making a place. Each step asks them to attend to something they can see or establish on the site. What they do there changes the conditions for the next step. Two groups can follow the same sequence and produce quite different buildings. Alexander illustrates this with designs for individual Pasadena lots of varying widths and depths. The sequence was proposed for the city’s zoning ordinance and omitted from the adopted version.[^2]
 
 ## How a neighborhood can use a code
 
@@ -19,3 +19,7 @@ A second decision belongs to the people using the code. The authors invite them 
 
 - Christopher Alexander, *The Nature of Order*, Book Two, *The Process of Creating Life*, chapter 11, “The Sequence of Unfolding,” pp. 299–322. Start with pp. 300–301 for the argument about order, then compare the different apartment layouts on pp. 313–316.
 - [Living Neighborhoods](../living-neighborhoods/index.md) collects the practical material for residents, builders and designers.
+
+[^1]: Alexander, *The Process of Creating Life*, ch. 11, pp. 307–312. Follow the garden as the apartment complex takes shape.
+
+[^2]: *The Process of Creating Life*, ch. 11, pp. 313–316. Endnote 7 gives the fate of the proposed sequence in Pasadena.

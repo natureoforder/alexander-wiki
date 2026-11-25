@@ -2,27 +2,25 @@
 title: Christopher Alexander Wiki
 description: Explore Christopher Alexander through his ideas, the places he built with others, and practices you can try where you live.
 layout: plain
-showNavbar: false
 ---
 
 <div class="wiki-home">
-<section class="book-cover" aria-labelledby="book-title">
-<div class="cover-frame">
-<div class="cover-lettering">
-<h1 id="book-title">Christopher Alexander Wiki</h1>
-<p>Ideas <span aria-hidden="true">·</span> Buildings <span aria-hidden="true">·</span> Neighborhoods</p>
+<section class="wiki-frontispiece" aria-labelledby="book-title">
+<div class="frontispiece-inner">
+<div class="frontispiece-text">
+<h1 id="book-title">Christopher<br />Alexander Wiki</h1>
+<p>A field guide to the ideas, buildings, and everyday places of Christopher Alexander and his collaborators.</p>
+<a class="frontispiece-link" href="/concepts">Explore the concepts <span aria-hidden="true">→</span></a>
 </div>
-<div class="cover-plate" role="img" aria-label="A woodcut of two builders raising a timber frame."></div>
-<nav class="cover-links" aria-label="Explore the wiki">
-<p><a href="/concepts">Concepts</a> <span aria-hidden="true">·</span> <a href="/practice">Practical guides</a></p>
-<p><a href="/living-neighborhoods">Living Neighborhoods</a> <span aria-hidden="true">·</span> <a href="/patterns">A Pattern Language</a></p>
-</nav>
+<figure class="jacket-figure">
+<img src="/assets/pattern-language-jacket.jpg" alt="The jacket of A Pattern Language, with its red builders’ seal on golden paper." width="327" height="500" />
+<figcaption><a href="https://christopher-alexander-ces-archive.org/book/a-pattern-language/"><cite>A Pattern Language</cite></a><br />Oxford University Press, 1977</figcaption>
+</figure>
 </div>
 </section>
 <section class="wiki-contents" aria-labelledby="contents-title">
 <div class="contents-intro">
 <h2 id="contents-title">Where to begin</h2>
-<p>A field guide to the ideas, buildings, and everyday places of Christopher Alexander and his collaborators.</p>
 <p>Why does one window become everyone’s favorite place to sit? How do families laying out a neighborhood decide where a path should go?</p>
 <p>Alexander and his collaborators spent decades studying questions like these in buildings, on drawing boards, and out on the land.</p>
 </div>
