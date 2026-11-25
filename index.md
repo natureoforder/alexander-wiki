@@ -13,7 +13,7 @@ In Pasadena, Alexander proposed choosing the position of an apartment garden bef
 
 ## Take a walk with a neighbor
 
-Bring a map and compare the places each of you would preserve. Follow the exercise into the original Living Neighborhoods collection, where residents, builders, and designers work through decisions together. [Open the field guide](living-neighborhoods/index.md)
+Bring a map and compare the places each of you would preserve. Follow the exercise into the original Living Neighborhoods collection, where residents, builders, and designers work through decisions together. [Try the first walk](living-neighborhoods/first-walk.md) · [Explore Living Neighborhoods](living-neighborhoods/index.md)
 
 ## Find a pattern
 

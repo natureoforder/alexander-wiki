@@ -7,7 +7,7 @@ description: A numbered guide to the 253 patterns, with page references to the 1
 
 Where do you go for ten minutes of green? Which window does everyone in your house want to sit beside? In *A Pattern Language*, questions like these connect the layout of a whole town to the experience of one person in one chair. Each pattern gives a name to a recurring design problem and proposes a relationship you can try out in a particular place.
 
-**Try one where you are.** Open *Window Place* (180, p. 833). Pull a chair up to a window you like. Can you settle in with a book, look outside, and still feel part of the room? See what changes when you turn the chair sideways. The authors describe several ways of making room for a person at a window, from a low sill and an armchair to a glazed alcove.
+**Try one where you are.** In your copy, turn to *Window Place* (180, p. 833). Pull a chair up to a window you like. Can you settle in with a book, look outside, and still feel part of the room? See what changes when you turn the chair sideways. The authors describe several ways of making room for a person at a window, from a low sill and an armchair to a glazed alcove.
 
 The index gives the pattern number and the page where it begins in the 1977 edition. Jump to [Towns](#towns), [Buildings](#buildings), or [Construction](#construction).
 
