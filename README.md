@@ -12,10 +12,10 @@ Project scope and dependencies live in the Beads epic `alex-88s`. Run `bd show a
 
 ## Design and sources
 
-The site uses the Seeds of Renaissance Flowershow starter from the Life Itself design repository (`sor-flowershow-theme/`).
+The reading design takes its spacing, small-cap titles, and old-style numerals from the interior of *A Pattern Language*, pp. 833–834. Pattern readings pair a plate with commentary on wide screens and put the plate first on phones.
 
 The navbar and favicon use the cover emblem from Christopher Alexander, *The Nature of Order*, Book One, *The Phenomenon of Life* (Center for Environmental Structure, 2002). The mark is isolated from the front jacket scan on a transparent background.
 
-The homepage shows the dust jacket of Christopher Alexander and colleagues’ *A Pattern Language* (Oxford University Press, 1977, ISBN 9780195019193). [Jacket image](https://images-na.ssl-images-amazon.com/images/P/0195019199.01.L.jpg)
+The collection includes the dust jacket of Christopher Alexander and colleagues’ *A Pattern Language* (Oxford University Press, 1977, ISBN 9780195019193). [Jacket image](https://images-na.ssl-images-amazon.com/images/P/0195019199.01.L.jpg)
 
 For a passage citation, put a numbered Markdown footnote such as `[^1]` beside the passage and its definition, `[^1]: Citation`, after the article. Short notes numbered 1–9 can sit beside their paragraphs on wide screens. Longer sequences continue as endnotes.

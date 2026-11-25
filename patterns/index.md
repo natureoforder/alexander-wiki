@@ -7,7 +7,9 @@ description: A numbered guide to the 253 patterns, with page references to the 1
 
 Where do you go for ten minutes of green? Which window does everyone in your house want to sit beside? In *A Pattern Language*, questions like these connect the layout of a whole town to the experience of one person in one chair. Each pattern gives a name to a recurring design problem and proposes a relationship you can try out in a particular place.
 
-**Try one where you are.** In your copy, turn to *Window Place* (180, p. 833). Pull a chair up to a window you like. Can you settle in with a book, look outside, and still feel part of the room? See what changes when you turn the chair sideways. The authors describe several ways of making room for a person at a window, from a low sill and an armchair to a glazed alcove.
+**Try one where you are.** Open [Window Place](window-place.md) (180, p. 833). Pull a chair up to a window you like. Can you settle in with a book, look outside, and still feel part of the room? See what changes when you turn the chair sideways. The authors describe several ways of making room for a person at a window, from a low sill and an armchair to a glazed alcove.
+
+For an outdoor exercise, [Positive Outdoor Space](positive-outdoor-space.md) (106, p. 517) asks you to walk the edge of a garden and trace the shape the buildings leave between them.
 
 The index gives the pattern number and the page where it begins in the 1977 edition. Jump to [Towns](#towns), [Buildings](#buildings), or [Construction](#construction).
 
@@ -131,7 +133,7 @@ Follow a route from the street to a seat indoors. These patterns consider how to
 | 103 | Small Parking Lots | 503 |
 | 104 | Site Repair | 508 |
 | 105 | South Facing Outdoors | 513 |
-| 106 | Positive Outdoor Space | 517 |
+| 106 | [Positive Outdoor Space](positive-outdoor-space.md) | 517 |
 | 107 | Wings Of Light | 524 |
 | 108 | Connected Buildings | 531 |
 | 109 | Long Thin House | 535 |
@@ -205,7 +207,7 @@ Follow a route from the street to a seat indoors. These patterns consider how to
 | 177 | Vegetable Garden | 818 |
 | 178 | Compost | 822 |
 | 179 | Alcoves | 828 |
-| 180 | Window Place | 833 |
+| 180 | [Window Place](window-place.md) | 833 |
 | 181 | The Fire | 838 |
 | 182 | Eating Atmosphere | 844 |
 | 183 | Workspace Enclosure | 846 |

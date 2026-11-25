@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="440" viewBox="0 0 420 440" role="img" aria-labelledby="title desc">
+  <title id="title">Finding a garden between two workshops</title>
+  <desc id="desc">Two imaginary site plans share the same workshop walls. In the first, the open ground at the corner trails off toward a lane. In the second, an L-shaped hedge frames a small garden marked in pale gold. An opening on the right still leads to the lane.</desc>
+  <defs>
+    <pattern id="roof" patternUnits="userSpaceOnUse" width="7" height="7">
+      <rect width="7" height="7" fill="#e2dfd7"/>
+      <path d="m-1 1 2-2m-1 8 7-7m-1 8 2-2" fill="none" stroke="#c4c0b6" stroke-width=".8"/>
+    </pattern>
+    <g id="plot">
+      <path d="M55 8h201v37H55zM36 54h38v77H36z" fill="url(#roof)" stroke="#393932" stroke-width="1.8"/>
+      <g font-family="Arial,sans-serif" fill="#322f29" text-anchor="middle">
+        <text x="154" y="32" font-size="13" letter-spacing=".75">WORKSHOP</text>
+        <text x="0" y="0" font-size="12" letter-spacing=".5" transform="translate(59 92) rotate(-90)">STORE</text>
+      </g>
+      <path d="M293 8v132" fill="none" stroke="#9a968b" stroke-width="1.2" stroke-dasharray="3 4"/>
+      <text x="306" y="81" fill="#655f54" font-family="Georgia,serif" font-size="16" font-style="italic">lane</text>
+    </g>
+  </defs>
+  <rect width="420" height="440" fill="#f8f5ed"/>
+  <g fill="#2f2d28" font-family="Georgia,serif" font-size="22">
+    <text x="29" y="34">The open corner</text>
+    <text x="29" y="255">A place to stop</text>
+  </g>
+  <g transform="translate(12 48)">
+    <use href="#plot"/>
+    <path d="M79 101q68-20 128-20t86-2" fill="none" stroke="#81746b" stroke-dasharray="3 6" stroke-width="1.7"/>
+  </g>
+  <path d="M29 212h362" stroke="#bdb8ac"/>
+  <g transform="translate(12 269)">
+    <path d="M75 45h176v78H75z" fill="#e9dca9"/>
+    <use href="#plot"/>
+    <path d="M251 47v10m0 44v22H78" fill="none" stroke="#516653" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M251 47v10m0 44v22H78" fill="none" stroke="#a4ae8a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 4"/>
+    <text x="153" y="81" fill="#4c4334" font-family="Georgia,serif" font-size="19" text-anchor="middle">garden</text>
+    <path d="M196 81q30-2 56-2h41" fill="none" stroke="#81746b" stroke-dasharray="3 6" stroke-width="1.7"/>
+  </g>
+</svg>

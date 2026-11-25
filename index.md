@@ -5,24 +5,23 @@ layout: plain
 ---
 
 <div class="wiki-home">
-<section class="wiki-intro" aria-labelledby="book-title">
-<div class="wiki-intro-text">
-<h1 id="book-title">Christopher<br />Alexander Wiki</h1>
+<header class="wiki-title-page">
+<h1>Christopher Alexander Wiki</h1>
 <p>A field guide to the ideas, buildings, and everyday places of Christopher Alexander and his collaborators.</p>
-<div class="wiki-actions"><a href="/concepts">Explore the concepts</a><a href="/living-neighborhoods/first-walk">Take a first walk</a></div>
+</header>
+<section class="wiki-opening" aria-label="Introduction">
+<div class="wiki-opening-text">
+<p><strong>Why does one window become everyone’s favorite place to sit? How do families laying out a neighborhood decide where a path should go?</strong></p>
+<p>Alexander and his collaborators spent decades studying questions like these in buildings, on drawing boards, and out on the land.</p>
+<p class="wiki-start"><a href="/concepts">Start with the concepts</a><span aria-hidden="true"> · </span><a href="/living-neighborhoods/first-walk">Take a first walk</a></p>
 </div>
-<figure class="wiki-jacket">
-<img src="/assets/pattern-language-jacket.jpg" alt="The jacket of A Pattern Language, with its red builders’ seal on golden paper." width="327" height="500" />
-<figcaption><a href="https://christopher-alexander-ces-archive.org/book/a-pattern-language/"><cite>A Pattern Language</cite></a><br />Oxford University Press, 1977</figcaption>
+<figure class="wiki-window">
+<a href="/patterns/window-place"><img src="/assets/patterns/window-place.jpg" alt="A stone window seat in a deep recess." /></a>
+<figcaption><a href="/patterns/window-place">Window Place</a>, pattern 180, p. 833.<br /><cite>A Pattern Language</cite>, 1977.</figcaption>
 </figure>
 </section>
 <section class="wiki-guide" aria-labelledby="contents-title">
-<div class="wiki-guide-inner">
-<div class="wiki-guide-intro">
 <h2 id="contents-title">Where to begin</h2>
-<p>Why does one window become everyone’s favorite place to sit? How do families laying out a neighborhood decide where a path should go?</p>
-<p>Alexander and his collaborators spent decades studying questions like these in buildings, on drawing boards, and out on the land.</p>
-</div>
 <div class="wiki-routes">
 <section class="wiki-route">
 <h3><a href="/concepts">Concepts</a></h3>
@@ -38,9 +37,8 @@ layout: plain
 </section>
 <section class="wiki-route">
 <h3><a href="/patterns">A Pattern Language</a></h3>
-<p>Browse <a href="/patterns">all 253 patterns</a> by number and printed page, from <em>Independent Regions</em> to <em>Things from Your Life</em>. For something to try indoors, start with <em>Window Place</em>.</p>
+<p>Browse <a href="/patterns">all 253 patterns</a> by number and printed page, from <em>Independent Regions</em> to <em>Things from Your Life</em>. For something to try indoors, start with <a href="/patterns/window-place"><em>Window Place</em></a>.</p>
 </section>
-</div>
 </div>
 </section>
 </div>

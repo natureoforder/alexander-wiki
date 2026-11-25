@@ -21,7 +21,7 @@ The distinction matters when something is about to change. Imagine taking a benc
 
 ## Read across the books
 
-- For a building-scale example, read the account of a window, the patch of light it casts, and the seat drawn up beside it in *The Phenomenon of Life*, chapter 3, p. 91. Compare *Window Place*, pattern 180 in [A Pattern Language](../patterns/index.md).
+- For a building-scale example, read the account of a window, the patch of light it casts, and the seat drawn up beside it in *The Phenomenon of Life*, chapter 3, p. 91. Compare [*Window Place*, pattern 180](../patterns/window-place.md).
 - For the move from observing centers to making one, turn to *The Process of Creating Life*, chapter 10, “Always Making Centers,” pp. 267–298. Then follow the garden through an actual design sequence in [Generative codes](generative-codes.md).
 
 [^1]: Alexander, *The Phenomenon of Life*, ch. 3, pp. 81–87. Compare the dot diagrams with your own sheet of paper.
