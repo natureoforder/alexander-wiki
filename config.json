@@ -1,0 +1,15 @@
+{
+  "siteName": "Christopher Alexander Wiki",
+  "description": "A concept-first guide to Christopher Alexander, his collaborators, and the places they made.",
+  "showLogo": false,
+  "enableSearch": true,
+  "nav": {
+    "title": "Alexander Wiki",
+    "links": [
+      { "name": "Concepts", "href": "/concepts" },
+      { "name": "Living Neighborhoods", "href": "/living-neighborhoods" },
+      { "name": "Patterns", "href": "/patterns" }
+    ]
+  },
+  "contentExclude": ["/.beads", "/changelog", "AGENTS.md", "CLAUDE.md", "README.md"]
+}
