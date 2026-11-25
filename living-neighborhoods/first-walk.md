@@ -14,3 +14,5 @@ Imagine that your block wants to make a small square. One neighbor proposes a be
 **Back at the table**, pick one proposed change and trace who would pass through it and what it would disturb. If the answer depends on the time of day, mark that question on the map and go back when you can observe it. The shared map gives the next decision a starting point. [The diagnosis phase](https://www.livingneighborhoods.org/packets/diagnosis-phase.htm)
 
 Alexander calls the ordered instructions through which a place takes shape a *generative code*. What a group discovers on its first walk can change which step makes sense next. [Generative codes](../concepts/generative-codes.md) · [Living Neighborhoods](index.md)
+
+For a full-scale example of this kind of work, follow the [layout of the Eishin campus](../practice/eishin-campus.md).
