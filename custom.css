@@ -240,3 +240,13 @@ body {
   .pattern-commentary { border-inline-start: 0; border-top: 1px solid #ded9ce; }
   .pattern-trail, .pattern-source { max-width: 38rem; margin-inline: auto; }
 }
+
+/* Long primary-source passages retain the author's own changes of emphasis. */
+.page-body .rendered-mdx blockquote.source-excerpt,
+.page-body .rendered-mdx:has(.source-reading) blockquote {
+  margin: 1rem 0 2rem;
+  padding: 0;
+  color: var(--ink);
+  font-style: normal;
+  quotes: none;
+}

@@ -9,7 +9,7 @@ What can you learn about a place by walking it that you would miss on a drawing?
 
 ## Lay out a place on the ground
 
-The Eishin school needed a street for its high-school classrooms and a center for its college. For months the team could see how to join them on paper and still had no answer that fit the land. Read how a ridge changed the plan, then try two arrangements for a gathering place at full size. [Laying out the Eishin campus](eishin-campus.md)
+The Eishin school needed a street for its high-school classrooms and a center for its college. For months the team could see how to join them on paper and still had no answer that fit the land. Read how a ridge changed the plan, then try two arrangements for a gathering place at full size. [Read Alexander’s account, pp. 174–177](eishin-campus-reading.md), or [try the field exercise](eishin-campus.md).
 
 ## Make a neighborhood diagnosis
 

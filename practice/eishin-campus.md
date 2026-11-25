@@ -7,6 +7,8 @@ description: How a street, a ridge, a balsa model and two hundred flags helped a
 
 Imagine walking up a street lined with the homerooms of a high school. Where should the street take you? At Eishin, the answer eventually became a ridge where the college would stand. Christopher Alexander and his colleagues spent months assuming you would make that walk in the other direction. Reversing it helped them lay out a campus in the tea fields of Iruma, Japan.
 
+**[Read Alexander’s own account](eishin-campus-reading.md)**, with the two street sequences, the balsa model, and the flags in the tea fields.
+
 ## What the school wanted and what the land offered
 
 Interviews with teachers and students gave the team a picture of school life. A street of homerooms would let the high-school classes share an outdoor place. The college needed a center of its own. There would be a public yard near the entrance, and a lake where people could rest. The school approved this pattern language at a general assembly. On page 173, a teacher’s sketch shows how these places might connect. It could have been drawn before anyone knew where the school would stand.[^1]
