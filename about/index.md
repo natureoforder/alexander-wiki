@@ -25,6 +25,6 @@ Each concept page pairs a short summary in our own words with passages from Alex
 
 This is the work of Christopher Alexander and his collaborators at the Center for Environmental Structure. All quoted text and figures are theirs, credited where they appear.
 
-The wiki is made by Rufus Pollock, with help from David Gasquez. Corrections and suggestions are welcome on [GitHub](https://github.com/natureoforder/alexander-wiki).
+The wiki is led by [Rufus Pollock](https://rufuspollock.com/) of [Life Itself](https://lifeitself.org/), with help from David Gasquez. Corrections and suggestions are welcome on [GitHub](https://github.com/natureoforder/alexander-wiki).
 
 The typesetting follows the interior of *A Pattern Language*; [how the wiki is typeset](design.md) records the comparison.
