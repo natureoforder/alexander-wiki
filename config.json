@@ -2,6 +2,10 @@
   "siteName": "Christopher Alexander Wiki",
   "description": "A concept-first guide to Christopher Alexander, his collaborators, and the places they made.",
   "enableSearch": true,
+  "umami": {
+    "websiteId": "259efa1c-ab36-4b2f-81b9-edbb440b5174",
+    "src": "https://umami.lifeitself.org/script.js"
+  },
   "nav": {
     "title": "Alexander Wiki",
     "links": [
