@@ -37,6 +37,7 @@
   "contentExclude": [
     "/.beads",
     "/docs",
+    "/skills",
     "/changelog",
     "AGENTS.md",
     "CLAUDE.md",
