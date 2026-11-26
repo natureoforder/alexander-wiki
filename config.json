@@ -36,6 +36,7 @@
   },
   "contentExclude": [
     "/.beads",
+    "/docs",
     "/changelog",
     "AGENTS.md",
     "CLAUDE.md",
