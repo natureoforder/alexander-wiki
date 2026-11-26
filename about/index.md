@@ -11,7 +11,7 @@ Most of his books and nearly all his buildings were made with others, among them
 
 ## What it is for
 
-- **The vision.** Alexander as a philosopher and pioneer as well as an architect: a different picture of matter, life, value and the self.
+- **The vision.** Alexander as a philosopher and pioneer as well as an architect: a different picture of matter, life, value and the self. The essay [Alexander as philosopher](/notes/alexander-as-philosopher) sets this out, with Rufus Pollock's talk.
 - **The ideas.** His central concepts, each with passages from the books, page references and his own drawings and photographs.
 - **The practice.** How to actually build this way, from a room to a house to a hamlet. We came to Alexander partly because we want to do this ourselves.
 

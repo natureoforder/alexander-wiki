@@ -84,7 +84,7 @@ showToc: false
 </div>
 <div class="ar-outro">
 <div class="ar-outro__title">Why it matters beyond buildings</div>
-<p class="ar-outro__body">If Alexander is right, value is something we can perceive and test, not just opinion, and that reaches well past architecture. See <a href="/visionary">Alexander as visionary</a>, or browse <a href="/concepts">all the concepts</a> and <a href="/works">the works</a>.</p>
+<p class="ar-outro__body">If Alexander is right, value is something we can perceive and test, not just opinion, and that reaches well past architecture. See <a href="/notes/alexander-as-philosopher">Alexander as visionary</a>, or browse <a href="/concepts">all the concepts</a> and <a href="/works">the works</a>.</p>
 </div>
 </div>
 </div>

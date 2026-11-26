@@ -9,6 +9,7 @@ Rufus Pollock's own notes, questions and working materials on Alexander. These a
 
 ## Essays on this site
 
+- [Alexander as philosopher](alexander-as-philosopher.md): why Alexander matters beyond architecture, as a thinker who argued that value, life and self are part of the real world.
 - [On-site design decisions](on-site-design-decisions.md) asks who can act when a builder discovers a better arrangement after the drawings have been agreed.
 - [Making a living center](making-living-centers.md) follows Alexander's account of the columns at West Dean into Book Four's question about the experience of the maker.
 - [Using the old Living Neighborhoods site](living-neighborhoods-site.md): why its useful material needs re-routing for readers.
@@ -27,7 +28,9 @@ Rufus Pollock's own notes, questions and working materials on Alexander. These a
 
 - [Pattern shortlist for the hamlet project](pattern-shortlist.md): patterns from *A Pattern Language* shortlisted for the Petit Bois Martin hamlet.
 
-## Debates and talks
+## Talks and debates
 
+- [Christopher Alexander: Second Renaissance Visionary](2026-talk-second-renaissance-visionary.md): Rufus Pollock's 2026 talk to the Building Beauty group.
+- [Christopher Alexander: Pioneer of the Second Renaissance](2024-talk-pioneer-of-the-second-renaissance.md): Rufus Pollock's 2024 talk.
 - [Contrasting Concepts of Harmony in Architecture: the 1982 debate with Peter Eisenman](../works/1982-contrasting-concepts-of-harmony-in-architecture.md)
 - [The Origins of Pattern Theory: the 1996 OOPSLA keynote](../works/1996-oopsla-keynote-patterns-in-architecture.md)
