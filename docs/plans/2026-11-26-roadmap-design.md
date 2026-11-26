@@ -109,19 +109,41 @@ The books in order. It is a reading list and belongs on the works hub (`alex-88s
 
 A, with C's doors reduced to entrance links at the top and B left for a later "Alexander's story" page that A links to.
 
-**Essential six (A):** quality without a name; centers and wholeness; the fifteen properties; each step makes the whole more alive; people shaping their own places; the "I". Two say what it is, one how it is made, one who makes it, one what it means, after the felt opening. The open judgement is the "I": ending on it states his full claim, but some readers will balk.
+## Candidate A with stops from the approved concept list
+
+The concept list (`docs/plans/2026-11-26-concept-list.md`, "Revised after critique") was approved on 26 Nov. Its core ten already run in A's order, so A needs only renames. Every one of the list's 44 pages is placed exactly once: 14 spine stops and 30 branches. Slugs marked † are not given in the list (renamed or added after critique) and are assumed.
+
+| # | Act | Stop | Slug | ★ | Branches |
+|---|---|---|---|---|---|
+| 1 | I. Is that feeling telling you something true? | Life (the quality without a name) | `quality-without-a-name` | ★ | `being-alive`, `value-is-objective`† |
+| 2 | II. What is it in a place that you are feeling? | Wholeness | `wholeness` | | `semilattice`† ("A City is Not a Tree") |
+| 3 | | Centers | `centers` | ★ | |
+| 4 | | The fifteen properties | `fifteen-properties` | ★ | the fifteen property pages |
+| 5 | | The mirror of the self | `mirror-of-the-self` | | `deep-feeling` |
+| 6 | | Living structure | `living-structure` | | `ornament-and-function` |
+| 7 | III. How does such a thing get made? | Structure-preserving transformations ("each step makes the whole more alive") | `structure-preserving-transformations` | ★ | |
+| 8 | | Living process | `living-process` | | `every-part-unique`, `form-language` |
+| 9 | | Pattern language | `pattern-language` | | `patterns`, `the-gate`, `piecemeal-growth` |
+| 10 | | Generative codes | `generative-codes` | | `sequences` |
+| 11 | IV. Who makes it, so that people belong there? | Belonging | `belonging` | ★ | |
+| 12 | | People shaping their own places | `people-shaping-their-own-places` | | `architect-builder`†; Eishin and Mexicali (practice pages) |
+| 13 | | The modern building process | `modern-building-process` | | |
+| 14 | V. Is the life in things also a kind of self? | The "I" | `the-i` | ★ | `mechanistic-world-picture`, `color-and-inner-light`, `pleasing-yourself` |
+| | After | Why it matters beyond buildings | `/visionary` (live) | | |
+
+Changes from the phase 1 sketch, all following the list: the quality without a name and degrees of life are one stop; the mirror of the self comes after the properties; the starred process stop is structure-preserving transformations, with "unfolding wholeness" as its opening section and its plain gloss; belonging replaces people shaping their own places as the starred act IV stop, since it is now a core page; "one process repeated" is living process; the patterns-then-sequences-then-codes stop is generative codes, with sequences as its branch; the closing stop is the Visionary page, now published.
+
+**Essential six:** life (the quality without a name), centers, the fifteen properties, structure-preserving transformations, belonging, the "I". Wholeness is a spine stop but not starred: the centers page carries it for a reader on the short route. The open judgement is still the last: ending on the "I" states his full claim, but some readers will balk; without it the route stops at five.
+
+If Rufus picks B or C instead, the same slugs serve: B's stops add `semilattice`† at the start and `modern-building-process` at the end; C's three trails draw from the same list.
 
 ## Pages the stops need
 
-| Stop | Page today |
-|---|---|
-| quality without a name, mirror of the self | exist |
-| centers and wholeness | `wholeness-and-centers`, `centers`, `wholeness` overlap; the concept list should settle one |
-| fifteen properties and each property | exist, thin |
-| structure-preserving transformations, sequences, generative codes, patterns, on-site design decisions, deep feeling | exist |
-| being alive, degrees of life, living structure, unfolding wholeness, one process repeated, every part unique, a pattern language, the gate, people shaping their own places, belonging, why it is so hard now, the "I", colour and inner light, ornament, beyond buildings | missing |
+Exist (12 plus the fifteen properties): `quality-without-a-name`, `wholeness`, `centers`, `fifteen-properties`, `mirror-of-the-self`, `deep-feeling`, `structure-preserving-transformations`, `sequences`, `generative-codes`, `patterns`, and the fifteen property pages. All are due for rewriting in the excerpt-led shape; `wholeness-and-centers` merges into `wholeness` and `centers`.
 
-Three of the six starred stops (unfolding wholeness, people shaping their own places, the "I") have no page. The brief's done-check requires every stop to link to a concept on the reviewed list, with missing pages named here.
+Missing (19): `being-alive`, `value-is-objective`, `semilattice`, `living-structure`, `ornament-and-function`, `living-process`, `every-part-unique`, `form-language`, `pattern-language`, `the-gate`, `piecemeal-growth`, `belonging`, `people-shaping-their-own-places`, `architect-builder`, `modern-building-process`, `the-i`, `mechanistic-world-picture`, `color-and-inner-light`, `pleasing-yourself`.
+
+Three of the six starred stops need work before launch: `belonging` and `the-i` do not exist, and `quality-without-a-name` must take in degrees of life. **Build choice:** publish with every stop shown, and missing pages rendered as unlinked stops marked "coming", so the roadmap is honest and does not wait for 19 pages. Small and reversible; the page lists them anyway.
 
 ## Pick
 
