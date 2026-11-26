@@ -1,7 +1,6 @@
 ---
 title: Alexander the visionary
 description: Why Christopher Alexander matters beyond architecture, as a philosopher who argued that value, life and self are part of the real world.
-status: draft
 works: [timeless-way-of-building, nature-of-order-1, nature-of-order-4]
 ---
 
