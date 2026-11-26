@@ -2,6 +2,7 @@
 title: Christopher Alexander Wiki
 description: Explore Christopher Alexander through his ideas, the places he built with others, and practices you can try where you live.
 layout: plain
+image: /assets/social-card.jpg
 ---
 
 <div class="wiki-home">
