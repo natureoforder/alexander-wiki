@@ -27,12 +27,12 @@ ACTS = [
  ("III", "How does such a thing get made?", "Living structure cannot be drawn up and assembled; it has to be grown. <em>The Process of Creating Life</em> asks how. <em>The Timeless Way of Building</em> (1979) and <em>A Pattern Language</em> (1977, with Sara Ishikawa, Murray Silverstein and others) come in here as the first answer.", [
   (7, True, "Structure-preserving transformations", "structure-preserving-transformations", "each step makes the whole more alive", "The single good step: strengthen something already latent in the whole. The fifteen properties return here as fifteen kinds of step.", []),
   (8, False, "Living process", "living-process", None, "One process, repeated thousands of times: look at the whole, strengthen one center, check, and look again.", [("Every part unique","every-part-unique","the same patterns repeat, the parts never do"),("Form language","form-language","a shared vocabulary of shapes, which he said he had not worked out")]),
-  (9, False, "Pattern language", "pattern-language", None, "Shared knowledge of what works, linked from regions down to rooms, so that ordinary people can use it. The 1970s answer, and still how most people meet him.", [("Patterns","patterns","one pattern: a problem and the core of its solution"),("The gate","the-gate","learn the language, then let it go"),("Piecemeal growth","piecemeal-growth","towns grown by many small acts"),("All 253 patterns","/patterns","the index to <em>A Pattern Language</em>")]),
+  (9, False, "Pattern language", "pattern-language", None, "Shared knowledge of what works, linked from regions down to rooms, so that ordinary people can use it. Worked out with his colleagues at the Center for Environmental Structure in the 1970s, and still how most people meet the work.", [("Patterns","patterns","one pattern: a problem and the core of its solution"),("The gate","the-gate","learn the language, then let it go"),("Piecemeal growth","piecemeal-growth","towns grown by many small acts"),("All 253 patterns","/patterns","the index to <em>A Pattern Language</em>")]),
   (10, False, "Generative codes", "generative-codes", None, "Patterns put in order: pattern languages (from the late 1960s), then sequences (about 1990), then codes a community can follow step by step (about 2002).", [("Sequences","sequences","the order of the steps decides whether it works")]),
  ]),
  ("IV", "Who makes it, so that people belong there?", "A living world needs millions of people making it, not a few designers. <em>A Vision of a Living World</em> shows what that looks like; <em>The Process of Creating Life</em> says what stands in the way.", [
   (11, True, "Belonging", "belonging", None, "What it is all for: the sense that the world is ours and we have a right to be in it.", []),
-  (12, False, "People shaping their own places", "people-shaping-their-own-places", None, "The people who will use a place lay it out themselves, on the ground, with a language they share.", [("The architect-builder","architect-builder","design and building done by the same hands"),("The Eishin campus","/practice/eishin-campus","a school laid out with its teachers and students")]),
+  (12, False, "People shaping their own places", "people-shaping-their-own-places", None, "The people who will use a place lay it out themselves, on the ground, with a language they share.", [("The architect-builder","architect-builder","design and building done by the same hands"),("The Eishin campus","/practice/eishin-campus","a school laid out by Alexander and his colleagues with its teachers and students")]),
   (13, False, "The modern building process", "modern-building-process", None, "Why it is so hard now: drawings, loans, contracts and rules that stop anyone adjusting as they go, and how he thought that could change.", []),
  ]),
  ("V", "Is the life in things also a kind of self?", "In <em>The Luminous Ground</em> Alexander says what he thinks all this implies about matter itself. He offers it as a hypothesis, and says plainly that he has doubts.", [
@@ -40,12 +40,29 @@ ACTS = [
  ]),
 ]
 
+# Shorter trails, each on its own page at /roadmap/<slug>, drawn from the same stops.
 TRAILS = [
- ("I want to make a place", [12,9,3,4,7,8]),
- ("I want the argument", [1,5,6,7,14]),
- ("I came from patterns or software", [9,3,10,8]),
+ ("make-a-place", "To make a place", "For anyone shaping a house, a garden, a school or a street.",
+  "For anyone shaping a house, a garden, a school or a street. It starts with who does the making, then the tools: patterns, centers, the fifteen properties, and the step-by-step process that ties them together.",
+  [12,9,3,4,7,8]),
+ ("thesis", "The thesis", "His central claim, in five steps.",
+  "Alexander’s central claim in five steps: that the life we feel in some places is real, that you can test for it, what it is made of, how it is made, and what he came to think it says about the world.",
+  [1,5,6,7,14]),
+ ("from-patterns", "From patterns or software", "From the patterns you know to what came after.",
+  "Many people meet Alexander through pattern languages, in architecture or in software, where they inspired design patterns and the first wiki. This trail starts there and follows the work on: why he came to think patterns were not enough, and what he did next.",
+  [9,3,10,8]),
 ]
 names = {s[0]: s[2] for a in ACTS for s in a[3]}
+stops_by_n = {s[0]: s for a in ACTS for s in a[3]}
+
+def node(stop, href_note=None):
+    n, star, name, slug, gloss, body, branches = stop
+    live = exists(slug)
+    cls = 'ar-node' + (' ar-node--star' if star else '') + ('' if live else ' is-coming')
+    head = title(name, slug, 'ar-node__title') + ('&nbsp;<span class="ar-star">★</span>' if star else '') + ('' if live else ' <span class="ar-coming">(coming)</span>')
+    g = f'<div class="ar-node__gloss">{gloss}</div>' if gloss else ''
+    extra = f'<p class="ar-node__more">{href_note}</p>' if href_note else ''
+    return head, g, cls, body, extra
 
 out = []
 w = out.append
@@ -60,26 +77,14 @@ showToc: false
 <div class="ar-root">
 <div class="ar-wrap">
 <h1 class="ar-title">A roadmap through Christopher Alexander</h1>
-<p class="ar-lede">Christopher Alexander (1936–2022) was the architect and thinker behind <em>A Pattern Language</em> and <em>The Nature of Order</em>. Why do some places make you feel more alive? He spent fifty years on that question. This is a way into his answer, one question at a time, each opening the next.</p>
-<div class="ar-panels">
-<div class="ar-panel">
-<div class="ar-panel__kicker ar-sc">New to Alexander</div>
-<div class="ar-panel__title">Start at the top</div>
-<p class="ar-panel__body">Follow the spine down through five acts. Short of time? The six starred stops hold together on their own: the feeling, what it answers to, its properties, how it is made, what it is for, and what lies beneath.</p>
-<a href="#stop-1" class="ar-cta">Begin at stop 1 ↓</a>
-</div>
-<div class="ar-panel">
-<div class="ar-panel__kicker ar-sc">What brings you here?</div>
-<div class="ar-doors">''')
-for t, stops in TRAILS:
-    links = ' <span class="ar-arrow">→</span> '.join(f'<a href="#stop-{n}">{names[n]}</a>' for n in stops)
-    w(f'<div class="ar-door"><div class="ar-door__title">{t}</div><div class="ar-trail">{links}</div></div>')
-w('''</div>
-</div>
-</div>
+<p class="ar-lede">Christopher Alexander (1936–2022) was the architect and thinker behind <em>The Nature of Order</em> and, with his colleagues at the Center for Environmental Structure, <em>A Pattern Language</em>. Why do some places make you feel more alive? He spent fifty years on that question. This is a way into his answer, one question at a time, each opening the next.</p>
+<div class="ar-ways"><div class="ar-ways__head ar-sc">Or take a shorter trail</div><div class="ar-ways__list">''')
+for slug, t, short, intro, stops in TRAILS:
+    w(f'<a class="ar-way" href="/roadmap/{slug}"><span class="ar-way__title">{t}</span><span class="ar-way__note">{short}</span></a>')
+w('''</div></div>
 <div class="ar-legend">
 <div><span class="ar-swatch"></span><span>Spine: read in order</span></div>
-<div><span class="ar-swatch ar-swatch--star"></span><span>★ The short route</span></div>
+<div><span class="ar-swatch ar-swatch--star"></span><span>★ The short route: six stops</span></div>
 <div><span class="ar-swatch ar-swatch--branch"></span><span>Branch: optional depth</span></div>
 <div><span class="ar-swatch ar-swatch--coming"></span><span>Page still to be written</span></div>
 </div>''')
@@ -112,3 +117,32 @@ w('''<div class="ar-outro">
 </div>
 ''')
 open(f"{root}/roadmap.md", "w").write("\n".join(out))
+
+os.makedirs(f"{root}/roadmap", exist_ok=True)
+for slug, t, short, intro, stops in TRAILS:
+    o = [f'''---
+title: "{t}: a trail through Christopher Alexander"
+description: {short}
+layout: plain
+showSidebar: false
+showToc: false
+---
+
+<div class="ar-root">
+<div class="ar-wrap">
+<div class="ar-kicker ar-sc"><a href="/roadmap">Roadmap</a> · a shorter trail</div>
+<h1 class="ar-title">{t}</h1>
+<p class="ar-lede">{intro}</p>
+<div class="ar-spine ar-spine--trail">''']
+    for i, n in enumerate(stops, 1):
+        head, g, cls, body, extra = node(stops_by_n[n], f'<a href="/roadmap#stop-{n}">Stop {n} on the full roadmap</a>')
+        o.append(f'<div class="ar-stop"><div class="{cls}"><div class="ar-num">{i}</div><div class="ar-node__head">{head}</div>{g}<p class="ar-node__body">{body}</p>{extra}</div></div>')
+    others = ' · '.join(f'<a href="/roadmap/{s2}">{t2}</a>' for s2, t2, *_ in TRAILS if s2 != slug)
+    o.append(f'''</div>
+<div class="ar-outro">
+<p class="ar-outro__body">For the whole picture, follow <a href="/roadmap">the full roadmap</a>. Other trails: {others}.</p>
+</div>
+</div>
+</div>
+''')
+    open(f"{root}/roadmap/{slug}.md", "w").write("\n".join(o))

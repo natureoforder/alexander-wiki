@@ -9,26 +9,15 @@ showToc: false
 <div class="ar-root">
 <div class="ar-wrap">
 <h1 class="ar-title">A roadmap through Christopher Alexander</h1>
-<p class="ar-lede">Christopher Alexander (1936–2022) was the architect and thinker behind <em>A Pattern Language</em> and <em>The Nature of Order</em>. Why do some places make you feel more alive? He spent fifty years on that question. This is a way into his answer, one question at a time, each opening the next.</p>
-<div class="ar-panels">
-<div class="ar-panel">
-<div class="ar-panel__kicker ar-sc">New to Alexander</div>
-<div class="ar-panel__title">Start at the top</div>
-<p class="ar-panel__body">Follow the spine down through five acts. Short of time? The six starred stops hold together on their own: the feeling, what it answers to, its properties, how it is made, what it is for, and what lies beneath.</p>
-<a href="#stop-1" class="ar-cta">Begin at stop 1 ↓</a>
-</div>
-<div class="ar-panel">
-<div class="ar-panel__kicker ar-sc">What brings you here?</div>
-<div class="ar-doors">
-<div class="ar-door"><div class="ar-door__title">I want to make a place</div><div class="ar-trail"><a href="#stop-12">People shaping their own places</a> <span class="ar-arrow">→</span> <a href="#stop-9">Pattern language</a> <span class="ar-arrow">→</span> <a href="#stop-3">Centers</a> <span class="ar-arrow">→</span> <a href="#stop-4">The fifteen properties</a> <span class="ar-arrow">→</span> <a href="#stop-7">Structure-preserving transformations</a> <span class="ar-arrow">→</span> <a href="#stop-8">Living process</a></div></div>
-<div class="ar-door"><div class="ar-door__title">I want the argument</div><div class="ar-trail"><a href="#stop-1">Life</a> <span class="ar-arrow">→</span> <a href="#stop-5">The mirror of the self</a> <span class="ar-arrow">→</span> <a href="#stop-6">Living structure</a> <span class="ar-arrow">→</span> <a href="#stop-7">Structure-preserving transformations</a> <span class="ar-arrow">→</span> <a href="#stop-14">The “I”</a></div></div>
-<div class="ar-door"><div class="ar-door__title">I came from patterns or software</div><div class="ar-trail"><a href="#stop-9">Pattern language</a> <span class="ar-arrow">→</span> <a href="#stop-3">Centers</a> <span class="ar-arrow">→</span> <a href="#stop-10">Generative codes</a> <span class="ar-arrow">→</span> <a href="#stop-8">Living process</a></div></div>
-</div>
-</div>
-</div>
+<p class="ar-lede">Christopher Alexander (1936–2022) was the architect and thinker behind <em>The Nature of Order</em> and, with his colleagues at the Center for Environmental Structure, <em>A Pattern Language</em>. Why do some places make you feel more alive? He spent fifty years on that question. This is a way into his answer, one question at a time, each opening the next.</p>
+<div class="ar-ways"><div class="ar-ways__head ar-sc">Or take a shorter trail</div><div class="ar-ways__list">
+<a class="ar-way" href="/roadmap/make-a-place"><span class="ar-way__title">To make a place</span><span class="ar-way__note">For anyone shaping a house, a garden, a school or a street.</span></a>
+<a class="ar-way" href="/roadmap/thesis"><span class="ar-way__title">The thesis</span><span class="ar-way__note">His central claim, in five steps.</span></a>
+<a class="ar-way" href="/roadmap/from-patterns"><span class="ar-way__title">From patterns or software</span><span class="ar-way__note">From the patterns you know to what came after.</span></a>
+</div></div>
 <div class="ar-legend">
 <div><span class="ar-swatch"></span><span>Spine: read in order</span></div>
-<div><span class="ar-swatch ar-swatch--star"></span><span>★ The short route</span></div>
+<div><span class="ar-swatch ar-swatch--star"></span><span>★ The short route: six stops</span></div>
 <div><span class="ar-swatch ar-swatch--branch"></span><span>Branch: optional depth</span></div>
 <div><span class="ar-swatch ar-swatch--coming"></span><span>Page still to be written</span></div>
 </div>
@@ -71,7 +60,7 @@ showToc: false
 <div class="ar-branches ar-branches--left"><span class="ar-branch is-coming"><span class="ar-branch__title">Every part unique <span class="ar-coming">(coming)</span></span><span class="ar-branch__note">the same patterns repeat, the parts never do</span></span><span class="ar-branch is-coming"><span class="ar-branch__title">Form language <span class="ar-coming">(coming)</span></span><span class="ar-branch__note">a shared vocabulary of shapes, which he said he had not worked out</span></span></div>
 </div>
 <div class="ar-stop" id="stop-9">
-<div class="ar-node is-coming"><div class="ar-num">9</div><div class="ar-node__head"><span class="ar-node__title">Pattern language</span> <span class="ar-coming">(coming)</span></div><p class="ar-node__body">Shared knowledge of what works, linked from regions down to rooms, so that ordinary people can use it. The 1970s answer, and still how most people meet him.</p></div>
+<div class="ar-node is-coming"><div class="ar-num">9</div><div class="ar-node__head"><span class="ar-node__title">Pattern language</span> <span class="ar-coming">(coming)</span></div><p class="ar-node__body">Shared knowledge of what works, linked from regions down to rooms, so that ordinary people can use it. Worked out with his colleagues at the Center for Environmental Structure in the 1970s, and still how most people meet the work.</p></div>
 <div class="ar-branches ar-branches--right"><a href="/concepts/patterns" class="ar-branch"><span class="ar-branch__title">Patterns</span><span class="ar-branch__note">one pattern: a problem and the core of its solution</span></a><span class="ar-branch is-coming"><span class="ar-branch__title">The gate <span class="ar-coming">(coming)</span></span><span class="ar-branch__note">learn the language, then let it go</span></span><span class="ar-branch is-coming"><span class="ar-branch__title">Piecemeal growth <span class="ar-coming">(coming)</span></span><span class="ar-branch__note">towns grown by many small acts</span></span><a href="/patterns" class="ar-branch"><span class="ar-branch__title">All 253 patterns</span><span class="ar-branch__note">the index to <em>A Pattern Language</em></span></a></div>
 </div>
 <div class="ar-stop" id="stop-10">
@@ -86,7 +75,7 @@ showToc: false
 </div>
 <div class="ar-stop" id="stop-12">
 <div class="ar-node is-coming"><div class="ar-num">12</div><div class="ar-node__head"><span class="ar-node__title">People shaping their own places</span> <span class="ar-coming">(coming)</span></div><p class="ar-node__body">The people who will use a place lay it out themselves, on the ground, with a language they share.</p></div>
-<div class="ar-branches ar-branches--right"><span class="ar-branch is-coming"><span class="ar-branch__title">The architect-builder <span class="ar-coming">(coming)</span></span><span class="ar-branch__note">design and building done by the same hands</span></span><a href="/practice/eishin-campus" class="ar-branch"><span class="ar-branch__title">The Eishin campus</span><span class="ar-branch__note">a school laid out with its teachers and students</span></a></div>
+<div class="ar-branches ar-branches--right"><span class="ar-branch is-coming"><span class="ar-branch__title">The architect-builder <span class="ar-coming">(coming)</span></span><span class="ar-branch__note">design and building done by the same hands</span></span><a href="/practice/eishin-campus" class="ar-branch"><span class="ar-branch__title">The Eishin campus</span><span class="ar-branch__note">a school laid out by Alexander and his colleagues with its teachers and students</span></a></div>
 </div>
 <div class="ar-stop" id="stop-13">
 <div class="ar-node is-coming"><div class="ar-num">13</div><div class="ar-node__head"><span class="ar-node__title">The modern building process</span> <span class="ar-coming">(coming)</span></div><p class="ar-node__body">Why it is so hard now: drawings, loans, contracts and rules that stop anyone adjusting as they go, and how he thought that could change.</p></div>
