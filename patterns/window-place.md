@@ -5,15 +5,14 @@ layout: plain
 ---
 
 <div class="pattern-reading">
-<nav class="pattern-trail" aria-label="Breadcrumb"><a href="/patterns">A Pattern Language</a><span aria-hidden="true"> / </span><span>Window Place</span></nav>
 <div class="pattern-spread">
 <section class="pattern-plate" aria-labelledby="window-place">
-<h1 class="pattern-title" id="window-place"><span class="pattern-number">180</span> <span>Window Place</span><sup aria-label="Two stars">**</sup></h1>
+<p class="pattern-meta"><a href="/patterns">A Pattern Language</a> · Pattern 180 · p. 833 · <span aria-label="Two stars">**</span></p>
+<h1 class="pattern-title" id="window-place">Window Place</h1>
 <figure class="pattern-figure">
 <img src="/assets/patterns/window-place.jpg" width="812" height="1091" alt="Two benches face one another in a deep recess, with a window between them." />
 <figcaption>Opening photograph, <cite>A Pattern Language</cite>, p. 833.</figcaption>
 </figure>
-<div class="pattern-folio" aria-hidden="true">833</div>
 </section>
 <section class="pattern-commentary" aria-labelledby="reading-window-place">
 <h2 id="reading-window-place">A seat in the light</h2>

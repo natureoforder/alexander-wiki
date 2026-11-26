@@ -49,13 +49,12 @@ body {
 ::selection { background: #e3dfd4; color: var(--ink); }
 :focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
 .site-navbar, .site-footer { color: var(--ink); background: var(--paper); }
-.site-navbar { border-bottom: 1px solid var(--wiki-rule); }
 .site-footer { border-top: 1px solid var(--wiki-rule); }
 .site-navbar-inner, .site-footer-inner { max-width: var(--wiki-width); margin-inline: auto; padding-inline: var(--wiki-gutter); }
-.site-navbar-site-name { font: 500 1.4rem/1 var(--font-body); letter-spacing: -.01em; }
-.site-navbar-site-logo { width: 1.9rem; height: 1.9rem; object-fit: contain; }
+.site-navbar-site-name { font: 500 1.2rem/1 var(--font-body); letter-spacing: -.005em; }
+.site-navbar-site-logo { width: 1.6rem; height: 1.6rem; object-fit: contain; }
 .site-navbar-links-container { justify-content: flex-end; }
-.site-navbar-link { color: var(--wiki-muted); font: 400 .76rem/1.2 var(--font-mono); text-transform: uppercase; letter-spacing: .07em; }
+.site-navbar-link { color: var(--wiki-muted); font: 400 .7rem/1.2 var(--font-mono); text-transform: uppercase; letter-spacing: .06em; }
 .site-navbar-link:hover, .site-navbar-link[aria-current] { color: var(--ink); text-decoration: underline; text-underline-offset: .3em; }
 .wiki-mono { font: 400 .76rem/1.4 var(--font-mono); text-transform: uppercase; letter-spacing: .06em; font-variant-numeric: normal; }
 .site-footer-publication-name { font: 500 1.35rem/1.2 var(--font-body); }
@@ -66,11 +65,11 @@ body {
 .wiki-home :is(h1, h2, h3) { margin: 0 !important; padding: 0 !important; }
 .wiki-home .heading-link { display: none; }
 .wiki-title-page { text-align: center; padding-top: clamp(2.2rem, 4.2vw, 4.2rem); }
-.wiki-title-page h1 { color: var(--ink); font-size: clamp(2.25rem, 5.2vw, 3.8rem); line-height: 1.02; text-wrap: balance; }
-.wiki-title-page p { max-width: 46ch; margin: .65rem auto 0; font: italic clamp(1.13rem, 2.2vw, 1.4rem)/1.35 var(--font-body); color: var(--wiki-muted); text-wrap: balance; }
+.wiki-title-page h1 { color: var(--ink); font-size: clamp(1.9rem, 4vw, 2.8rem); line-height: 1.02; text-wrap: balance; }
+.wiki-title-page p { max-width: 46ch; margin: .65rem auto 0; font: italic clamp(1.05rem, 1.5vw, 1.2rem)/1.4 var(--font-body); color: var(--wiki-muted); text-wrap: balance; }
 .wiki-title-page p cite { font-style: normal; }
 .wiki-opening { display: grid; grid-template-columns: minmax(0, 1.32fr) minmax(0, .8fr); align-items: center; gap: clamp(2.5rem, 7vw, 6rem); padding-block: clamp(2rem, 4.2vw, 3.5rem); }
-.wiki-opening-text { color: var(--ink); font: 400 clamp(1.2rem, 2.05vw, 1.46rem)/1.4 var(--font-body); }
+.wiki-opening-text { color: var(--ink); font: 400 clamp(1.08rem, 1.4vw, 1.2rem)/1.45 var(--font-body); }
 .wiki-opening-text p { margin: 0; text-wrap: pretty; }
 .wiki-opening-text p + p:not(.wiki-start) { margin-top: .75rem; }
 .wiki-opening-text strong { font-weight: 600; }
@@ -84,24 +83,24 @@ body {
 .wiki-window figcaption { margin-top: .55rem; font-size: 1rem; line-height: 1.17; color: var(--wiki-muted); }
 .wiki-window figcaption a { font-style: italic; }
 .wiki-guide { padding-bottom: clamp(3rem, 6vw, 5rem); }
-.wiki-guide h2 { text-align: center; font-size: clamp(1.9rem, 3.25vw, 2.5rem); line-height: 1.15; }
+.wiki-guide h2 { text-align: center; font-size: clamp(1.5rem, 2.5vw, 1.9rem); line-height: 1.15; }
 .wiki-routes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.7rem clamp(2.4rem, 6vw, 5rem); margin-top: 1.35rem; }
 .wiki-route { border-top: 1px solid var(--wiki-rule); padding-top: .85rem; }
-.wiki-route h3 { font-size: 1.55rem; line-height: 1.15; }
+.wiki-route h3 { font-size: 1.3rem; line-height: 1.15; }
 .wiki-route h3 a { text-decoration: none; }
 .wiki-route h3 a:hover { text-decoration: underline; }
-.wiki-route p { margin: .4rem 0 0; color: var(--ink); font: 400 1.18rem/1.42 var(--font-body); }
+.wiki-route p { margin: .4rem 0 0; color: var(--ink); font: 400 1.06rem/1.45 var(--font-body); }
 
 .page-main:has(> .page-header .page-header-title) .page-body .rendered-mdx > h1:first-child { display: none; }
 .page-header { border-color: var(--wiki-rule); padding-bottom: 1.55rem; margin-bottom: 1.65rem; }
-.page-header-title { color: var(--ink); font-size: clamp(2.3rem, 4.25vw, 3.3rem); line-height: 1.06; text-wrap: balance; }
-.page-header-description { max-width: 48ch; font: italic clamp(1.2rem, 1.9vw, 1.42rem)/1.35 var(--font-body); color: var(--wiki-muted); }
+.page-header-title { color: var(--ink); font-size: clamp(1.9rem, 3vw, 2.5rem); line-height: 1.06; text-wrap: balance; }
+.page-header-description { max-width: 48ch; font: italic clamp(1.1rem, 1.4vw, 1.25rem)/1.35 var(--font-body); color: var(--wiki-muted); }
 .page-header-breadcrumbs, .page-backlinks-title { font: 400 .74rem/1.4 var(--font-mono); text-transform: uppercase; letter-spacing: .06em; }
-.page-body .rendered-mdx:not(.is-plain) { color: var(--ink); max-width: 58ch; font: 400 clamp(1.15rem, 1.45vw, 1.3rem)/1.45 var(--font-body); font-variant-numeric: oldstyle-nums proportional-nums; }
+.page-body .rendered-mdx:not(.is-plain) { color: var(--ink); max-width: 60ch; font: 400 clamp(1.05rem, 1.1vw, 1.125rem)/1.5 var(--font-body); font-variant-numeric: oldstyle-nums proportional-nums; }
 .page-body .rendered-mdx p { margin-block: .85em; text-wrap: pretty; }
 .page-body .rendered-mdx :is(h2, h3, h4) { color: var(--ink); font-family: var(--font-heading); line-height: 1.15; text-wrap: balance; }
-.page-body .rendered-mdx h2 { margin-block: 1.7em .5em; font-size: 1.8rem; font-weight: 400; font-variant-caps: all-small-caps; letter-spacing: .055em; }
-.page-body .rendered-mdx h3 { font-size: 1.45rem; font-weight: 550; letter-spacing: 0; }
+.page-body .rendered-mdx h2 { margin-block: 1.7em .5em; font-size: 1.45rem; font-weight: 400; font-variant-caps: all-small-caps; letter-spacing: .055em; }
+.page-body .rendered-mdx h3 { font-size: 1.2rem; font-weight: 550; letter-spacing: 0; }
 .page-body .rendered-mdx strong { font-weight: 600; color: var(--ink); }
 .page-body .rendered-mdx :is(blockquote, figcaption) { font-style: italic; }
 .page-body .rendered-mdx blockquote { border: 0; padding: 0 1.25rem; font-weight: 400; }
@@ -200,49 +199,29 @@ body {
 }
 
 
-/* Illustrated pattern readings pair an opening plate with wiki commentary. */
-.pattern-reading {
-  max-width: 76rem;
-  margin-inline: auto;
-  padding: 0 clamp(.75rem, 3vw, 2.5rem);
-  color: #211e19;
-  font-family: "EB Garamond", Garamond, Baskerville, Georgia, serif;
-}
-.pattern-reading a { color: inherit; text-decoration: underline; text-underline-offset: .16em; }
-.pattern-trail, .pattern-source { font-size: 1.05rem; line-height: 1.4; }
-.pattern-trail { padding-block: 1rem; font: 400 .74rem/1.4 var(--font-mono); text-transform: uppercase; letter-spacing: .06em; }
-.pattern-trail span[aria-hidden] { margin-inline: .3em; color: #726b61; }
-.pattern-spread { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); background: #fffefa; border: 1px solid #ded9ce; }
-.pattern-plate, .pattern-commentary { box-sizing: border-box; min-width: 0; padding: clamp(2rem,4.7vw,4.3rem) clamp(1.3rem,4.25vw,4rem); }
-.pattern-plate { display: flex; flex-direction: column; align-items: center; }
-/* Pattern titles: the number as a small mono line, then the name in spaced full
-   capitals, flush left, as on p. 833 of the book. */
-.pattern-plate .pattern-title {
-  align-self: stretch; margin: 0 0 1.25rem; text-align: left; color: inherit;
-  font: 400 clamp(1.55rem,2.3vw,2.15rem)/1.12 var(--font-body);
-  font-variant-caps: normal; font-variant-numeric: oldstyle-nums proportional-nums;
-  letter-spacing: .1em; text-transform: uppercase; text-wrap: balance;
-}
-.pattern-title .pattern-number { display: block; margin-bottom: .55rem; font: 400 .76rem/1.3 var(--font-mono); letter-spacing: .06em; color: var(--wiki-muted); }
-.pattern-title .pattern-number::before { content: "Pattern "; }
-.pattern-title sup { font-size: .5em; letter-spacing: 0; vertical-align: .6em; line-height: 0; }
+/* Pattern readings: plate beside commentary, no page frame. Same width and
+   gutter as the navbar so the left edges line up. */
+.pattern-reading { max-width: var(--wiki-width); margin-inline: auto; padding: clamp(1.5rem,3.5vw,3rem) var(--wiki-gutter) 0; color: var(--ink); font-family: var(--font-body); }
+.pattern-reading a { color: inherit; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: .2em; }
+.pattern-spread { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: clamp(2rem,5vw,4.5rem); align-items: start; }
+.pattern-plate, .pattern-commentary { min-width: 0; }
+.pattern-meta { margin: 0 0 .6rem; font: 400 .7rem/1.4 var(--font-mono); text-transform: uppercase; letter-spacing: .06em; color: var(--wiki-muted); }
+.pattern-plate .pattern-title { margin: 0 0 1.1rem; color: inherit; font: 400 clamp(1.4rem,1.9vw,1.7rem)/1.15 var(--font-body); letter-spacing: .1em; text-transform: uppercase; text-wrap: balance; }
 .pattern-figure { margin: 0; width: 100%; }
 .pattern-figure img { display: block; width: 100%; height: auto; margin: 0; }
-.pattern-figure figcaption { margin-top: .65rem; color: #514b41; line-height: 1.3; font-size: .95rem; }
-.pattern-folio { margin-top: auto; padding-top: 1.75rem; text-align: center; font-size: 1.05rem; font-variant-numeric: oldstyle-nums; letter-spacing: .14em; }
-.pattern-commentary { border-inline-start: 1px solid #ded9ce; font-size: clamp(1.15rem,1.45vw,1.3rem); line-height: 1.35; }
+.pattern-figure figcaption { margin-top: .55rem; font: 400 .66rem/1.4 var(--font-mono); text-transform: uppercase; letter-spacing: .06em; color: var(--wiki-muted); }
+.pattern-figure figcaption cite { font-style: normal; }
+.pattern-commentary { padding-top: 1.6rem; font-size: clamp(1.05rem,1.1vw,1.125rem); line-height: 1.5; }
 .pattern-commentary :is(h2,h3) { font-family: inherit; font-weight: 500; color: inherit; text-transform: none; letter-spacing: 0; }
-.pattern-commentary h2 { margin: .1em 0 .85em; font-size: 1.47em; line-height: 1.1; }
-.pattern-commentary h3 { margin: 1.1em 0 .25em; font-size: 1.12em; line-height: 1.2; font-style: italic; }
-.pattern-commentary p { margin: 0 0 .75em; }
+.pattern-commentary h2 { margin: 0 0 .7em; font-size: 1.5em; line-height: 1.1; }
+.pattern-commentary h3 { margin: 1.3em 0 .3em; font-size: 1.1em; line-height: 1.2; font-style: italic; }
+.pattern-commentary p { margin: 0 0 .8em; }
 .pattern-commentary > :last-child { margin-bottom: 0; }
-.pattern-source { max-width: 52rem; margin: 1.25rem auto 2.5rem; color: #514b41; }
-.pattern-source p { margin: .65em 0; }
+.pattern-source { max-width: 60ch; margin: 2.5rem 0 3rem; font-size: .95rem; line-height: 1.45; color: var(--wiki-muted); }
+.pattern-source p { margin: .6em 0; }
 @media (max-width: 52rem) {
-  .pattern-spread { grid-template-columns: minmax(0,1fr); max-width: 38rem; margin-inline: auto; }
-  .pattern-plate, .pattern-commentary { padding: clamp(1.6rem,7vw,3rem); }
-  .pattern-commentary { border-inline-start: 0; border-top: 1px solid #ded9ce; }
-  .pattern-trail, .pattern-source { max-width: 38rem; margin-inline: auto; }
+  .pattern-spread { grid-template-columns: minmax(0,1fr); gap: 1.5rem; max-width: 38rem; }
+  .pattern-commentary { padding-top: 0; }
 }
 
 /* Long primary-source passages retain the author's own changes of emphasis. */
