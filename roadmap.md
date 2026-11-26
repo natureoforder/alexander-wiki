@@ -9,7 +9,7 @@ showToc: false
 <div class="ar-root">
 <div class="ar-wrap">
 <h1 class="ar-title">A roadmap through Christopher Alexander</h1>
-<p class="ar-lede">Why do some places make you feel more alive? Alexander spent fifty years on that question. This is a way into his answer, one question at a time, each opening the next.</p>
+<p class="ar-lede">Christopher Alexander (1936–2022) was the architect and thinker behind <em>A Pattern Language</em> and <em>The Nature of Order</em>. Why do some places make you feel more alive? He spent fifty years on that question. This is a way into his answer, one question at a time, each opening the next.</p>
 <div class="ar-panels">
 <div class="ar-panel">
 <div class="ar-panel__kicker ar-sc">New to Alexander</div>
@@ -61,7 +61,7 @@ showToc: false
 <div class="ar-branches ar-branches--right"><span class="ar-branch is-coming"><span class="ar-branch__title">Ornament and function <span class="ar-coming">(coming)</span></span><span class="ar-branch__note">not two things but one</span></span></div>
 </div>
 </div>
-<div class="ar-act" id="act-iii"><div class="ar-act__num ar-sc">Act III</div><h2 class="ar-act__title">How does such a thing get made?</h2><p class="ar-act__sub">Living structure cannot be drawn up and assembled; it has to be grown. <em>The Process of Creating Life</em> asks how. <em>The Timeless Way of Building</em> and <em>A Pattern Language</em> (1977–79) come in here as his first answer.</p><hr class="ar-act__rule" /></div>
+<div class="ar-act" id="act-iii"><div class="ar-act__num ar-sc">Act III</div><h2 class="ar-act__title">How does such a thing get made?</h2><p class="ar-act__sub">Living structure cannot be drawn up and assembled; it has to be grown. <em>The Process of Creating Life</em> asks how. <em>The Timeless Way of Building</em> (1979) and <em>A Pattern Language</em> (1977, with Sara Ishikawa, Murray Silverstein and others) come in here as the first answer.</p><hr class="ar-act__rule" /></div>
 <div class="ar-spine">
 <div class="ar-stop" id="stop-7">
 <div class="ar-node ar-node--star"><div class="ar-num">7</div><div class="ar-node__head"><a href="/concepts/structure-preserving-transformations" class="ar-node__title">Structure-preserving transformations</a>&nbsp;<span class="ar-star">★</span></div><div class="ar-node__gloss">each step makes the whole more alive</div><p class="ar-node__body">The single good step: strengthen something already latent in the whole. The fifteen properties return here as fifteen kinds of step.</p></div>

@@ -24,7 +24,7 @@ ACTS = [
   (5, False, "The mirror of the self", "mirror-of-the-self", None, "A test you can run yourself: of two things, which is the better picture of your whole self?", [("Deep feeling","deep-feeling","feeling, not opinion, as the instrument")]),
   (6, False, "Living structure", "living-structure", None, "What a thing is like when its centers help one another densely. Nature has it everywhere; only we can make things without it.", [("Ornament and function","ornament-and-function","not two things but one")]),
  ]),
- ("III", "How does such a thing get made?", "Living structure cannot be drawn up and assembled; it has to be grown. <em>The Process of Creating Life</em> asks how. <em>The Timeless Way of Building</em> and <em>A Pattern Language</em> (1977–79) come in here as his first answer.", [
+ ("III", "How does such a thing get made?", "Living structure cannot be drawn up and assembled; it has to be grown. <em>The Process of Creating Life</em> asks how. <em>The Timeless Way of Building</em> (1979) and <em>A Pattern Language</em> (1977, with Sara Ishikawa, Murray Silverstein and others) come in here as the first answer.", [
   (7, True, "Structure-preserving transformations", "structure-preserving-transformations", "each step makes the whole more alive", "The single good step: strengthen something already latent in the whole. The fifteen properties return here as fifteen kinds of step.", []),
   (8, False, "Living process", "living-process", None, "One process, repeated thousands of times: look at the whole, strengthen one center, check, and look again.", [("Every part unique","every-part-unique","the same patterns repeat, the parts never do"),("Form language","form-language","a shared vocabulary of shapes, which he said he had not worked out")]),
   (9, False, "Pattern language", "pattern-language", None, "Shared knowledge of what works, linked from regions down to rooms, so that ordinary people can use it. The 1970s answer, and still how most people meet him.", [("Patterns","patterns","one pattern: a problem and the core of its solution"),("The gate","the-gate","learn the language, then let it go"),("Piecemeal growth","piecemeal-growth","towns grown by many small acts"),("All 253 patterns","/patterns","the index to <em>A Pattern Language</em>")]),
@@ -60,7 +60,7 @@ showToc: false
 <div class="ar-root">
 <div class="ar-wrap">
 <h1 class="ar-title">A roadmap through Christopher Alexander</h1>
-<p class="ar-lede">Why do some places make you feel more alive? Alexander spent fifty years on that question. This is a way into his answer, one question at a time, each opening the next.</p>
+<p class="ar-lede">Christopher Alexander (1936–2022) was the architect and thinker behind <em>A Pattern Language</em> and <em>The Nature of Order</em>. Why do some places make you feel more alive? He spent fifty years on that question. This is a way into his answer, one question at a time, each opening the next.</p>
 <div class="ar-panels">
 <div class="ar-panel">
 <div class="ar-panel__kicker ar-sc">New to Alexander</div>
