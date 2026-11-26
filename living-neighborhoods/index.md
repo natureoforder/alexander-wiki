@@ -5,6 +5,8 @@ description: A field guide to Alexander and his collaborators’ work with the p
 
 # Living Neighborhoods
 
+**New: a reader edition of the collection is in progress at [Building Living Neighborhoods](../works/living-neighborhoods/index.md).** It re-arranges the original site for readers, starting with [the generative code](../works/living-neighborhoods/generative-code/index.md), [phase 5: public spaces](../works/living-neighborhoods/generative-code/5-public-spaces/index.md) and [the Eishin campus](../works/living-neighborhoods/examples/eishin-campus.md); more pages follow.
+
 How can the people who live in a neighborhood help shape what gets built there? In Mexicali, families built houses with the help of students. In Fresno, the backs of farmers’ trucks open directly onto a market where people buy their fruit. Both projects invite a question you can ask on your own street. What do people already do here that the next change ought to make easier? [Mexicali housing](https://www.livingneighborhoods.org/ht-0/mexicali.htm) · [Fresno farmers’ market](https://www.livingneighborhoods.org/ht-0/fresno.htm)
 
 ## Walk your neighborhood
