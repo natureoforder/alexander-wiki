@@ -1,22 +1,25 @@
 ---
-title: Living Neighborhoods
-description: A field guide to Alexander and his collaborators’ work with the people who live, build, and make decisions in a neighborhood.
+title: "Building Living Neighborhoods"
+description: "Christopher Alexander and colleagues' step-by-step method for laying out and building a living neighborhood with the people who will live in it, re-edited for readers."
 ---
 
-# Living Neighborhoods
+*Building Living Neighborhoods* is a practical method for laying out and building a neighborhood together with the people who will live and work there. The authors use "neighborhood" broadly: very small (less than an acre) or quite large, a place to live, a hospital, a business, a group of workshops. It was written by Christopher Alexander, Maggie Moore Alexander, Randy Schmidt and Nick Littlestone, with Bev Behrman and Howard Davis, at the Center for Environmental Structure, and published on livingneighborhoods.org (pages carry a 2006 copyright).
 
-**New: a reader edition of the collection is in progress at [Building Living Neighborhoods](../works/living-neighborhoods/index.md).** It re-arranges the original site for readers, starting with [the generative code](../works/living-neighborhoods/generative-code/index.md), [phase 5: public spaces](../works/living-neighborhoods/generative-code/5-public-spaces/index.md) and [the Eishin campus](../works/living-neighborhoods/examples/eishin-campus.md); more pages follow.
+Its core is a *generative code*: a sequence of steps, or *unfoldings*, that a group works through on the land itself. You walk the site, find what is already alive there, place the main center and the paths before the roads, shape the public spaces, and only then position buildings. Each step is decided in order, much of it on the land, so the plan unfolds from the wholeness of the place (see [the generative code](generative-code/index.md)).
 
-How can the people who live in a neighborhood help shape what gets built there? In Mexicali, families built houses with the help of students. In Fresno, the backs of farmers’ trucks open directly onto a market where people buy their fruit. Both projects invite a question you can ask on your own street. What do people already do here that the next change ought to make easier? [Mexicali housing](https://www.livingneighborhoods.org/ht-0/mexicali.htm) · [Fresno farmers’ market](https://www.livingneighborhoods.org/ht-0/fresno.htm)
+![Laying out the Eishin campus with flags](assets/pics/eishin/flags.jpg)
 
-## Walk your neighborhood
+## Ways in
 
-Take a map on your next walk with a neighbor. Show each other a place you would take care to preserve and one where a small change would make a difference. Put both on the map. If your marks differ, let each person describe what they saw from where they stood. [A field guide to the first walk](first-walk.md)
+- **New to it?** [Start here](start-here.md): who it is for and how the process works.
+- **Want to do it?** [The generative code](generative-code/index.md): six phases, from startup and vision through diagnosis of the land, setting density, modifying the code, public spaces and building volumes. Then the [library of unfoldings](https://www.livingneighborhoods.org/ht-0/libraryofunfoldings.htm) for further steps such as surveying, land tenure and where the cars go.
+- **Running a project?** [Running a project](https://www.livingneighborhoods.org/ht-0/mainsteps.htm): the main steps of work, community, developers, contracts and construction organisation.
+- **Want to see it?** [Examples](https://www.livingneighborhoods.org/ht-0/neighborhoods.htm): Eishin in Japan, Mexicali, West Dean, Fresno, Strood, Samarkand and more.
+- **Want the ideas behind it?** [Ideas](https://www.livingneighborhoods.org/ht-0/theory.htm): generative codes, wholeness, the fifteen properties for neighborhoods, morphogenesis, and the links to *The Nature of Order*.
+- **Going deeper?** [Library](https://www.livingneighborhoods.org/ht-0/archive.htm): papers, drafts, essays and interviews, including the *Generative Codes* book draft and the Strood code.
 
-## Follow a project
+## About this edition
 
-At Eishin in Japan, the brief was for a whole school. At Lake Travis in Texas, a group of families wanted houses and land they could share. Look at where the shared places sit in relation to the buildings. How would you reach one from your front door? [Eishin campus](https://www.livingneighborhoods.org/ht-0/eishincampus.htm) · [Lake Travis](https://www.livingneighborhoods.org/ht-0/texas.htm)
+The original website was a valuable but hard-to-use collection: frames, a JavaScript menu, two overlapping versions of many pages, and navigation that followed the authors' working folders. This edition keeps the authors' text and images, at full size, and re-arranges them for readers. Each page links to its original, and the full site is preserved as an archive captured on 21 August 2026. See [about this edition](about/index.md) for what was merged, what was left out and why.
 
-## Read the collection
-
-*Building Living Neighborhoods* is the work of Christopher Alexander, Maggie Moore Alexander, Randy Schmidt, and Nick Littlestone, with Bev Behrman and Howard Davis. Their collection brings project accounts together with working papers, diagrams, and instructions for groups. This wiki guide leads into the authors’ original pages. [Browse the collection](collection.md) · [Original introduction and credits](https://www.livingneighborhoods.org/ht-0/bln-exp.htm)
+*Building Living Neighborhoods* © Center for Environmental Structure.

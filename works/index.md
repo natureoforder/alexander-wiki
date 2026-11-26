@@ -121,6 +121,7 @@ Books, essays, talks and the debate, in order of first publication or delivery. 
 | 2004 | [The Nature of Order, Book 4: The Luminous Ground](2004-the-luminous-ground.md) | Book | Center for Environmental Structure |
 | 2004† | "Sustainability and Morphogenesis: The Birth of a Living World" | Lecture | Schumacher Lecture, Bristol, 30 October 2004 |
 | 2005 | [The Nature of Order, Book 3: A Vision of a Living World](2005-a-vision-of-a-living-world.md) | Book | Center for Environmental Structure |
+| 2006 | [Building Living Neighborhoods](2006-building-living-neighborhoods.md) | Website | With Maggie Moore Alexander, Randy Schmidt, Nick Littlestone, Bev Behrman, Howard Davis. Center for Environmental Structure, livingneighborhoods.org |
 | 2007† | "Empirical Findings from *The Nature of Order*" | Article | *Environmental & Architectural Phenomenology* 18(1) |
 | 2009† | "Harmony-Seeking Computations" | Article | *International Journal of Unconventional Computing*; first given at a 2005 workshop on non-classical computation, York |
 | 2012 | [The Battle for the Life and Beauty of the Earth: A Struggle Between Two World-Systems](2012-the-battle-for-the-life-and-beauty-of-the-earth.md) | Book | With HansJoachim Neis, Maggie Moore Alexander. Oxford University Press |

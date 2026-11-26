@@ -33,7 +33,7 @@ layout: plain
 </section>
 <section class="wiki-route">
 <h3><a href="/living-neighborhoods">Living Neighborhoods</a></h3>
-<p><a href="/living-neighborhoods/first-walk">Take a walk with a neighbor</a> and compare the places each of you would preserve. Then follow a project through the <a href="/living-neighborhoods/collection">authors’ collection</a>.</p>
+<p><a href="/living-neighborhoods/first-walk">Take a walk with a neighbor</a> and compare the places each of you would preserve. Then follow the authors’ step-by-step <a href="/living-neighborhoods/generative-code">generative code</a>.</p>
 </section>
 <section class="wiki-route">
 <h3><a href="/patterns">A Pattern Language</a></h3>

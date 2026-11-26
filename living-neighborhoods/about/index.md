@@ -1,0 +1,280 @@
+---
+title: "About this edition"
+description: "How this reader edition of Building Living Neighborhoods was made: sources, what was merged or left out, and a concordance from every original page to its place here."
+---
+
+*Building Living Neighborhoods* was written by Christopher Alexander, Maggie Moore Alexander, Randy Schmidt and Nick Littlestone, with Bev Behrman and Howard Davis, at the Center for Environmental Structure (established 1967) and the Centre for Environmental Structure, Europe (established 2005). All text and images are theirs, © Center for Environmental Structure, unless a page says otherwise.
+
+## Why a new edition
+
+The original site at [livingneighborhoods.org](https://www.livingneighborhoods.org/) holds valuable material, but it was hard to use: frames, a JavaScript menu, two overlapping versions of many pages (an older "Environmental Structure" site and the newer "Building Living Neighborhoods" one), the same step at several addresses, and navigation that followed the authors' working folders. It also described itself as a beta site, still being written.
+
+This edition keeps the authors' words and images (at full size) and re-arranges them for readers: the six phases of the generative code in order, then further unfoldings, running a project, examples, ideas and the library. Legacy menus, "back to" links, spacer images and repeated copyright lines were removed; every page links to its original. Where the authors pointed to parts of their own site (the ACTION & PRACTICE pages, the archive page), the words are kept and linked to the matching section here. Their spelling is kept as written; shouted all-capital headings and openings are set in ordinary case.
+
+## How this edition is arranged
+
+It follows the original site's own two halves, Action and Theory & Examples, in reading order: do it, then understand it, then see it.
+
+```
+living-neighborhoods/
+├── start-here           the authors' welcome and how the process works
+├── generative-code/     the method: six phases, each with its steps
+│   ├── 1-startup-and-vision/
+│   ├── 2-diagnosis/
+│   ├── 3-density/
+│   ├── 4-modifying-the-code/
+│   ├── 5-public-spaces/
+│   └── 6-building-volumes/
+├── unfoldings/          further steps (surveying, land tenure, cars…)
+├── running-a-project/   main steps of work, contracts, developers
+├── examples/            Eishin, Mexicali, West Dean, Fresno, Strood…
+├── ideas/               the theory, Nature of Order references
+├── library/             papers, essays, interviews
+├── tools/               workbook, drawing pad
+└── about/               how it was made; old URL → new page table
+```
+
+The original folder names (`ht-0/`, `actions/`, `packets/`…) were the authors' working folders, so they are not kept as addresses. Every page links to its original at the foot, and the tables below map every original page to its place here.
+
+## Sources
+
+- **Live site**, captured on 2026-08-21: 209 HTML pages, plus images and PDFs. The archive, with checksums and a list of the links that were already dead, is kept in the [natureoforder/livingneighborhoods](https://github.com/natureoforder/livingneighborhoods) repository.
+- **Java applets**: the drawing pad and the three "unfolding movies" (St Mark's Square, Strood, a window at Lake Travis) were Java applets that modern browsers no longer run. Their pages are kept, with a note.
+- Pages that were already missing on the live site may be recovered from the Internet Archive later.
+
+## What happened to each original page
+
+Of the 209 original pages: 99 became pages here, 44 were merged into another page as a section, 47 were duplicates or older versions of another page, and 19 held no reader content.
+
+### Pages
+
+| Original | Here |
+|---|---|
+| [actions/baselinecode.htm](https://www.livingneighborhoods.org/actions/baselinecode.htm) | [The baseline code](https://www.livingneighborhoods.org/actions/baselinecode.htm) |
+| [actions/basemap.htm](https://www.livingneighborhoods.org/actions/basemap.htm) | [Making a basemap](https://www.livingneighborhoods.org/actions/basemap.htm) |
+| [actions/buildingshape.htm](https://www.livingneighborhoods.org/actions/buildingshape.htm) | [Building shape](https://www.livingneighborhoods.org/actions/buildingshape.htm) |
+| [actions/culture.htm](https://www.livingneighborhoods.org/actions/culture.htm) | [Local and cultural patterns](https://www.livingneighborhoods.org/actions/culture.htm) |
+| [actions/density.htm](https://www.livingneighborhoods.org/actions/density.htm) | [Density](https://www.livingneighborhoods.org/actions/density.htm) |
+| [actions/diagnosis-intro.htm](https://www.livingneighborhoods.org/actions/diagnosis-intro.htm) | [Introduction to diagnosis](https://www.livingneighborhoods.org/actions/diagnosis-intro.htm) |
+| [actions/diagnosis.htm](https://www.livingneighborhoods.org/actions/diagnosis.htm) | [Drawing the diagnosis](https://www.livingneighborhoods.org/actions/diagnosis.htm) |
+| [actions/entities.htm](https://www.livingneighborhoods.org/actions/entities.htm) | [Entities](https://www.livingneighborhoods.org/actions/entities.htm) |
+| [actions/genetics.htm](https://www.livingneighborhoods.org/actions/genetics.htm) | [The genetics of a generative code](https://www.livingneighborhoods.org/actions/genetics.htm) |
+| [actions/gps.htm](https://www.livingneighborhoods.org/actions/gps.htm) | [Accurate positioning with GPS](https://www.livingneighborhoods.org/actions/gps.htm) |
+| [actions/housefronts.htm](https://www.livingneighborhoods.org/actions/housefronts.htm) | [Building fronts](https://www.livingneighborhoods.org/actions/housefronts.htm) |
+| [actions/largestructure.htm](https://www.livingneighborhoods.org/actions/largestructure.htm) | [The large-structure wholeness diagram](https://www.livingneighborhoods.org/actions/largestructure.htm) |
+| [actions/latentcenters.htm](https://www.livingneighborhoods.org/actions/latentcenters.htm) | [Latent centers](https://www.livingneighborhoods.org/actions/latentcenters.htm) |
+| [actions/magic.htm](https://www.livingneighborhoods.org/actions/magic.htm) | [Magic configurations](https://www.livingneighborhoods.org/actions/magic.htm) |
+| [actions/maincenter.htm](https://www.livingneighborhoods.org/actions/maincenter.htm) | [The main center of the neighborhood](../generative-code/5-public-spaces/main-center.md) |
+| [actions/parameters.htm](https://www.livingneighborhoods.org/actions/parameters.htm) | [Parameters: a first sketch of your idea](https://www.livingneighborhoods.org/actions/parameters.htm) |
+| [actions/pedestriansfirst.htm](https://www.livingneighborhoods.org/actions/pedestriansfirst.htm) | [Pedestrians come first](../generative-code/5-public-spaces/pedestrians-first.md) |
+| [actions/people.htm](https://www.livingneighborhoods.org/actions/people.htm) | [People and community discussion](https://www.livingneighborhoods.org/actions/people.htm) |
+| [actions/poeticpl.htm](https://www.livingneighborhoods.org/actions/poeticpl.htm) | [A poetic pattern language](https://www.livingneighborhoods.org/actions/poeticpl.htm) |
+| [actions/positivespace.htm](https://www.livingneighborhoods.org/actions/positivespace.htm) | [Positive space](../generative-code/5-public-spaces/positive-space.md) |
+| [actions/preciousplaces.htm](https://www.livingneighborhoods.org/actions/preciousplaces.htm) | [Precious places](https://www.livingneighborhoods.org/actions/preciousplaces.htm) |
+| [actions/recursivepositivespace.htm](https://www.livingneighborhoods.org/actions/recursivepositivespace.htm) | [Recursive positive space](../generative-code/5-public-spaces/recursive-positive-space.md) |
+| [actions/repair.htm](https://www.livingneighborhoods.org/actions/repair.htm) | [Damage and repair](https://www.livingneighborhoods.org/actions/repair.htm) |
+| [actions/vision3.htm](https://www.livingneighborhoods.org/actions/vision3.htm) | [Vision](https://www.livingneighborhoods.org/actions/vision3.htm) |
+| [clickagreement/agreementtextces.htm](https://www.livingneighborhoods.org/clickagreement/agreementtextces.htm) | [The original terms of use](https://www.livingneighborhoods.org/clickagreement/agreementtextces.htm) |
+| [drawing-pad/intro.htm](https://www.livingneighborhoods.org/drawing-pad/intro.htm) | [The drawing pad](https://www.livingneighborhoods.org/drawing-pad/intro.htm) |
+| [extras/a-village-story.htm](https://www.livingneighborhoods.org/extras/a-village-story.htm) | [A village story](https://www.livingneighborhoods.org/extras/a-village-story.htm) |
+| [ht-0/agate.htm](https://www.livingneighborhoods.org/ht-0/agate.htm) | [Agate: a neighborhood for the University of Oregon](https://www.livingneighborhoods.org/ht-0/agate.htm) |
+| [ht-0/archive.htm](https://www.livingneighborhoods.org/ht-0/archive.htm) | [Library: papers and drafts](https://www.livingneighborhoods.org/ht-0/archive.htm) |
+| [ht-0/basics.htm](https://www.livingneighborhoods.org/ht-0/basics.htm) | [What makes a neighborhood live](https://www.livingneighborhoods.org/ht-0/basics.htm) |
+| [ht-0/bln-exp.htm](https://www.livingneighborhoods.org/ht-0/bln-exp.htm) | [Start here](../start-here.md) |
+| [ht-0/charter.htm](https://www.livingneighborhoods.org/ht-0/charter.htm) | [A developers' charter](https://www.livingneighborhoods.org/ht-0/charter.htm) |
+| [ht-0/community.htm](https://www.livingneighborhoods.org/ht-0/community.htm) | [Creating community](https://www.livingneighborhoods.org/ht-0/community.htm) |
+| [ht-0/contact.htm](https://www.livingneighborhoods.org/ht-0/contact.htm) | [Contact (historical)](https://www.livingneighborhoods.org/ht-0/contact.htm) |
+| [ht-0/developers.htm](https://www.livingneighborhoods.org/ht-0/developers.htm) | [For developers](https://www.livingneighborhoods.org/ht-0/developers.htm) |
+| [ht-0/eishincampus.htm](https://www.livingneighborhoods.org/ht-0/eishincampus.htm) | [Eishin campus, Japan](../examples/eishin-campus.md) |
+| [ht-0/emoto.htm](https://www.livingneighborhoods.org/ht-0/emoto.htm) | [Komagome, Tokyo](https://www.livingneighborhoods.org/ht-0/emoto.htm) |
+| [ht-0/fifteen.htm](https://www.livingneighborhoods.org/ht-0/fifteen.htm) | [The fifteen properties in a neighborhood](https://www.livingneighborhoods.org/ht-0/fifteen.htm) |
+| [ht-0/fresno.htm](https://www.livingneighborhoods.org/ht-0/fresno.htm) | [Fresno farmers' market](https://www.livingneighborhoods.org/ht-0/fresno.htm) |
+| [ht-0/gcwelcome.htm](https://www.livingneighborhoods.org/ht-0/gcwelcome.htm) | [The generative code: six phases](../generative-code/index.md) |
+| [ht-0/generative.htm](https://www.livingneighborhoods.org/ht-0/generative.htm) | [Generative codes](https://www.livingneighborhoods.org/ht-0/generative.htm) |
+| [ht-0/keyfeatures.htm](https://www.livingneighborhoods.org/ht-0/keyfeatures.htm) | [Key features of a living neighborhood](https://www.livingneighborhoods.org/ht-0/keyfeatures.htm) |
+| [ht-0/libraryofunfoldings.htm](https://www.livingneighborhoods.org/ht-0/libraryofunfoldings.htm) | [The library of unfoldings](https://www.livingneighborhoods.org/ht-0/libraryofunfoldings.htm) |
+| [ht-0/mainsteps.htm](https://www.livingneighborhoods.org/ht-0/mainsteps.htm) | [Main steps of work](https://www.livingneighborhoods.org/ht-0/mainsteps.htm) |
+| [ht-0/mexicali.htm](https://www.livingneighborhoods.org/ht-0/mexicali.htm) | [Mexicali: houses for $3,000](https://www.livingneighborhoods.org/ht-0/mexicali.htm) |
+| [ht-0/morphogenesis-two.htm](https://www.livingneighborhoods.org/ht-0/morphogenesis-two.htm) | [Morphogenesis](https://www.livingneighborhoods.org/ht-0/morphogenesis-two.htm) |
+| [ht-0/natureoforder.htm](https://www.livingneighborhoods.org/ht-0/natureoforder.htm) | [The Nature of Order](https://www.livingneighborhoods.org/ht-0/natureoforder.htm) |
+| [ht-0/neighborhoods.htm](https://www.livingneighborhoods.org/ht-0/neighborhoods.htm) | [Example neighborhoods](https://www.livingneighborhoods.org/ht-0/neighborhoods.htm) |
+| [ht-0/order-things-done.htm](https://www.livingneighborhoods.org/ht-0/order-things-done.htm) | [The order things are done](https://www.livingneighborhoods.org/ht-0/order-things-done.htm) |
+| [ht-0/patternlanguages.htm](https://www.livingneighborhoods.org/ht-0/patternlanguages.htm) | [Pattern languages](https://www.livingneighborhoods.org/ht-0/patternlanguages.htm) |
+| [ht-0/rearrangement.htm](https://www.livingneighborhoods.org/ht-0/rearrangement.htm) | [Rearrangement](https://www.livingneighborhoods.org/ht-0/rearrangement.htm) |
+| [ht-0/relationships5.htm](https://www.livingneighborhoods.org/ht-0/relationships5.htm) | [Building on relationship](https://www.livingneighborhoods.org/ht-0/relationships5.htm) |
+| [ht-0/samarkand.htm](https://www.livingneighborhoods.org/ht-0/samarkand.htm) | [Samarkand](https://www.livingneighborhoods.org/ht-0/samarkand.htm) |
+| [ht-0/santarosa.htm](https://www.livingneighborhoods.org/ht-0/santarosa.htm) | [Santa Rosa](https://www.livingneighborhoods.org/ht-0/santarosa.htm) |
+| [ht-0/schumacher.htm](https://www.livingneighborhoods.org/ht-0/schumacher.htm) | [Schumacher College](https://www.livingneighborhoods.org/ht-0/schumacher.htm) |
+| [ht-0/services.htm](https://www.livingneighborhoods.org/ht-0/services.htm) | [Services (historical)](https://www.livingneighborhoods.org/ht-0/services.htm) |
+| [ht-0/strood-riverside.htm](https://www.livingneighborhoods.org/ht-0/strood-riverside.htm) | [Strood Riverside](https://www.livingneighborhoods.org/ht-0/strood-riverside.htm) |
+| [ht-0/texas.htm](https://www.livingneighborhoods.org/ht-0/texas.htm) | [Back of the Moon, Texas](https://www.livingneighborhoods.org/ht-0/texas.htm) |
+| [ht-0/theory.htm](https://www.livingneighborhoods.org/ht-0/theory.htm) | [The ideas behind it](https://www.livingneighborhoods.org/ht-0/theory.htm) |
+| [ht-0/westdean.htm](https://www.livingneighborhoods.org/ht-0/westdean.htm) | [West Dean](https://www.livingneighborhoods.org/ht-0/westdean.htm) |
+| [ht-0/whatisanunfolding.htm](https://www.livingneighborhoods.org/ht-0/whatisanunfolding.htm) | [What is an unfolding?](https://www.livingneighborhoods.org/ht-0/whatisanunfolding.htm) |
+| [ht-0/wholeness.htm](https://www.livingneighborhoods.org/ht-0/wholeness.htm) | [Wholeness as foundation](https://www.livingneighborhoods.org/ht-0/wholeness.htm) |
+| [ht-0/workbook.htm](https://www.livingneighborhoods.org/ht-0/workbook.htm) | [The workbook](https://www.livingneighborhoods.org/ht-0/workbook.htm) |
+| [ht-1/from-key-features-to-generative-code.htm](https://www.livingneighborhoods.org/ht-1/from-key-features-to-generative-code.htm) | [From key features to generative code](https://www.livingneighborhoods.org/ht-1/from-key-features-to-generative-code.htm) |
+| [library/construction-organisation.htm](https://www.livingneighborhoods.org/library/construction-organisation.htm) | [Construction organisation](https://www.livingneighborhoods.org/library/construction-organisation.htm) |
+| [library/contracts/main-contract.htm](https://www.livingneighborhoods.org/library/contracts/main-contract.htm) | [The main construction contract](https://www.livingneighborhoods.org/library/contracts/main-contract.htm) |
+| [library/contracts/sub-contract.htm](https://www.livingneighborhoods.org/library/contracts/sub-contract.htm) | [The craftsperson's subcontract](https://www.livingneighborhoods.org/library/contracts/sub-contract.htm) |
+| [library/conversations/intro.htm](https://www.livingneighborhoods.org/library/conversations/intro.htm) | [Conversations](https://www.livingneighborhoods.org/library/conversations/intro.htm) |
+| [library/conversations/sustainability.htm](https://www.livingneighborhoods.org/library/conversations/sustainability.htm) | [A conversation on sustainability (2003)](https://www.livingneighborhoods.org/library/conversations/sustainability.htm) |
+| [library/cowan-final.htm](https://www.livingneighborhoods.org/library/cowan-final.htm) | [Field of wholeness](https://www.livingneighborhoods.org/library/cowan-final.htm) |
+| [library/delaportereview.htm](https://www.livingneighborhoods.org/library/delaportereview.htm) | [Reviews by J-P Delaporte](https://www.livingneighborhoods.org/library/delaportereview.htm) |
+| [library/glimpse.htm](https://www.livingneighborhoods.org/library/glimpse.htm) | [A glimpse of God in matter](https://www.livingneighborhoods.org/library/glimpse.htm) |
+| [library/grassroots.htm](https://www.livingneighborhoods.org/library/grassroots.htm) | [The grass roots housing process](https://www.livingneighborhoods.org/library/grassroots.htm) |
+| [library/part1.htm](https://www.livingneighborhoods.org/library/part1.htm) | [Space makes life possible (newspaper series)](https://www.livingneighborhoods.org/library/part1.htm) |
+| [library/stress-interview.htm](https://www.livingneighborhoods.org/library/stress-interview.htm) | [An interview on stress (2004)](https://www.livingneighborhoods.org/library/stress-interview.htm) |
+| [library/the-architect-of-life.htm](https://www.livingneighborhoods.org/library/the-architect-of-life.htm) | [The architect of life](https://www.livingneighborhoods.org/library/the-architect-of-life.htm) |
+| [library/writing-generative-code.htm](https://www.livingneighborhoods.org/library/writing-generative-code.htm) | [Writing a generative code](https://www.livingneighborhoods.org/library/writing-generative-code.htm) |
+| [noorefs/annotated-index.htm](https://www.livingneighborhoods.org/noorefs/annotated-index.htm) | [References to The Nature of Order](https://www.livingneighborhoods.org/noorefs/annotated-index.htm) |
+| [packets/buildingvolumes-phase.htm](https://www.livingneighborhoods.org/packets/buildingvolumes-phase.htm) | [Phase 6: Building volumes](https://www.livingneighborhoods.org/packets/buildingvolumes-phase.htm) |
+| [packets/code-phase.htm](https://www.livingneighborhoods.org/packets/code-phase.htm) | [Phase 4: Modifying the code](https://www.livingneighborhoods.org/packets/code-phase.htm) |
+| [packets/density-phase.htm](https://www.livingneighborhoods.org/packets/density-phase.htm) | [Phase 3: Setting density](https://www.livingneighborhoods.org/packets/density-phase.htm) |
+| [packets/diagnosis-phase.htm](https://www.livingneighborhoods.org/packets/diagnosis-phase.htm) | [Phase 2: Diagnosis of the land](https://www.livingneighborhoods.org/packets/diagnosis-phase.htm) |
+| [packets/publicspaces-phase.htm](https://www.livingneighborhoods.org/packets/publicspaces-phase.htm) | [Phase 5: Public spaces](../generative-code/5-public-spaces/index.md) |
+| [packets/vision-phase.htm](https://www.livingneighborhoods.org/packets/vision-phase.htm) | [Phase 1: Startup and vision](https://www.livingneighborhoods.org/packets/vision-phase.htm) |
+| [packets/workbook-section1.htm](https://www.livingneighborhoods.org/packets/workbook-section1.htm) | [Workbook section 1](https://www.livingneighborhoods.org/packets/workbook-section1.htm) |
+| [unfoldingmovies/stmarks/stmarks-final.htm](https://www.livingneighborhoods.org/unfoldingmovies/stmarks/stmarks-final.htm) | [St Mark's Square: an unfolding](https://www.livingneighborhoods.org/unfoldingmovies/stmarks/stmarks-final.htm) |
+| [unfoldings/carpositions.htm](https://www.livingneighborhoods.org/unfoldings/carpositions.htm) | [Where the cars go](https://www.livingneighborhoods.org/unfoldings/carpositions.htm) |
+| [unfoldings/colorandlight.htm](https://www.livingneighborhoods.org/unfoldings/colorandlight.htm) | [Color and light](https://www.livingneighborhoods.org/unfoldings/colorandlight.htm) |
+| [unfoldings/communitydiscussion.htm](https://www.livingneighborhoods.org/unfoldings/communitydiscussion.htm) | [Community discussion](https://www.livingneighborhoods.org/unfoldings/communitydiscussion.htm) |
+| [unfoldings/foundationsandplinth.htm](https://www.livingneighborhoods.org/unfoldings/foundationsandplinth.htm) | [Foundations and plinth](https://www.livingneighborhoods.org/unfoldings/foundationsandplinth.htm) |
+| [unfoldings/fromwholeness.htm](https://www.livingneighborhoods.org/unfoldings/fromwholeness.htm) | [Everything arises from the wholeness that is there](https://www.livingneighborhoods.org/unfoldings/fromwholeness.htm) |
+| [unfoldings/landtenure.htm](https://www.livingneighborhoods.org/unfoldings/landtenure.htm) | [Land tenure](https://www.livingneighborhoods.org/unfoldings/landtenure.htm) |
+| [unfoldings/order.htm](https://www.livingneighborhoods.org/unfoldings/order.htm) | [The order in which things must be done](https://www.livingneighborhoods.org/unfoldings/order.htm) |
+| [unfoldings/recursion.htm](https://www.livingneighborhoods.org/unfoldings/recursion.htm) | [Recursion](https://www.livingneighborhoods.org/unfoldings/recursion.htm) |
+| [unfoldings/surveying.htm](https://www.livingneighborhoods.org/unfoldings/surveying.htm) | [Surveying](https://www.livingneighborhoods.org/unfoldings/surveying.htm) |
+| [unfoldings/toposurvey.htm](https://www.livingneighborhoods.org/unfoldings/toposurvey.htm) | [Topographic survey](https://www.livingneighborhoods.org/unfoldings/toposurvey.htm) |
+| [unfoldings/whodesigns.htm](https://www.livingneighborhoods.org/unfoldings/whodesigns.htm) | [Who designs?](https://www.livingneighborhoods.org/unfoldings/whodesigns.htm) |
+| [unfoldings/zoning.htm](https://www.livingneighborhoods.org/unfoldings/zoning.htm) | [Zoning](https://www.livingneighborhoods.org/unfoldings/zoning.htm) |
+| [workpackets/packet1.htm](https://www.livingneighborhoods.org/workpackets/packet1.htm) | [Workpad for startup and vision](https://www.livingneighborhoods.org/workpackets/packet1.htm) |
+
+### Merged into another page
+
+| Original | Merged into | As |
+|---|---|---|
+| [actions/mapmaking.htm](https://www.livingneighborhoods.org/actions/mapmaking.htm) | [Making a basemap](https://www.livingneighborhoods.org/actions/basemap.htm) | shorter earlier version, kept for its differences |
+| [actions/thewhole.htm](https://www.livingneighborhoods.org/actions/thewhole.htm) | [The large-structure wholeness diagram](https://www.livingneighborhoods.org/actions/largestructure.htm) | becoming aware of wholeness |
+| [drawing-pad/drawingpad.htm](https://www.livingneighborhoods.org/drawing-pad/drawingpad.htm) | [The drawing pad](https://www.livingneighborhoods.org/drawing-pad/intro.htm) | the applet page |
+| [drawing-pad/instructions.htm](https://www.livingneighborhoods.org/drawing-pad/instructions.htm) | [The drawing pad](https://www.livingneighborhoods.org/drawing-pad/intro.htm) | instructions |
+| [drawing-pad/wizard.htm](https://www.livingneighborhoods.org/drawing-pad/wizard.htm) | [The drawing pad](https://www.livingneighborhoods.org/drawing-pad/intro.htm) | wizard |
+| [extras/samarkand-picture.htm](https://www.livingneighborhoods.org/extras/samarkand-picture.htm) | [Samarkand](https://www.livingneighborhoods.org/ht-0/samarkand.htm) | blow-up of the drawing |
+| [ht-0/action.htm](https://www.livingneighborhoods.org/ht-0/action.htm) | [The generative code: six phases](../generative-code/index.md) | the six phases |
+| [ht-0/eishincollege.htm](https://www.livingneighborhoods.org/ht-0/eishincollege.htm) | [Eishin campus, Japan](../examples/eishin-campus.md) | Eishin College |
+| [ht-0/instructions.htm](https://www.livingneighborhoods.org/ht-0/instructions.htm) | [The workbook](https://www.livingneighborhoods.org/ht-0/workbook.htm) | instructions for use with the website |
+| [ht-0/printing.htm](https://www.livingneighborhoods.org/ht-0/printing.htm) | [The workbook](https://www.livingneighborhoods.org/ht-0/workbook.htm) | printing pages |
+| [ht-0/process.htm](https://www.livingneighborhoods.org/ht-0/process.htm) | [Start here](../start-here.md) | overall process explanation |
+| [ht-0/steplist.htm](https://www.livingneighborhoods.org/ht-0/steplist.htm) | [The generative code: six phases](../generative-code/index.md) | step list with the three kinds of unfolding |
+| [ht-0/strood.htm](https://www.livingneighborhoods.org/ht-0/strood.htm) | [Strood Riverside](https://www.livingneighborhoods.org/ht-0/strood-riverside.htm) | Strood neighbourhood-making |
+| [ht-0/workbook-assembly.htm](https://www.livingneighborhoods.org/ht-0/workbook-assembly.htm) | [The workbook](https://www.livingneighborhoods.org/ht-0/workbook.htm) | assembly |
+| [ht-0/workbook-downloads.htm](https://www.livingneighborhoods.org/ht-0/workbook-downloads.htm) | [The workbook](https://www.livingneighborhoods.org/ht-0/workbook.htm) | downloads |
+| [ht-0/workbook-instructions.htm](https://www.livingneighborhoods.org/ht-0/workbook-instructions.htm) | [The workbook](https://www.livingneighborhoods.org/ht-0/workbook.htm) | instructions |
+| [ht-1/implementation.htm](https://www.livingneighborhoods.org/ht-1/implementation.htm) | [Main steps of work](https://www.livingneighborhoods.org/ht-0/mainsteps.htm) | earlier version: seven procedural aspects in detail |
+| [ht-1/main-steps.htm](https://www.livingneighborhoods.org/ht-1/main-steps.htm) | [Main steps of work](https://www.livingneighborhoods.org/ht-0/mainsteps.htm) | short summary from the older site |
+| [ht-1/service-examples.htm](https://www.livingneighborhoods.org/ht-1/service-examples.htm) | [Services (historical)](https://www.livingneighborhoods.org/ht-0/services.htm) | examples of services |
+| [ht-1/sheffield.htm](https://www.livingneighborhoods.org/ht-1/sheffield.htm) | [Strood Riverside](https://www.livingneighborhoods.org/ht-0/strood-riverside.htm) | bird's-eye view of Strood (filed as Sheffield) |
+| [ht-1/worksheet1.htm](https://www.livingneighborhoods.org/ht-1/worksheet1.htm) | [Parameters: a first sketch of your idea](https://www.livingneighborhoods.org/actions/parameters.htm) | the worksheet itself |
+| [library/part2.htm](https://www.livingneighborhoods.org/library/part2.htm) | [Space makes life possible (newspaper series)](https://www.livingneighborhoods.org/library/part1.htm) | part 2 |
+| [library/samarkand-pattern-list.htm](https://www.livingneighborhoods.org/library/samarkand-pattern-list.htm) | [Samarkand](https://www.livingneighborhoods.org/ht-0/samarkand.htm) | the first pattern list |
+| [library/samarkand-poem.htm](https://www.livingneighborhoods.org/library/samarkand-poem.htm) | [Samarkand](https://www.livingneighborhoods.org/ht-0/samarkand.htm) | the poem |
+| [noorefs/beingnature.htm](https://www.livingneighborhoods.org/noorefs/beingnature.htm) | [References to The Nature of Order](https://www.livingneighborhoods.org/noorefs/annotated-index.htm) | being nature |
+| [noorefs/centers.htm](https://www.livingneighborhoods.org/noorefs/centers.htm) | [References to The Nature of Order](https://www.livingneighborhoods.org/noorefs/annotated-index.htm) | centers |
+| [noorefs/communitydiscussion.htm](https://www.livingneighborhoods.org/noorefs/communitydiscussion.htm) | [References to The Nature of Order](https://www.livingneighborhoods.org/noorefs/annotated-index.htm) | community discussion |
+| [noorefs/eishinprocess.htm](https://www.livingneighborhoods.org/noorefs/eishinprocess.htm) | [References to The Nature of Order](https://www.livingneighborhoods.org/noorefs/annotated-index.htm) | the Eishin process |
+| [noorefs/fifteen.htm](https://www.livingneighborhoods.org/noorefs/fifteen.htm) | [References to The Nature of Order](https://www.livingneighborhoods.org/noorefs/annotated-index.htm) | the fifteen properties |
+| [noorefs/flowofmoney.htm](https://www.livingneighborhoods.org/noorefs/flowofmoney.htm) | [References to The Nature of Order](https://www.livingneighborhoods.org/noorefs/annotated-index.htm) | flow of money |
+| [noorefs/mirror.htm](https://www.livingneighborhoods.org/noorefs/mirror.htm) | [References to The Nature of Order](https://www.livingneighborhoods.org/noorefs/annotated-index.htm) | mirror of the self |
+| [noorefs/morphogenesis.htm](https://www.livingneighborhoods.org/noorefs/morphogenesis.htm) | [References to The Nature of Order](https://www.livingneighborhoods.org/noorefs/annotated-index.htm) | morphogenesis |
+| [noorefs/nbdcenter.htm](https://www.livingneighborhoods.org/noorefs/nbdcenter.htm) | [References to The Nature of Order](https://www.livingneighborhoods.org/noorefs/annotated-index.htm) | neighborhood center |
+| [noorefs/patternlanguages.htm](https://www.livingneighborhoods.org/noorefs/patternlanguages.htm) | [References to The Nature of Order](https://www.livingneighborhoods.org/noorefs/annotated-index.htm) | pattern languages |
+| [noorefs/positivespace.htm](https://www.livingneighborhoods.org/noorefs/positivespace.htm) | [References to The Nature of Order](https://www.livingneighborhoods.org/noorefs/annotated-index.htm) | positive space |
+| [noorefs/publicspace.htm](https://www.livingneighborhoods.org/noorefs/publicspace.htm) | [References to The Nature of Order](https://www.livingneighborhoods.org/noorefs/annotated-index.htm) | public space |
+| [noorefs/sequences.htm](https://www.livingneighborhoods.org/noorefs/sequences.htm) | [References to The Nature of Order](https://www.livingneighborhoods.org/noorefs/annotated-index.htm) | sequences |
+| [noorefs/w-e-transformations.htm](https://www.livingneighborhoods.org/noorefs/w-e-transformations.htm) | [References to The Nature of Order](https://www.livingneighborhoods.org/noorefs/annotated-index.htm) | wholeness-extending transformations |
+| [noorefs/writingpatterns.htm](https://www.livingneighborhoods.org/noorefs/writingpatterns.htm) | [References to The Nature of Order](https://www.livingneighborhoods.org/noorefs/annotated-index.htm) | writing patterns |
+| [unfoldingmovies/strood-cumulative/strood-unfold.htm](https://www.livingneighborhoods.org/unfoldingmovies/strood-cumulative/strood-unfold.htm) | [Strood Riverside](https://www.livingneighborhoods.org/ht-0/strood-riverside.htm) | the unfolding movie (applet no longer runs) |
+| [unfoldingmovies/window-design/window-final2.htm](https://www.livingneighborhoods.org/unfoldingmovies/window-design/window-final2.htm) | [Back of the Moon, Texas](https://www.livingneighborhoods.org/ht-0/texas.htm) | window unfolding movie (applet no longer runs) |
+| [unfoldings/pedestriancenters-urban.htm](https://www.livingneighborhoods.org/unfoldings/pedestriancenters-urban.htm) | [Pedestrians come first](../generative-code/5-public-spaces/pedestrians-first.md) | In an urban or brownfield setting |
+| [unfoldings/positivespace.htm](https://www.livingneighborhoods.org/unfoldings/positivespace.htm) | [Positive space](../generative-code/5-public-spaces/positive-space.md) | Library of Unfoldings version, longer |
+| [unfoldings/statistics.htm](https://www.livingneighborhoods.org/unfoldings/statistics.htm) | [Parameters: a first sketch of your idea](https://www.livingneighborhoods.org/actions/parameters.htm) | statistics worksheet (Library of Unfoldings version) |
+
+### Duplicates and older versions
+
+| Original | Duplicate of | Note |
+|---|---|---|
+| [actions/buildingfronts.htm](https://www.livingneighborhoods.org/actions/buildingfronts.htm) | [Building fronts](https://www.livingneighborhoods.org/actions/housefronts.htm) | same page, other address |
+| [actions/intro-diagnosis.htm](https://www.livingneighborhoods.org/actions/intro-diagnosis.htm) | [Introduction to diagnosis](https://www.livingneighborhoods.org/actions/diagnosis-intro.htm) | earlier version |
+| [actions/pedestriancenters.htm](https://www.livingneighborhoods.org/actions/pedestriancenters.htm) | [Pedestrians come first](../generative-code/5-public-spaces/pedestrians-first.md) | same text: the step list calls this step 'Pedestrian centers' |
+| [actions/vision.htm](https://www.livingneighborhoods.org/actions/vision.htm) | [Vision](https://www.livingneighborhoods.org/actions/vision3.htm) | earlier version |
+| [drawing-pad/drawinginstructions.htm](https://www.livingneighborhoods.org/drawing-pad/drawinginstructions.htm) | [The drawing pad](https://www.livingneighborhoods.org/drawing-pad/intro.htm) | earlier instructions |
+| [ht-0/actionlist.htm](https://www.livingneighborhoods.org/ht-0/actionlist.htm) | [The generative code: six phases](../generative-code/index.md) | earlier action list, same steps |
+| [ht-0/bln.htm](https://www.livingneighborhoods.org/ht-0/bln.htm) | [Start here](../start-here.md) | earlier copy of the welcome page |
+| [ht-0/downloads.htm](https://www.livingneighborhoods.org/ht-0/downloads.htm) | [The workbook](https://www.livingneighborhoods.org/ht-0/workbook.htm) | same downloads page |
+| [ht-0/management.htm](https://www.livingneighborhoods.org/ht-0/management.htm) | [Main steps of work](https://www.livingneighborhoods.org/ht-0/mainsteps.htm) | same text under another title |
+| [ht-0/relationships4.htm](https://www.livingneighborhoods.org/ht-0/relationships4.htm) | [Building on relationship](https://www.livingneighborhoods.org/ht-0/relationships5.htm) | earlier version |
+| [ht-1/archive.htm](https://www.livingneighborhoods.org/ht-1/archive.htm) | [Library: papers and drafts](https://www.livingneighborhoods.org/ht-0/archive.htm) | older version (ht-1) |
+| [ht-1/community.htm](https://www.livingneighborhoods.org/ht-1/community.htm) | [Creating community](https://www.livingneighborhoods.org/ht-0/community.htm) | older version (ht-1) |
+| [ht-1/contact.htm](https://www.livingneighborhoods.org/ht-1/contact.htm) | [Contact (historical)](https://www.livingneighborhoods.org/ht-0/contact.htm) | older version (ht-1) |
+| [ht-1/eishincollege.htm](https://www.livingneighborhoods.org/ht-1/eishincollege.htm) | [Eishin campus, Japan](../examples/eishin-campus.md) | older version (ht-1) |
+| [ht-1/emoto.htm](https://www.livingneighborhoods.org/ht-1/emoto.htm) | [Komagome, Tokyo](https://www.livingneighborhoods.org/ht-0/emoto.htm) | older version (ht-1) |
+| [ht-1/fifteen.htm](https://www.livingneighborhoods.org/ht-1/fifteen.htm) | [The fifteen properties in a neighborhood](https://www.livingneighborhoods.org/ht-0/fifteen.htm) | older shorter version (ht-1) |
+| [ht-1/generative.htm](https://www.livingneighborhoods.org/ht-1/generative.htm) | [Generative codes](https://www.livingneighborhoods.org/ht-0/generative.htm) | older version (ht-1) |
+| [ht-1/introduction.htm](https://www.livingneighborhoods.org/ht-1/introduction.htm) | [What makes a neighborhood live](https://www.livingneighborhoods.org/ht-0/basics.htm) | older version (ht-1) |
+| [ht-1/keyfeatures.htm](https://www.livingneighborhoods.org/ht-1/keyfeatures.htm) | [Key features of a living neighborhood](https://www.livingneighborhoods.org/ht-0/keyfeatures.htm) | older version (ht-1) |
+| [ht-1/mexicali.htm](https://www.livingneighborhoods.org/ht-1/mexicali.htm) | [Mexicali: houses for $3,000](https://www.livingneighborhoods.org/ht-0/mexicali.htm) | older shorter version (ht-1) |
+| [ht-1/morphogenesis-two.htm](https://www.livingneighborhoods.org/ht-1/morphogenesis-two.htm) | [Morphogenesis](https://www.livingneighborhoods.org/ht-0/morphogenesis-two.htm) | older version (ht-1) |
+| [ht-1/neighborhoods.htm](https://www.livingneighborhoods.org/ht-1/neighborhoods.htm) | [Example neighborhoods](https://www.livingneighborhoods.org/ht-0/neighborhoods.htm) | older version (ht-1) |
+| [ht-1/order-things-done.htm](https://www.livingneighborhoods.org/ht-1/order-things-done.htm) | [The order things are done](https://www.livingneighborhoods.org/ht-0/order-things-done.htm) | older version (ht-1) |
+| [ht-1/patternlanguages.htm](https://www.livingneighborhoods.org/ht-1/patternlanguages.htm) | [Pattern languages](https://www.livingneighborhoods.org/ht-0/patternlanguages.htm) | older version (ht-1) |
+| [ht-1/rearrangement.htm](https://www.livingneighborhoods.org/ht-1/rearrangement.htm) | [Rearrangement](https://www.livingneighborhoods.org/ht-0/rearrangement.htm) | older version (ht-1) |
+| [ht-1/santarosa.htm](https://www.livingneighborhoods.org/ht-1/santarosa.htm) | [Santa Rosa](https://www.livingneighborhoods.org/ht-0/santarosa.htm) | older shorter version (ht-1) |
+| [ht-1/services.htm](https://www.livingneighborhoods.org/ht-1/services.htm) | [Services (historical)](https://www.livingneighborhoods.org/ht-0/services.htm) | older version (ht-1) |
+| [ht-1/strood.htm](https://www.livingneighborhoods.org/ht-1/strood.htm) | [Strood Riverside](https://www.livingneighborhoods.org/ht-0/strood-riverside.htm) | older version (ht-1) |
+| [library/three-rules.htm](https://www.livingneighborhoods.org/library/three-rules.htm) | [The main center of the neighborhood](../generative-code/5-public-spaces/main-center.md) | same text under another title |
+| [nbds/eishin.htm](https://www.livingneighborhoods.org/nbds/eishin.htm) | [Eishin campus, Japan](../examples/eishin-campus.md) | shorter copy |
+| [nbds/samarkand.htm](https://www.livingneighborhoods.org/nbds/samarkand.htm) | [Samarkand](https://www.livingneighborhoods.org/ht-0/samarkand.htm) | copy |
+| [nbds/strood-riverside.htm](https://www.livingneighborhoods.org/nbds/strood-riverside.htm) | [Strood Riverside](https://www.livingneighborhoods.org/ht-0/strood-riverside.htm) | same page |
+| [nbds/texas.htm](https://www.livingneighborhoods.org/nbds/texas.htm) | [Back of the Moon, Texas](https://www.livingneighborhoods.org/ht-0/texas.htm) | copy |
+| [packets/buildingvolumes.htm](https://www.livingneighborhoods.org/packets/buildingvolumes.htm) | [Phase 6: Building volumes](https://www.livingneighborhoods.org/packets/buildingvolumes-phase.htm) | copy of the phase page |
+| [unfoldings/diagnosis.htm](https://www.livingneighborhoods.org/unfoldings/diagnosis.htm) | [Introduction to diagnosis](https://www.livingneighborhoods.org/actions/diagnosis-intro.htm) | Library of Unfoldings version |
+| [unfoldings/entities.htm](https://www.livingneighborhoods.org/unfoldings/entities.htm) | [Entities](https://www.livingneighborhoods.org/actions/entities.htm) | Library of Unfoldings version |
+| [unfoldings/housefronts.htm](https://www.livingneighborhoods.org/unfoldings/housefronts.htm) | [Building fronts](https://www.livingneighborhoods.org/actions/housefronts.htm) | Library of Unfoldings version |
+| [unfoldings/magic.htm](https://www.livingneighborhoods.org/unfoldings/magic.htm) | [Magic configurations](https://www.livingneighborhoods.org/actions/magic.htm) | Library of Unfoldings version |
+| [unfoldings/main-contract.htm](https://www.livingneighborhoods.org/unfoldings/main-contract.htm) | [The main construction contract](https://www.livingneighborhoods.org/library/contracts/main-contract.htm) | same contract text |
+| [unfoldings/maincenter.htm](https://www.livingneighborhoods.org/unfoldings/maincenter.htm) | [The main center of the neighborhood](../generative-code/5-public-spaces/main-center.md) | Library of Unfoldings version |
+| [unfoldings/pedestriancenters.htm](https://www.livingneighborhoods.org/unfoldings/pedestriancenters.htm) | [Pedestrians come first](../generative-code/5-public-spaces/pedestrians-first.md) | Library of Unfoldings version |
+| [unfoldings/poeticpl.htm](https://www.livingneighborhoods.org/unfoldings/poeticpl.htm) | [A poetic pattern language](https://www.livingneighborhoods.org/actions/poeticpl.htm) | Library of Unfoldings version |
+| [unfoldings/recursivepositivespace.htm](https://www.livingneighborhoods.org/unfoldings/recursivepositivespace.htm) | [Recursive positive space](../generative-code/5-public-spaces/recursive-positive-space.md) | Library of Unfoldings version |
+| [unfoldings/subcontract.htm](https://www.livingneighborhoods.org/unfoldings/subcontract.htm) | [The craftsperson's subcontract](https://www.livingneighborhoods.org/library/contracts/sub-contract.htm) | same contract text |
+| [unfoldings/thewhole.htm](https://www.livingneighborhoods.org/unfoldings/thewhole.htm) | [The large-structure wholeness diagram](https://www.livingneighborhoods.org/actions/largestructure.htm) | Library of Unfoldings version |
+| [unfoldings/vision.htm](https://www.livingneighborhoods.org/unfoldings/vision.htm) | [Vision](https://www.livingneighborhoods.org/actions/vision3.htm) | Library of Unfoldings version |
+| [worksheets/worksheets-for-phase1.htm](https://www.livingneighborhoods.org/worksheets/worksheets-for-phase1.htm) | [Workpad for startup and vision](https://www.livingneighborhoods.org/workpackets/packet1.htm) | same workpad |
+
+### Left out
+
+| Original | Why |
+|---|---|
+| [actions/betatext.htm](https://www.livingneighborhoods.org/actions/betatext.htm) | beta-site notice |
+| [actions/bigger.htm](https://www.livingneighborhoods.org/actions/bigger.htm) | placeholder page: 'TEXT coming' |
+| [actions/embellish.htm](https://www.livingneighborhoods.org/actions/embellish.htm) | source error: body is a copy of the magic configurations text; the real step was never written |
+| [clickagreement/bannerces.htm](https://www.livingneighborhoods.org/clickagreement/bannerces.htm) | frame banner |
+| [clickagreement/buttonsces.htm](https://www.livingneighborhoods.org/clickagreement/buttonsces.htm) | frame buttons |
+| [clickagreement/clickagreementces.htm](https://www.livingneighborhoods.org/clickagreement/clickagreementces.htm) | frameset for the terms page |
+| [ht-0/beta.htm](https://www.livingneighborhoods.org/ht-0/beta.htm) | beta-site notice |
+| [ht-0/menu-exp.htm](https://www.livingneighborhoods.org/ht-0/menu-exp.htm) | the old site's navigation menu |
+| [ht-1/home.htm](https://www.livingneighborhoods.org/ht-1/home.htm) | empty frame page (older site) |
+| [ht-1/member.htm](https://www.livingneighborhoods.org/ht-1/member.htm) | members' login stub |
+| [ht-2/action.htm](https://www.livingneighborhoods.org/ht-2/action.htm) | 'one time message' interstitial |
+| [ht-2/fifteen.htm](https://www.livingneighborhoods.org/ht-2/fifteen.htm) | 'one time message' interstitial |
+| [ht-2/home.htm](https://www.livingneighborhoods.org/ht-2/home.htm) | 'one time message' interstitial |
+| [ht-2/libraryofunfoldings.htm](https://www.livingneighborhoods.org/ht-2/libraryofunfoldings.htm) | 'one time message' interstitial |
+| [ht-2/noo-buy.htm](https://www.livingneighborhoods.org/ht-2/noo-buy.htm) | 'one time message' interstitial |
+| [index.html](https://www.livingneighborhoods.org/) | frameset shell for the old site |
+| [packets/diagnosis.htm](https://www.livingneighborhoods.org/packets/diagnosis.htm) | redirect stub |
+| [packets/publicspaces.htm](https://www.livingneighborhoods.org/packets/publicspaces.htm) | redirect stub |
+| [packets/startup&vision.htm](https://www.livingneighborhoods.org/packets/startup&vision.htm) | redirect stub |
+
+## Historical pages
+
+The original site's [services](https://www.livingneighborhoods.org/ht-0/services.htm), [contact](https://www.livingneighborhoods.org/ht-0/contact.htm) and [terms of use](https://www.livingneighborhoods.org/clickagreement/agreementtextces.htm) pages are kept as records; the contact details and offers may no longer be current.
