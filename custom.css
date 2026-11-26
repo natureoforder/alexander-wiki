@@ -249,6 +249,11 @@ body {
   quotes: none;
 }
 
+/* Concept-page excerpts: the author's italics show as roman inside an italic quote, and his small capitals (property names, book titles) stay small capitals. */
+.page-body .rendered-mdx blockquote:not(.source-excerpt) em { font-style: normal; }
+.page-body .rendered-mdx:has(.source-reading) blockquote em { font-style: italic; }
+.sc { font-variant-caps: all-small-caps; letter-spacing: .04em; }
+
 .wiki-credits { max-width: 60rem; margin: 0 auto 3rem; padding: 1rem var(--wiki-gutter) 0; border-top: 1px solid var(--wiki-rule); font-size: .9em; }
 
 /* Works hub: cover grid; works pages: floated cover. */
