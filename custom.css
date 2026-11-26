@@ -234,6 +234,47 @@ body {
   .pattern-commentary { padding-top: 0; }
 }
 
+/* The full text of each pattern (scripts/build_patterns.py): the plate keeps the
+   opening photograph and the connections; the text runs in the right column as
+   in the book, problem and solution in bold, printed page numbers in the gutter.
+   Images at their scanned size, never stretched. */
+.pattern-full .pattern-figure img, .pl-figure img { width: auto; max-width: 100%; height: auto; }
+.pattern-spread.pattern-full { margin-top: clamp(2.5rem,5vw,4rem); padding-top: clamp(1.5rem,3vw,2.5rem); border-top: 1px solid var(--wiki-rule); }
+.pattern-text { position: relative; min-width: 0; padding-top: 1.6rem; font-size: clamp(1.06rem, 1.33vw, 1.2rem); line-height: 1.5; }
+.pattern-text p { margin: 0 0 .8em; }
+.pattern-text strong { font-weight: 600; }
+.pattern-text a.pl-ref { font-variant-caps: all-small-caps; letter-spacing: .04em; }
+.pattern-text blockquote { margin: 0 0 .8em 1.5em; padding: 0; border: 0; font-size: .95em; }
+.pattern-text :is(h2,h3,h4,h5) { margin: 1.4em 0 .5em; font: 400 1.1em/1.2 var(--font-body); font-variant-caps: all-small-caps; letter-spacing: .06em; color: inherit; }
+.pattern-text :is(ul,ol) { margin: 0 0 .8em; padding-left: 1.4em; }
+.pattern-text table { margin: 0 0 1em; border-collapse: collapse; font-size: .88em; line-height: 1.35; }
+.pattern-text :is(td,th) { padding: .15em .8em .15em 0; vertical-align: top; text-align: left; border: 0; }
+.pl-figure { margin: 1.1em 0 1.2em; }
+.pl-figure img { display: block; margin: 0; }
+.pl-figure figcaption { margin-top: .4em; font-size: .92em; color: var(--wiki-muted); }
+.pl-divider { margin: 1.1em 0; font-size: .55em; letter-spacing: .9em; text-align: center; color: var(--ink); }
+.pl-pagebreak { margin: 0 !important; height: 0; }
+.pl-page { position: absolute; left: clamp(-3.4rem, -4vw, -2.4rem); font: 400 .62rem/2.4 var(--font-mono); font-variant-numeric: normal; letter-spacing: .04em; color: var(--wiki-muted); }
+.pattern-links h2 { margin: 1.8rem 0 .5rem; font: 400 .7rem/1.4 var(--font-mono); text-transform: uppercase; letter-spacing: .06em; color: var(--wiki-muted); }
+.pattern-links ul { margin: 0; padding: 0; list-style: none; columns: 2 12rem; column-gap: 1.5rem; }
+.pattern-links li { margin: 0 0 .2em; break-inside: avoid; font-size: 1rem; line-height: 1.3; }
+.pattern-links a { text-decoration: none; }
+.pattern-links a:hover { text-decoration: underline; }
+.pl-num { display: inline-block; min-width: 2.1em; font: 400 .66rem var(--font-mono); color: var(--wiki-muted); }
+.pattern-nav { font: 400 .7rem/1.8 var(--font-mono); text-transform: uppercase; letter-spacing: .06em; }
+.pattern-essay { max-width: 42rem; }
+.pattern-essay .pattern-title { margin: 0 0 .5rem; font: 400 clamp(1.4rem,1.9vw,1.7rem)/1.15 var(--font-body); letter-spacing: .1em; text-transform: uppercase; }
+@media (max-width: 52rem) {
+  .pattern-text { padding-top: 0; order: 1; }
+  .pattern-full .pattern-plate { display: contents; }
+  .pattern-full .pattern-links { order: 2; }
+  .pl-page { position: static; float: right; margin-left: .6em; line-height: inherit; }
+}
+/* Title filter on the patterns index (assets/patterns/search.js). */
+.pattern-filter { display: block; width: 100%; max-width: 24rem; margin: 1.2rem 0 .4rem; padding: .45rem .1rem; border: 0; border-bottom: 1px solid var(--ink); border-radius: 0; background: transparent; color: var(--ink); font: 400 1.1rem/1.3 var(--font-body); }
+.pattern-filter:focus { outline: none; border-bottom-width: 2px; }
+.pattern-filter-count { margin: 0 0 1rem; font: 400 .66rem/1.4 var(--font-mono); text-transform: uppercase; letter-spacing: .06em; color: var(--wiki-muted); }
+
 /* Long primary-source passages retain the author's own changes of emphasis. */
 .page-body .rendered-mdx blockquote.source-excerpt,
 .page-body .rendered-mdx:has(.source-reading) blockquote {
@@ -363,3 +404,7 @@ body {
 .rendered-mdx:has(#learning-to-see) > ul > li > ol { margin: .6em 0 0; padding-left: 1.6em; columns: 2 14rem; column-gap: 2rem; }
 .rendered-mdx:has(#learning-to-see) > ul > li > ol > li { margin: 0 0 .3em; break-inside: avoid; }
 .rendered-mdx:has(#learning-to-see) > ul > li > ol > li::marker { font: 400 .7rem var(--font-mono); color: var(--wiki-muted); }
+.pattern-filter-results { margin: 0 0 1.4rem; padding: 0; list-style: none; columns: 2 14rem; column-gap: 1.5rem; }
+.pattern-filter-results li { margin: 0 0 .2em; break-inside: avoid; }
+.pattern-filter-results a { text-decoration: none; }
+.pattern-filter-results a:hover { text-decoration: underline; }
