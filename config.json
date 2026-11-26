@@ -10,10 +10,6 @@
     "title": "Alexander Wiki",
     "links": [
       {
-        "name": "Roadmap",
-        "href": "/roadmap"
-      },
-      {
         "name": "Concepts",
         "href": "/concepts"
       },
@@ -30,8 +26,16 @@
         "href": "/practice"
       },
       {
+        "name": "Neighborhoods",
+        "href": "/living-neighborhoods"
+      },
+      {
         "name": "Visionary",
         "href": "/visionary"
+      },
+      {
+        "name": "Roadmap",
+        "href": "/roadmap"
       },
       {
         "name": "Notes",
@@ -83,5 +87,9 @@
       }
     ]
   },
-  "head": "<link rel=\"stylesheet\" href=\"/assets/roadmap/roadmap.css\">"
+  "head": "<link rel=\"stylesheet\" href=\"/assets/roadmap/roadmap.css\">",
+  "layout": "reading",
+  "toc": {
+    "style": "rail"
+  }
 }
