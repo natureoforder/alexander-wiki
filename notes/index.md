@@ -11,6 +11,7 @@ Rufus Pollock's own notes, questions and working materials on Alexander. These a
 
 - [On-site design decisions](on-site-design-decisions.md) asks who can act when a builder discovers a better arrangement after the drawings have been agreed.
 - [Making a living center](making-living-centers.md) follows Alexander's account of the columns at West Dean into Book Four's question about the experience of the maker.
+- [Using the old Living Neighborhoods site](living-neighborhoods-site.md): why its useful material needs re-routing for readers.
 
 ## Notes kept elsewhere
 
