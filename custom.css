@@ -328,6 +328,6 @@ body {
 
 /* Original printing shown at the head of an essay page */
 .essay-spread { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1.5rem 0 2rem; }
-.essay-spread img { width: 100%; height: auto; box-shadow: 0 1px 6px rgba(0,0,0,.18); margin: 0; }
+.essay-spread img { width: 100%; height: auto !important; max-height: none !important; object-fit: contain; box-shadow: 0 1px 6px rgba(0,0,0,.18); margin: 0; }
 .essay-spread figcaption { grid-column: 1 / -1; font-size: .85em; text-align: center; }
 @media (max-width: 640px) { .essay-spread { grid-template-columns: 1fr; } }
