@@ -25,6 +25,8 @@
 }
 .ar-root *, .ar-root *::before, .ar-root *::after { box-sizing: border-box; }
 .ar-wrap { max-width: 66rem; margin: 0 auto; }
+/* one text width for everything above and between the stops */
+.ar-root { --ar-text: 44rem; }
 .ar-root a { color: inherit; text-decoration: underline; text-decoration-color: #aaa69c; text-decoration-thickness: 1px; text-underline-offset: .17em; }
 .ar-root a:hover { text-decoration-color: currentColor; }
 
@@ -33,10 +35,10 @@
 /* header */
 .ar-title__over { display: block; font-size: clamp(1.05rem, 1.6vw, 1.25rem); font-variant-caps: all-small-caps; letter-spacing: .1em; color: var(--ar-soft); margin-bottom: .45rem; }
 .ar-title { text-align: center; font-size: clamp(2.8rem, 6vw, 4.4rem); line-height: 1.04; font-weight: 400; margin: 0 0 .9rem; text-wrap: balance; }
-.ar-lede { max-width: 40rem; margin: 0 auto 2.6rem; text-align: center; font: italic clamp(1.15rem, 2vw, 1.38rem)/1.4 var(--font-body, serif); color: var(--ar-soft); text-wrap: balance; }
+.ar-lede { max-width: var(--ar-text); margin: 0 auto 2.6rem; text-align: center; font-size: clamp(1.12rem, 1.8vw, 1.25rem); line-height: 1.5; color: var(--ar-soft); text-wrap: pretty; }
 
 /* shorter trails: three quiet links under the lede */
-.ar-ways { max-width: 52rem; margin: 0 auto 2.6rem; text-align: center; }
+.ar-ways { max-width: var(--ar-text); margin: 0 auto 2.6rem; text-align: center; }
 .ar-ways__head { color: var(--ar-faint); font-size: 1rem; margin-bottom: .7rem; }
 .ar-ways__list { display: grid; grid-template-columns: 1fr; gap: .6rem; }
 @media (min-width: 700px) { .ar-ways__list { grid-template-columns: repeat(3, 1fr); gap: 1rem; } }
@@ -47,23 +49,17 @@
 .ar-kicker { text-align: center; color: var(--ar-faint); font-size: 1rem; margin-bottom: .6rem; }
 
 /* legend */
-.ar-legend { display: flex; flex-wrap: wrap; justify-content: center; gap: .5rem 1.8rem; margin: 0 0 3.2rem; font-size: 1.05rem; color: var(--ar-soft); }
-@media (max-width: 600px) { .ar-legend { flex-direction: column; align-items: flex-start; width: max-content; margin-left: auto; margin-right: auto; } }
-.ar-legend > div { display: flex; align-items: center; gap: .5rem; }
-.ar-swatch { width: 1.2rem; height: 1.2rem; border: 1.5px solid var(--ar-ink); background: var(--ar-paper); flex: none; }
-.ar-swatch--star { border-color: var(--ar-star); background: var(--ar-star-wash); }
-.ar-swatch--branch { border: 1px dashed var(--ar-faint); background: var(--ar-frame); }
-.ar-swatch--coming { border: 1px dotted var(--ar-faint); background: transparent; }
+.ar-legend { max-width: var(--ar-text); margin: 0 auto 3.2rem; text-align: center; font-size: 1.05rem; color: var(--ar-soft); }
 
 /* acts */
 .ar-act { margin: 4rem 0 2.2rem; text-align: center; }
 .ar-act__num { color: var(--ar-faint); font-size: 1.1rem; }
-.ar-act__title { font-weight: 500; font-size: clamp(1.55rem, 3vw, 2.1rem); line-height: 1.15; margin: .1rem auto .5rem; max-width: 34rem; text-wrap: balance; }
+.ar-act__title { font-weight: 500; font-size: clamp(1.55rem, 3vw, 2.1rem); line-height: 1.15; margin: .1rem auto .5rem; max-width: var(--ar-text); text-wrap: balance; }
 /* site heading rules (custom.css, prose) left-align h2s; keep act titles centred */
 .ar-root .ar-act h2.ar-act__title { display: block; text-align: center; margin-left: auto !important; margin-right: auto !important; padding-left: 0 !important; font-variant-caps: normal; letter-spacing: 0; }
 .ar-root .heading-link { display: none; }
 .ar-root h1.ar-title { margin-left: auto !important; margin-right: auto !important; padding-left: 0 !important; }
-.ar-act__sub { max-width: 38rem; margin: 0 auto; font-size: 1.14rem; line-height: 1.45; color: var(--ar-soft); text-wrap: pretty; }
+.ar-act__sub { max-width: var(--ar-text); margin: 0 auto; font-size: 1.14rem; line-height: 1.45; color: var(--ar-soft); text-wrap: pretty; }
 .ar-act__rule { width: 3rem; border: 0; border-top: 1px solid var(--ar-rule); margin: 1.1rem auto 0; }
 
 /* spine */
@@ -80,7 +76,6 @@
 .ar-root a.ar-node__title { text-decoration: none; }
 .ar-root a.ar-node__title:hover { text-decoration: underline; }
 .ar-mark { display: inline-block; width: 1.15em; height: 1.15em; vertical-align: -.2em; margin: 0; }
-.ar-legend .ar-mark { margin-left: -.25rem; }
 .ar-node__gloss { font-style: italic; color: var(--ar-soft); font-size: 1.08rem; margin-bottom: .25rem; }
 .ar-node__body { font-size: 1.1rem; line-height: 1.45; color: var(--ar-soft); margin: 0; }
 .ar-coming { color: var(--ar-faint); font-size: .95rem; }
@@ -125,4 +120,4 @@
 /* outro */
 .ar-outro { margin-top: 4.5rem; border-top: 1px solid var(--ar-rule); padding-top: 2.4rem; text-align: center; }
 .ar-outro__title { font-size: 1.7rem; margin-bottom: .6rem; }
-.ar-outro__body { max-width: 38rem; margin: 0 auto 1rem; font-size: 1.15rem; line-height: 1.45; color: var(--ar-soft); }
+.ar-outro__body { max-width: var(--ar-text); margin: 0 auto 1rem; font-size: 1.15rem; line-height: 1.45; color: var(--ar-soft); }

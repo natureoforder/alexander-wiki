@@ -82,12 +82,8 @@ showToc: false
 for slug, t, short, intro, stops in TRAILS:
     w(f'<a class="ar-way" href="/roadmap/{slug}"><span class="ar-way__title">{t}</span><span class="ar-way__note">{short}</span></a>')
 w('''</div></div>
-<div class="ar-legend">
-<div><span class="ar-swatch"></span><span>Spine: read in order</span></div>
-<div><span class="ar-swatch ar-swatch--star"></span><img src="/assets/nature-of-order-mark.png" class="ar-mark" alt="on the short route" /><span>The short route: six stops</span></div>
-<div><span class="ar-swatch ar-swatch--branch"></span><span>Branch: optional depth</span></div>
-<div><span class="ar-swatch ar-swatch--coming"></span><span>Page still to be written</span></div>
-</div>''')
+<p class="ar-legend"><img src="/assets/nature-of-order-mark.png" class="ar-mark" alt="" /> marks the short route: six stops that hold together on their own.</p>
+''')
 side = 0
 for num, atitle, sub, stops in ACTS:
     w(f'<div class="ar-act" id="act-{num.lower()}"><div class="ar-act__num ar-sc">Act {num}</div><h2 class="ar-act__title">{atitle}</h2><p class="ar-act__sub">{sub}</p><hr class="ar-act__rule" /></div>')

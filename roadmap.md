@@ -15,12 +15,8 @@ showToc: false
 <a class="ar-way" href="/roadmap/thesis"><span class="ar-way__title">The thesis</span><span class="ar-way__note">His central claim, in five steps.</span></a>
 <a class="ar-way" href="/roadmap/from-patterns"><span class="ar-way__title">From patterns or software</span><span class="ar-way__note">From the patterns you know to what came after.</span></a>
 </div></div>
-<div class="ar-legend">
-<div><span class="ar-swatch"></span><span>Spine: read in order</span></div>
-<div><span class="ar-swatch ar-swatch--star"></span><img src="/assets/nature-of-order-mark.png" class="ar-mark" alt="on the short route" /><span>The short route: six stops</span></div>
-<div><span class="ar-swatch ar-swatch--branch"></span><span>Branch: optional depth</span></div>
-<div><span class="ar-swatch ar-swatch--coming"></span><span>Page still to be written</span></div>
-</div>
+<p class="ar-legend"><img src="/assets/nature-of-order-mark.png" class="ar-mark" alt="" /> marks the short route: six stops that hold together on their own.</p>
+
 <div class="ar-act" id="act-i"><div class="ar-act__num ar-sc">Act I</div><h2 class="ar-act__title">Is that feeling telling you something true?</h2><p class="ar-act__sub">Everyone knows that some places feel more alive than others. Alexander’s first and largest claim is that this feeling is not just taste: it registers something real, in the place and in us.</p><hr class="ar-act__rule" /></div>
 <div class="ar-spine">
 <div class="ar-stop" id="stop-1">
