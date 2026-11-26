@@ -22,7 +22,7 @@ An account of a housing project in Mexicali, Mexico, in the mid-1970s, in which 
 
 ## Why it matters
 
-It is Alexander's most direct attack on how mass housing is produced, and his argument that the quality of houses depends less on their design than on who controls money, decisions and construction. It is the main source for the architect-builder and for [design decisions made on site](../concepts/on-site-design-decisions.md), ideas he developed further in *The Nature of Order*, Book 2, Part Three.
+It is Alexander's most direct attack on how mass housing is produced, and his argument that the quality of houses depends less on their design than on who controls money, decisions and construction. It is the main source for the architect-builder and for [design decisions made on site](../notes/on-site-design-decisions.md), ideas he developed further in *The Nature of Order*, Book 2, Part Three.
 
 ## Contents
 
