@@ -1,6 +1,17 @@
 # Research digests
 
-One compact digest per source book, built chapter by chapter from `natureoforder/sources/texts/`. They feed the concept list, the roadmap and the concept pages. Not published (`docs/` is excluded from the site). When a digest is finished, its canonical copy moves to the sources repo beside its book (`natureoforder/sources/texts/<book>/digest.md`) for future AI and research use, and this folder keeps a pointer.
+One compact digest per source book, built chapter by chapter from `natureoforder/sources/texts/`. They feed the concept list, the roadmap and the concept pages. Not published (`docs/` is excluded from the site). Finished digests live in the sources repo beside their book, for future AI and research use.
+
+## Where the digests live
+
+The canonical copies are in the sources repo beside each book:
+
+- `~/src/natureoforder/sources/texts/nature-of-order-01-the-phenomenon-of-life/digest.md`
+- `~/src/natureoforder/sources/texts/nature-of-order-02-the-process-of-creating-life/digest.md`
+- `~/src/natureoforder/sources/texts/nature-of-order-03-a-vision-of-a-living-world/digest.md`
+- `~/src/natureoforder/sources/texts/nature-of-order-04-the-luminous-ground/digest.md`
+- `~/src/natureoforder/sources/texts/timeless-way-of-building/digest.md`
+- `~/src/natureoforder/sources/texts/pattern-language/digest.md`
 
 ## Digest shape
 

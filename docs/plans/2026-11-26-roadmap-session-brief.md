@@ -14,7 +14,7 @@ beads: alex-88s.19.2
 
 - Rebuild plan, including a first roadmap sketch and its critique: `docs/plans/2026-11-26-rebuild-plan.md`.
 - Wilber Wiki model: `~/src/life-itself/wilber-wiki/roadmap.md`, `assets/roadmap/roadmap.css`, `docs/concept-roadmap.md`. Lessons: open on the newcomer's felt question, not the author's vocabulary; a short starred essential route (about six stops); each concept once; scoped CSS loaded through `config.json` `head`, because Flowershow does not compile arbitrary Tailwind classes.
-- Research digests, one per book, being written now in the main checkout: `~/src/natureoforder/alexander-wiki/docs/research/` (*Nature of Order* 1–4, *The Timeless Way*, *A Pattern Language*). The Nature of Order leads; *A Pattern Language* and *The Timeless Way* are brought in around it.
+- Research digests, one per book, all finished: `~/src/natureoforder/sources/texts/<book>/digest.md` (list in `docs/research/README.md`) (*Nature of Order* 1–4, *The Timeless Way*, *A Pattern Language*). The Nature of Order leads; *A Pattern Language* and *The Timeless Way* are brought in around it.
 - Concept list (Beads `alex-88s.19.10`): drafted from the digests, and Rufus reviews the names. The roadmap's stops come from that list.
 - Rufus's own framing: `~/src/natureoforder/nature-of-order/README.md` (his overview of The Nature of Order) and his talk slides in `~/src/life-itself/papers/alexander-and-2r/`.
 
