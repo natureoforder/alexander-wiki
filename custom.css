@@ -86,6 +86,14 @@ body {
 .wiki-window figcaption a { font-style: italic; }
 .wiki-guide { padding-bottom: clamp(3rem, 6vw, 5rem); }
 .wiki-guide h2 { text-align: center; font-size: clamp(1.5rem, 2.5vw, 1.9rem); line-height: 1.15; }
+.wiki-plates { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .75rem; margin-top: 2.75rem; }
+.wiki-plates figure { margin: 0; min-width: 0; }
+.wiki-plates figure > a { display: block; text-decoration: none !important; }
+.wiki-plates figcaption a { color: var(--ink); }
+.wiki-plates img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; filter: grayscale(1) contrast(1.05); transition: filter .2s ease; }
+.wiki-plates a:hover img { filter: grayscale(0); }
+.wiki-plates figcaption { padding-top: .45rem; font: 400 .64rem/1.35 var(--font-mono); text-transform: uppercase; letter-spacing: .05em; color: var(--wiki-muted); }
+@media (prefers-reduced-motion: reduce) { .wiki-plates img { transition: none; } }
 .wiki-routes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.7rem clamp(2.4rem, 6vw, 5rem); margin-top: 1.35rem; }
 .wiki-route { border-top: 1px solid var(--wiki-rule); padding-top: .85rem; }
 .wiki-route h3 { font-size: 1.3rem; line-height: 1.15; }
@@ -98,7 +106,7 @@ body {
 .page-header-title { color: var(--ink); font-size: clamp(1.9rem, 3vw, 2.5rem); line-height: 1.06; text-wrap: balance; }
 .page-header-description { max-width: 48ch; font: italic clamp(1.1rem, 1.4vw, 1.25rem)/1.35 var(--font-body); color: var(--wiki-muted); }
 .page-header-breadcrumbs, .page-backlinks-title { font: 400 .66rem/1.4 var(--font-mono); text-transform: uppercase; letter-spacing: .06em; }
-.page-body .rendered-mdx:not(.is-plain) { color: var(--ink); max-width: 60ch; font: 400 clamp(1.05rem, 1.1vw, 1.125rem)/1.5 var(--font-body); font-variant-numeric: oldstyle-nums proportional-nums; }
+.page-body .rendered-mdx:not(.is-plain) { color: var(--ink); max-width: 60ch; font: 400 clamp(1.06rem, 1.33vw, 1.2rem)/1.5 var(--font-body); font-variant-numeric: oldstyle-nums proportional-nums; }
 .page-body .rendered-mdx p { margin-block: .85em; text-wrap: pretty; }
 .page-body .rendered-mdx :is(h2, h3, h4) { color: var(--ink); font-family: var(--font-heading); line-height: 1.15; text-wrap: balance; }
 .page-body .rendered-mdx h2 { margin-block: 1.7em .5em; font-size: 1.45rem; font-weight: 400; font-variant-caps: all-small-caps; letter-spacing: .055em; }
@@ -213,7 +221,7 @@ body {
 .pattern-figure img { display: block; width: 100%; height: auto; margin: 0; }
 .pattern-figure figcaption { margin-top: .55rem; font: 400 .66rem/1.4 var(--font-mono); text-transform: uppercase; letter-spacing: .06em; color: var(--wiki-muted); }
 .pattern-figure figcaption cite { font-style: normal; }
-.pattern-commentary { padding-top: 1.6rem; font-size: clamp(1.05rem,1.1vw,1.125rem); line-height: 1.5; }
+.pattern-commentary { padding-top: 1.6rem; font-size: clamp(1.06rem, 1.33vw, 1.2rem); line-height: 1.5; }
 .pattern-commentary :is(h2,h3) { font-family: inherit; font-weight: 500; color: inherit; text-transform: none; letter-spacing: 0; }
 .pattern-commentary h2 { margin: 0 0 .7em; font-size: 1.5em; line-height: 1.1; }
 .pattern-commentary h3 { margin: 1.3em 0 .3em; font-size: 1.1em; line-height: 1.2; font-style: italic; }
@@ -253,7 +261,7 @@ body {
 .works-page a { color: inherit; text-decoration: underline; text-decoration-thickness: 1px; text-decoration-color: #aaa69c; text-underline-offset: .17em; }
 .works-head h1 { margin: 0; font: 400 clamp(1.9rem,3vw,2.5rem)/1.06 var(--font-body); font-variant-caps: all-small-caps; letter-spacing: .06em; }
 .works-standfirst { max-width: 36rem; margin: .5rem 0 0; font: italic clamp(1.1rem,1.4vw,1.25rem)/1.35 var(--font-body); color: var(--wiki-muted); }
-.works-intro { max-width: 36rem; margin-top: 1.75rem; font: 400 clamp(1.05rem,1.1vw,1.125rem)/1.5 var(--font-body); }
+.works-intro { max-width: 36rem; margin-top: 1.75rem; font: 400 clamp(1.06rem, 1.33vw, 1.2rem)/1.5 var(--font-body); }
 .works-intro p { margin: 0 0 .85em; text-wrap: pretty; }
 .works-timeline { margin: 2.25rem calc(50% - 50vw) 1rem; background: var(--wiki-yellow); }
 .works-timeline-track { display: flex; align-items: stretch; width: max-content; min-width: 100%; padding: 1.5rem max(var(--wiki-gutter), calc((100vw - var(--wiki-width)) / 2 + var(--wiki-gutter))) .5rem; box-sizing: border-box; }

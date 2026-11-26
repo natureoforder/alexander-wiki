@@ -40,6 +40,11 @@ layout: plain
 <p>Browse <a href="/patterns">all 253 patterns</a> by number and printed page, from <em>Independent Regions</em> to <em>Things from Your Life</em>. For something to try indoors, start with <a href="/patterns/window-place"><em>Window Place</em></a>.</p>
 </section>
 </div>
+<div class="wiki-plates">
+<figure><a href="/concepts/levels-of-scale"><img src="/assets/figures/nature-of-order-1/levels-of-scale-isfahan-porch.jpg" title="A porch near Isfahan. The Phenomenon of Life, p. 150" alt="A shaded stone porch near Isfahan with slender columns and openings onto a bright landscape." loading="lazy" /></a><figcaption><a href="/concepts/levels-of-scale">Levels of scale</a> · p. 150</figcaption></figure>
+<figure><a href="/practice/eishin-campus"><img src="/assets/figures/eishin-flags.jpg" title="Flags in the tea fields at Eishin. A Vision of a Living World, pp. 178–9" alt="White flags on bamboo poles across the tea fields, marking where Eishin's buildings would stand." loading="lazy" /></a><figcaption><a href="/practice/eishin-campus">Laying out Eishin</a> · pp. 178–9</figcaption></figure>
+<figure><a href="/concepts/centers"><img src="/assets/figures/nature-of-order-1/centers-anatolian-carpet.jpg" title="15th-century Anatolian carpet. The Phenomenon of Life, p. 120" alt="A fifteenth-century Anatolian carpet: a border of interlocking figures below a field of octagons." loading="lazy" /></a><figcaption><a href="/concepts/centers">Centers</a> · p. 120</figcaption></figure>
+</div>
 </section>
 <footer class="wiki-credits">
 <p>The ideas, words and pictures here are the work of Christopher Alexander and his collaborators, among them Sara Ishikawa, Murray Silverstein, Max Jacobson, Ingrid Fiksdahl-King, Shlomo Angel, Howard Davis, Hajo Neis, Artemis Anninou and Maggie Moore Alexander, and the Center for Environmental Structure. Where we write “Alexander”, read “Alexander and his collaborators”. This wiki is made by Rufus Pollock with help from David Gasquez. <a href="/about">About this wiki</a>.</p>
