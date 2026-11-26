@@ -5,10 +5,8 @@ def title(name, slug, cls):
     if slug.startswith('/'): return f'<a href="{slug}" class="{cls}">{name}</a>'
     if exists(slug): return f'<a href="/concepts/{slug}" class="{cls}">{name}</a>'
     return f'<span class="{cls}">{name}</span>'
-MARK = '<img src="/assets/nature-of-order-mark.png" class="ar-mark" alt="on the short route" />'
 def branch(name, slug, note):
     live = slug.startswith('/') or exists(slug)
-    if not live: return ''  # optional depth: shown only once its page exists
     tag, href = ('a', f' href="{slug if slug.startswith("/") else "/concepts/"+slug}"') if live else ('span', '')
     coming = '' if live else ' <span class="ar-coming">(coming)</span>'
     return f'<{tag}{href} class="ar-branch{"" if live else " is-coming"}"><span class="ar-branch__title">{name}{coming}</span><span class="ar-branch__note">{note}</span></{tag}>'
@@ -61,7 +59,7 @@ def node(stop, href_note=None):
     n, star, name, slug, gloss, body, branches = stop
     live = exists(slug)
     cls = 'ar-node' + (' ar-node--star' if star else '') + ('' if live else ' is-coming')
-    head = title(name, slug, 'ar-node__title') + ('&nbsp;' + MARK if star else '') + ('' if live else ' <span class="ar-coming">(page coming)</span>')
+    head = title(name, slug, 'ar-node__title') + ('&nbsp;<img src="/assets/nature-of-order-mark.png" class="ar-mark" alt="on the short route" />' if star else '') + ('' if live else ' <span class="ar-coming">(coming)</span>')
     g = f'<div class="ar-node__gloss">{gloss}</div>' if gloss else ''
     extra = f'<p class="ar-node__more">{href_note}</p>' if href_note else ''
     return head, g, cls, body, extra
@@ -69,7 +67,7 @@ def node(stop, href_note=None):
 out = []
 w = out.append
 w('''---
-title: A roadmap to the work of Alexander and colleagues
+title: "The work of Alexander and colleagues: a roadmap"
 description: An introduction to Alexander’s ideas and approach, in the order they depend on each other.
 layout: plain
 showSidebar: false
@@ -78,28 +76,29 @@ showToc: false
 
 <div class="ar-root">
 <div class="ar-wrap">
-<h1 class="ar-title">A roadmap to the work of Alexander and colleagues</h1>
-<p class="ar-lede">Christopher Alexander (1936–2022) was the architect and thinker behind <em>A Pattern Language</em>, written with his colleagues at the Center for Environmental Structure, and <em>The Nature of Order</em>. Why do some places make you feel more alive? He spent fifty years on that question. This roadmap follows it down, one question at a time, each opening the next.</p>
-<div class="ar-ways"><div class="ar-ways__head ar-sc">Or take a shorter trail</div>''')
+<h1 class="ar-title"><span class="ar-title__over">The work of Alexander and colleagues</span>A Roadmap</h1>
+<p class="ar-lede">Christopher Alexander (1936–2022) was the architect and thinker behind <em>The Nature of Order</em> and, with his colleagues at the Center for Environmental Structure, <em>A Pattern Language</em>. Why do some places make you feel more alive? He spent fifty years on that question. This is a way into his answer, one question at a time, each opening the next.</p>
+<div class="ar-ways"><div class="ar-ways__head ar-sc">Or take a shorter trail</div><div class="ar-ways__list">''')
 for slug, t, short, intro, stops in TRAILS:
     w(f'<a class="ar-way" href="/roadmap/{slug}"><span class="ar-way__title">{t}</span><span class="ar-way__note">{short}</span></a>')
-w('''</div>
+w('''</div></div>
 <div class="ar-legend">
-<div><span class="ar-num ar-num--key">1</span>''' + MARK + '''<span>The short route: six stops</span></div>
-<div><span class="ar-swatch ar-swatch--branch"></span><span>Further reading</span></div>
+<div><span class="ar-swatch"></span><span>Spine: read in order</span></div>
+<div><span class="ar-swatch ar-swatch--star"></span><img src="/assets/nature-of-order-mark.png" class="ar-mark" alt="on the short route" /><span>The short route: six stops</span></div>
+<div><span class="ar-swatch ar-swatch--branch"></span><span>Branch: optional depth</span></div>
 <div><span class="ar-swatch ar-swatch--coming"></span><span>Page still to be written</span></div>
 </div>''')
 side = 0
 for num, atitle, sub, stops in ACTS:
     w(f'<div class="ar-act" id="act-{num.lower()}"><div class="ar-act__num ar-sc">Act {num}</div><h2 class="ar-act__title">{atitle}</h2><p class="ar-act__sub">{sub}</p><hr class="ar-act__rule" /></div>')
     w('<div class="ar-spine">')
-    for stop in stops:
-        n, star, name, slug, gloss, body, branches = stop
-        head, g, cls, body, extra = node(stop)
+    for n, star, name, slug, gloss, body, branches in stops:
+        live = exists(slug)
+        cls = 'ar-node' + (' ar-node--star' if star else '') + ('' if live else ' is-coming')
         w(f'<div class="ar-stop" id="stop-{n}">')
+        head = title(name, slug, 'ar-node__title') + ('&nbsp;<img src="/assets/nature-of-order-mark.png" class="ar-mark" alt="on the short route" />' if star else '') + ('' if live else ' <span class="ar-coming">(coming)</span>')
+        g = f'<div class="ar-node__gloss">{gloss}</div>' if gloss else ''
         w(f'<div class="{cls}"><div class="ar-num">{n}</div><div class="ar-node__head">{head}</div>{g}<p class="ar-node__body">{body}</p></div>')
-        if branches and branches != "PROPS":
-            branches = [b for b in branches if b[1].startswith('/') or exists(b[1])]
         if branches:
             sidecls = 'ar-branches--right' if side % 2 == 0 else 'ar-branches--left'
             side += 1
