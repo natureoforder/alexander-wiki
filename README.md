@@ -8,11 +8,11 @@ Project scope and dependencies live in the Beads epic `alex-88s`. Run `bd show a
 
 ## Flowershow preview
 
-[Open the preview](https://alexander-wiki-preview-rufuspollock.flowershow.me). The preview uses the Flowershow CLI under the `rufuspollock` account. Its local publishing directory is `~/.cache/alexander-wiki-flowershow-preview/`. Sync the reader-facing files and assets there before running `fl --yes ~/.cache/alexander-wiki-flowershow-preview`. Keep the directory’s `.flowershow` binding for subsequent updates.
+[Open the preview](https://alexander-wiki-preview-rufuspollock.flowershow.me). The preview uses the Flowershow CLI under the `rufuspollock` account. Its local publishing directory is `~/.cache/alexander-wiki-flowershow-preview/`. The production site will publish from this GitHub repository.
 
 ## Design and sources
 
-The reading design takes its spacing, small-cap titles, and old-style numerals from the interior of *A Pattern Language*, pp. 833–834. Pattern readings pair a plate with commentary on wide screens and put the plate first on phones.
+The reading design takes its spacing, small-cap titles, and old-style numerals from the interior of *A Pattern Language*, pp. 833–834. Pattern readings pair a plate with commentary on wide screens and put the plate first on phones. The side-by-side comparison is kept at [about/design.md](about/design.md), published at `/about/design`.
 
 The navbar and favicon use the cover emblem from Christopher Alexander, *The Nature of Order*, Book One, *The Phenomenon of Life* (Center for Environmental Structure, 2002). The mark is isolated from the front jacket scan on a transparent background.
 

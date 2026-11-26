@@ -21,6 +21,13 @@
         "name": "Patterns",
         "href": "/patterns"
       }
+    ],
+    "social": [
+      {
+        "label": "github",
+        "name": "GitHub",
+        "href": "https://github.com/natureoforder/alexander-wiki"
+      }
     ]
   },
   "contentExclude": [
