@@ -67,7 +67,7 @@ body {
 .wiki-home :is(h1, h2, h3) { margin: 0 !important; padding: 0 !important; }
 .wiki-home .heading-link { display: none; }
 .wiki-title-page { text-align: center; padding-top: clamp(2.2rem, 4.2vw, 4.2rem); }
-.wiki-title-page h1 { color: var(--ink); font-size: clamp(2.4rem, 5.4vw, 3.9rem); line-height: 1.02; text-wrap: balance; }
+.wiki-title-page h1 { color: var(--ink); font-size: clamp(2.2rem, 4.4vw, 3.3rem); line-height: 1.02; text-wrap: balance; }
 .wiki-title-page p { max-width: 46ch; margin: 1.2rem auto 0; font: 400 clamp(1.08rem, 1.5vw, 1.22rem)/1.45 var(--font-body); color: var(--wiki-muted); text-wrap: balance; }
 .wiki-title-page p cite { font-style: italic; }
 .wiki-opening { display: grid; grid-template-columns: minmax(0, 1.32fr) minmax(0, .8fr); align-items: center; gap: clamp(2.5rem, 7vw, 6rem); padding-block: clamp(2rem, 4.2vw, 3.5rem); }
@@ -331,3 +331,16 @@ body {
 .essay-spread img { width: 100%; height: auto !important; max-height: none !important; object-fit: contain; box-shadow: 0 1px 6px rgba(0,0,0,.18); margin: 0; }
 .essay-spread figcaption { grid-column: 1 / -1; font-size: .85em; text-align: center; }
 @media (max-width: 640px) { .essay-spread { grid-template-columns: 1fr; } }
+
+/* Contents rail (reading layout): hairline ticks, the first one level with the
+   page title's capitals; the outline reads like a book's contents. */
+.reading-rail { margin-top: .55rem; }
+.toc-rail-ticks { gap: 6px; }
+.toc-rail-tick { height: 1px !important; width: 10px !important; background: var(--wiki-rule) !important; }
+.toc-rail-tick[data-current] { width: 16px !important; background: var(--ink) !important; }
+.toc-rail-outline { border: 1px solid var(--wiki-rule) !important; border-radius: 0 !important; box-shadow: none !important; padding: .9rem 1.1rem !important; }
+.toc-rail-outline ol { counter-reset: toc; margin: 0; padding: 0; list-style: none; }
+.toc-rail-outline li { counter-increment: toc; margin: .3rem 0; }
+.toc-rail-outline a { font: 400 1rem/1.35 var(--font-body); font-variant-caps: all-small-caps; letter-spacing: .07em; color: var(--wiki-muted); text-decoration: none; }
+.toc-rail-outline a::before { content: counter(toc) " / "; font-variant-caps: normal; }
+.toc-rail-outline li[data-current] a, .toc-rail-outline a:hover { color: var(--ink); }
