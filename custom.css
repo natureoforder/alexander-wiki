@@ -352,3 +352,14 @@ body {
 .toc-rail-outline a { font: 400 1rem/1.35 var(--font-body); font-variant-caps: all-small-caps; letter-spacing: .07em; color: var(--wiki-muted); text-decoration: none; }
 .toc-rail-outline a::before { content: counter(toc) " / "; font-variant-caps: normal; }
 .toc-rail-outline li[data-current] a, .toc-rail-outline a:hover { color: var(--ink); }
+
+/* Concepts index: the Nature of Order emblem marks a core concept (in place of a
+   star), and the lists drop their bullets for a hanging layout. */
+.concept-core { display: inline-block; width: .95em; height: .95em; margin-right: .28em; vertical-align: -.14em; background: url("/assets/nature-of-order-mark.png") center / contain no-repeat; }
+.rendered-mdx:has(#learning-to-see) > ul { list-style: none; padding-left: 0; }
+.rendered-mdx:has(#learning-to-see) > ul > li { margin-block: 0 .9em; padding-left: 1.25em; position: relative; }
+.rendered-mdx:has(#learning-to-see) > ul > li:has(> .concept-core) { padding-left: 1.25em; }
+.rendered-mdx:has(#learning-to-see) > ul > li > .concept-core:first-child { position: absolute; left: 0; top: .3em; margin: 0; }
+.rendered-mdx:has(#learning-to-see) > ul > li > ol { margin: .6em 0 0; padding-left: 1.6em; columns: 2 14rem; column-gap: 2rem; }
+.rendered-mdx:has(#learning-to-see) > ul > li > ol > li { margin: 0 0 .3em; break-inside: avoid; }
+.rendered-mdx:has(#learning-to-see) > ul > li > ol > li::marker { font: 400 .7rem var(--font-mono); color: var(--wiki-muted); }

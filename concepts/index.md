@@ -9,27 +9,27 @@ Why do two places that serve the same purpose feel so different? And if we can r
 
 ## Learning to see
 
-- ★ [Life (the quality without a name)](quality-without-a-name.md) is the one quality Alexander finds in every good place: first left unnamed, later called life and claimed to exist in some degree in every part of space.
+- <span class="concept-core" role="img" aria-label="Core concept" title="Core concept"></span> [Life (the quality without a name)](quality-without-a-name.md) is the one quality Alexander finds in every good place: first left unnamed, later called life and claimed to exist in some degree in every part of space.
 - [Wholeness](wholeness.md) describes the structure already present in a place before we change it.
-- ★ [Centers](centers.md) are the coherent zones a place is made of. Each is made of other centers, and they come to life by helping one another.
+- <span class="concept-core" role="img" aria-label="Core concept" title="Core concept"></span> [Centers](centers.md) are the coherent zones a place is made of. Each is made of other centers, and they come to life by helping one another.
 - [The mirror of the self](mirror-of-the-self.md) is Alexander’s method of comparing two things by asking which feels closer to one’s own deepest self.
 - [The fifteen properties](fifteen-properties.md) give names to recurring ways centers help each other. Each property has its own entry.
 
-1. [Levels of scale](levels-of-scale.md): centers at a well-marked range of sizes, each helping the next, shown in Alexander's own paired photographs.
-2. [Strong centers](strong-centers.md)
-3. [Boundaries](boundaries.md)
-4. [Alternating repetition](alternating-repetition.md)
-5. [Positive space](positive-space.md)
-6. [Good shape](good-shape.md)
-7. [Local symmetries](local-symmetries.md)
-8. [Deep interlock and ambiguity](deep-interlock-and-ambiguity.md)
-9. [Contrast](contrast.md)
-10. [Gradients](gradients.md)
-11. [Roughness](roughness.md)
-12. [Echoes](echoes.md)
-13. [The void](the-void.md)
-14. [Simplicity and inner calm](simplicity-and-inner-calm.md)
-15. [Not-separateness](not-separateness.md)
+   1. [Levels of scale](levels-of-scale.md): centers at a well-marked range of sizes, each helping the next, shown in Alexander's own paired photographs.
+   2. [Strong centers](strong-centers.md)
+   3. [Boundaries](boundaries.md)
+   4. [Alternating repetition](alternating-repetition.md)
+   5. [Positive space](positive-space.md)
+   6. [Good shape](good-shape.md)
+   7. [Local symmetries](local-symmetries.md)
+   8. [Deep interlock and ambiguity](deep-interlock-and-ambiguity.md)
+   9. [Contrast](contrast.md)
+   10. [Gradients](gradients.md)
+   11. [Roughness](roughness.md)
+   12. [Echoes](echoes.md)
+   13. [The void](the-void.md)
+   14. [Simplicity and inner calm](simplicity-and-inner-calm.md)
+   15. [Not-separateness](not-separateness.md)
 
 ## Deciding what to make next
 
