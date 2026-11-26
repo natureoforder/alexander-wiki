@@ -36,12 +36,13 @@ II  What is it in a place that you are feeling?
 III How does such a thing get made?
     ★ each step makes the whole more alive — the fifteen again, now as moves
       (unfolding wholeness)                               branch: structure-preserving transformations
-    · one process, repeated — look, strengthen, look again          branches: sequences, generative codes, every part unique
+    · one process, repeated — look, strengthen, look again          branches: every part unique, form language
     · patterns and pattern languages — shared knowledge of what works    branches: the gate, the 253 patterns
+    · from language to sequences to codes — patterns put in order    branches: sequences, generative codes
 IV  Who makes it, so that people belong there?
     ★ people shaping their own places                     branches: on-site decisions, Eishin, Mexicali
     · belonging — the world is ours and we may be in it
-    · why it is so hard now — drawings, money, contracts
+    · the rules that build the world — money, contracts, planning; changed one sequence at a time
 V   Is the life in things also a kind of self?
     ★ the "I" — what he came to think lies underneath     branches: deep feeling, colour and inner light, ornament
 After: why it matters beyond buildings — value as real; software; a Second Renaissance
@@ -60,9 +61,9 @@ One man, one question: how do you make things that are alive?
 ★ 1964–65  Can design be made rational?            Notes on the Synthesis of Form; "A City is Not a Tree"
 ★ 1975–79  Can ordinary people do it?              patterns, a pattern language, the quality without a name
 · 1975–85  Does it work on the ground?             Oregon, Mexicali, Eishin; on-site decisions
-★ then     Why do good patterns still give dead places?    centers, the fifteen properties
-★ 2002     How is living structure made?           each step enhances the whole; sequences, generative codes
-· 2005     What would a whole world of it be like?   belonging; one process repeated
+★ 1975–2002 Why do good patterns still give dead places?    centers, the fifteen properties, form language
+★ 2002     How is living structure made?           each step enhances the whole; sequences (~1990), generative codes (~2002)
+· 2005     What would a whole world of it be like?   belonging; one process repeated; plans of public space after all
 ★ 2004     What is it all made of?                 the "I"
 ★ 2012     Why did the world resist?               the battle; contracts and money
 ```
@@ -89,6 +90,16 @@ I came from software
 
 - **For:** short; nobody wades through what they did not come for; the software and builder audiences get a first-class entrance rather than a link.
 - **Against:** concepts repeat across trails, and no single page order shows how making and meaning depend on each other.
+
+## Check against the finished digests
+
+All six digests are now in `natureoforder/sources/texts/<book>/digest.md`. They confirm the three candidates and A's order; changes made:
+
+- **Patterns, then sequences, then codes.** Alexander's own staging, quoted in the *A Pattern Language* digest: pattern languages about 1967, sequences about 1990, generative codes about 2002. A now has a stop for it; B carries the dates.
+- **Why patterns fell short**, the hinge of B, is in his words in Book 2: patterns become rules for generic centers (ch. 13), and patterns without a form language gave "funky" buildings (ch. 16 note 1). Form language added as a branch.
+- **Book 2 Part Three** frames "why it is so hard now" as the rules of money, contracts and planning that generate the built world, changed "gene by gene" through small sequences. Act IV's last stop renamed to say so.
+- **Book 3 revises Oregon**: piecemeal growth alone does not give large-scale order; a shared plan of public space is needed (p. 93). Noted in B; a branch candidate for A.
+- **Book 1 replaces the quality without a name with "life" and wholeness.** A's first stop keeps the 1979 name as the door and says so in its gloss; the concept list should decide whether "being alive" stays a separate stop.
 
 ## Not proposed
 
