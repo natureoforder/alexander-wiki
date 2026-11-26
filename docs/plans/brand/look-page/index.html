@@ -1,0 +1,389 @@
+<title>Alexander Wiki Look</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..600&family=DM+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a working design sheet. The books first, then three directions side by side, then the decisions. Deliberately light only: the site itself is light only. */
+:root {
+  color-scheme: light;
+  --paper: #ffffff;
+  --ink: #1b1a17;
+  --muted: #5d5a54;
+  --rule: #d6d3cc;
+  --wash: #f4f3f0;
+  --yellow: #e4c990;   /* sampled from the Oxford jacket of A Pattern Language */
+  --blue: #1175a4;     /* sampled from the Nature of Order covers */
+  --grey-ink: #575657; /* Co–Star's ink, measured */
+  --grey-paper: #f7f7f7;
+  --serif: "EB Garamond", Garamond, "Iowan Old Style", Georgia, serif;
+  --mono: "DM Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+* { box-sizing: border-box; }
+body { background: var(--paper); color: var(--ink); font: 400 1.12rem/1.45 var(--serif); font-variant-numeric: oldstyle-nums proportional-nums; font-kerning: normal; }
+a { color: inherit; text-underline-offset: .16em; text-decoration-thickness: 1px; }
+:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+.wrap { max-width: 82rem; margin-inline: auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 2.5rem 4rem; }
+.measure { max-width: 40rem; }
+h1, h2 { font-weight: 400; text-wrap: balance; }
+h1 { font-size: clamp(2rem, 4vw, 2.9rem); line-height: 1.05; margin: 0 0 .4rem; letter-spacing: .01em; }
+h2 { font-size: 1.05rem; text-transform: uppercase; letter-spacing: .16em; margin: 3.5rem 0 1rem; padding-top: .9rem; border-top: 1px solid var(--rule); }
+.lede { font-style: italic; color: var(--muted); font-size: 1.25rem; margin: 0 0 1.6rem; }
+.essence { margin: 1.4rem 0 0; display: grid; gap: .55rem; }
+.essence blockquote { margin: 0 0 .5rem; font-size: clamp(1.6rem, 3vw, 2.1rem); line-height: 1.15; }
+.essence p { margin: 0; }
+.small { font-size: .95rem; color: var(--muted); }
+
+/* The books: a reference strip, large, one or two across */
+.refs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2.2rem 2rem; align-items: start; }
+.ref { margin: 0; min-width: 0; }
+.ref.wide { grid-column: 1 / -1; }
+.ref img { display: block; width: 100%; height: auto; border: 1px solid var(--rule); }
+.ref.pair { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; align-items: end; }
+.ref.pair figcaption { grid-column: 1 / -1; }
+.ref figcaption { margin-top: .6rem; font-size: 1rem; line-height: 1.4; }
+.ref figcaption b { font-weight: 500; }
+.ref .take, .ref .leave { display: block; }
+.ref .take::before { content: "Take → "; font-style: italic; }
+.ref .leave::before { content: "Leave → "; font-style: italic; color: var(--muted); }
+.ref .leave { color: var(--muted); }
+
+/* Directions side by side */
+.dirs { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.6rem; align-items: start; }
+.dir { min-width: 0; }
+.dir-head { margin-bottom: .8rem; }
+.dir-head .letter { font: 500 .8rem/1 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.dir-head h3 { margin: .25rem 0 .2rem; font-size: 1.6rem; font-weight: 500; line-height: 1.1; }
+.dir-head p { margin: 0; color: var(--muted); font-style: italic; }
+.rec { display: inline-block; margin-left: .4rem; padding: .1rem .45rem; font: 500 .7rem/1.5 var(--mono); letter-spacing: .08em; text-transform: uppercase; background: var(--ink); color: var(--paper); vertical-align: .3rem; }
+.spec { border: 1px solid var(--rule); overflow: hidden; }
+.notes { margin: .9rem 0 0; display: grid; gap: .45rem; font-size: 1rem; }
+.notes dt { font-style: italic; }
+.notes dd { margin: 0 0 .3rem; }
+.swatches { display: flex; gap: .4rem; flex-wrap: wrap; margin: .2rem 0 .3rem; }
+.sw { display: grid; gap: .15rem; font: .68rem/1.2 var(--mono); color: var(--muted); }
+.sw i { display: block; width: 3.1rem; height: 1.6rem; border: 1px solid var(--rule); }
+
+/* Shared specimen parts; each direction restyles them below */
+.s-nav { display: flex; align-items: center; gap: .6rem; padding: .7rem .9rem; flex-wrap: wrap; }
+.s-nav img { width: 1.5rem; height: 1.5rem; }
+.s-nav .name { margin-right: auto; }
+.s-nav .links { display: flex; gap: .8rem; flex-wrap: wrap; }
+.s-sec { padding: 1.1rem .9rem 1.2rem; }
+.s-label { margin: 0 0 .7rem; }
+.s-ptitle { margin: 0 0 .7rem; font-weight: 400; line-height: 1.1; }
+.s-pattern img { display: block; width: 100%; height: auto; }
+.s-read p { margin: 0 0 .6rem; font-size: 1.08rem; line-height: 1.42; }
+.s-read figure { margin: .6rem 0 .2rem; }
+.s-read figure img { display: block; width: 62%; margin-inline: auto; mix-blend-mode: multiply; }
+.s-read figcaption { font-size: .85rem; text-align: center; }
+.xref { font-variant-caps: all-small-caps; letter-spacing: .05em; }
+.s-works .period { margin-bottom: 1.1rem; }
+.s-works .period:last-child { margin-bottom: 0; }
+.covers { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .9rem .7rem; align-items: end; }
+.cover { min-width: 0; display: grid; gap: .3rem; text-decoration: none; }
+.cover img { display: block; width: 100%; height: auto; }
+.cover .t { font-size: .92rem; line-height: 1.2; }
+.cover .y { font-size: .85rem; }
+
+/* A. The Oxford page */
+.dA .spec { background: var(--paper); }
+.dA .s-nav { border-bottom: 1px solid var(--rule); }
+.dA .s-nav .name { font-size: 1.15rem; font-weight: 500; }
+.dA .s-nav .links a { font-size: 1.02rem; text-decoration: none; color: var(--muted); }
+.dA .s-nav .links a:first-child { color: var(--ink); text-decoration: underline; }
+.dA .s-ptitle { font-size: 1.55rem; text-transform: uppercase; letter-spacing: .11em; }
+.dA .s-ptitle .n { letter-spacing: .02em; margin-right: .35em; }
+.dA .s-ptitle sup { font-size: .55em; letter-spacing: 0; }
+.dA .s-label { font-size: 1.05rem; font-variant-caps: all-small-caps; letter-spacing: .1em; display: flex; gap: .6rem; align-items: baseline; border-top: 1px solid var(--rule); padding-top: .5rem; }
+.dA .s-label .yrs { margin-left: auto; letter-spacing: .04em; text-transform: none; color: var(--muted); }
+.dA .cover .y { color: var(--muted); }
+.dA .s-read figcaption { font-style: italic; }
+
+/* B. Field notes: Co–Star's apparatus with Alexander's pages */
+.dB .spec { background: var(--grey-paper); color: var(--grey-ink); }
+.dB .s-nav { background: var(--grey-paper); border-bottom: 1px solid #dcdcdc; }
+.dB .s-nav .name { font: 400 1.15rem/1 var(--serif); color: var(--ink); }
+.dB .s-nav .links a, .dB .mono { font: 400 .68rem/1.3 var(--mono); text-transform: uppercase; letter-spacing: .06em; text-decoration: none; color: var(--ink); }
+.dB .s-ptitle { font-size: 1.5rem; color: var(--ink); text-transform: uppercase; letter-spacing: .1em; }
+.dB .s-ptitle .n { display: block; font: 400 .68rem/1.3 var(--mono); text-transform: uppercase; letter-spacing: .06em; margin-bottom: .45rem; color: var(--grey-ink); }
+.dB .s-pattern img { filter: grayscale(1) contrast(1.05); }
+.dB .s-read p { color: var(--ink); }
+.dB .xref { color: var(--ink); }
+.dB .s-read figcaption { font: 400 .66rem/1.3 var(--mono); text-transform: uppercase; letter-spacing: .06em; }
+.dB .s-works { background: var(--ink); color: #f2f2f2; }
+.dB .s-label { display: flex; justify-content: space-between; font: 400 .68rem/1.3 var(--mono); text-transform: uppercase; letter-spacing: .06em; color: #cfcfcf; border-bottom: 1px solid #444; padding-bottom: .45rem; }
+.dB .cover .t { color: #f2f2f2; }
+.dB .cover .y { font: 400 .66rem/1.3 var(--mono); color: #bdbdbd; }
+.dB .s-foot { padding: .7rem .9rem; font: 400 .66rem/1.3 var(--mono); text-transform: uppercase; letter-spacing: .06em; color: var(--grey-ink); }
+
+/* C. Luminous ground: the books' colour as fields */
+.dC .spec { background: var(--paper); }
+.dC .s-nav { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 6' preserveAspectRatio='none'%3E%3Cpath d='M1 3.2 C40 2.1 70 4.3 110 3 S180 2 220 3.6 S300 4.1 340 2.7 S385 3.4 399 2.9' stroke='%231b1a17' stroke-width='1.3' fill='none' stroke-linecap='round'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: bottom; background-size: 100% 6px; }
+.dC .s-pattern { position: relative; }
+.dC .s-label { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 6' preserveAspectRatio='none'%3E%3Cpath d='M1 3.2 C40 2.1 70 4.3 110 3 S180 2 220 3.6 S300 4.1 340 2.7 S385 3.4 399 2.9' stroke='%231b1a17' stroke-width='1.3' fill='none' stroke-linecap='round'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: bottom; background-size: 100% 6px; padding-bottom: .45rem; }
+.dC .s-nav .name { font-size: 1.15rem; font-weight: 500; }
+.dC .s-nav .links a { font-variant-caps: all-small-caps; letter-spacing: .06em; font-size: 1.05rem; text-decoration: none; }
+.dC .s-ptitle { font-size: 1.55rem; text-transform: uppercase; letter-spacing: .1em; }
+.dC .s-ptitle .n { color: var(--blue); margin-right: .3em; letter-spacing: .02em; }
+.dC .s-ptitle sup { font-size: .55em; }
+.dC .xref { color: var(--blue); }
+.dC .s-read figcaption { font-style: italic; }
+.dC .s-works { background: var(--yellow); }
+.dC .s-label { font-size: .95rem; text-transform: uppercase; letter-spacing: .14em; }
+.shelf { overflow-x: auto; padding-bottom: .4rem; }
+.shelf-row { display: flex; align-items: flex-end; gap: .6rem; width: max-content; }
+.shelf-row .cover { width: 4.6rem; }
+.shelf-row .cover .t { display: none; }
+.shelf-row .cover .y { text-align: center; }
+.axis { display: flex; width: max-content; gap: 0; margin-top: .35rem; border-top: 1px solid var(--ink); }
+.axis span { font-size: .8rem; padding-top: .2rem; }
+.shelf-gap { width: 1.4rem; align-self: stretch; border-left: 1px dashed var(--ink); opacity: .45; }
+.dC .cover .y { color: var(--muted); }
+
+/* Decisions */
+.decisions { display: grid; gap: 1.1rem; max-width: 46rem; }
+.decision { border-top: 1px solid var(--rule); padding-top: .7rem; }
+.decision h4 { margin: 0 0 .3rem; font-size: 1.15rem; font-weight: 500; }
+.decision p { margin: 0; }
+
+@media (max-width: 1100px) {
+  .dirs { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 720px) {
+  .refs, .dirs { grid-template-columns: minmax(0, 1fr); }
+  .ref.pair { grid-template-columns: 1fr 1fr; }
+}
+
+/* Now deciding */
+.now { border: 1px solid var(--ink); padding: 1.5rem clamp(1rem, 3vw, 2rem) 2rem; margin-top: 2rem; }
+.now h2 { margin-top: 0; border-top: 0; padding-top: 0; }
+.now h3 { font-size: 1.25rem; font-weight: 500; margin: 2rem 0 .4rem; }
+.now .why { margin: 0 0 1rem; color: var(--muted); max-width: 44rem; }
+.sizes { display: grid; gap: 1.4rem; }
+.size { display: grid; grid-template-columns: 11rem minmax(0, 36rem); gap: 1.5rem; align-items: start; border-top: 1px solid var(--rule); padding-top: .9rem; }
+.size .lab { font: 400 .72rem/1.5 var(--mono); text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+.size .lab b { display: block; color: var(--ink); font-weight: 500; }
+.size p { margin: 0; line-height: 1.5; }
+.mock-foot { max-width: 60rem; margin-inline: auto; padding: 1.5rem 0; }
+.mock-foot .routes { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem 3rem; }
+.mock-foot .routes div { border-top: 1px solid var(--rule); padding-top: .6rem; }
+.mock-foot .routes h4 { margin: 0; font-size: 1.2rem; font-weight: 400; font-variant-caps: all-small-caps; letter-spacing: .06em; }
+.mock-foot .routes p { margin: .3rem 0 0; font-size: 1.02rem; }
+.mock-foot .ttl { text-align: center; font-size: 1.6rem; font-variant-caps: all-small-caps; letter-spacing: .06em; margin: 0 0 1rem; }
+.plates3 { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: .75rem; margin-top: 2.5rem; }
+.plates3 figure { margin: 0; min-width: 0; }
+.plates3 img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; filter: grayscale(1) contrast(1.05); }
+.plates3 figcaption { padding-top: .45rem; font: 400 .64rem/1.3 var(--mono); text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+.mock-frame { border: 1px dashed var(--rule); padding: 0 clamp(.75rem, 3vw, 2rem); }
+@media (max-width: 720px) { .size { grid-template-columns: minmax(0,1fr); gap: .5rem; } .mock-foot .routes { grid-template-columns: minmax(0,1fr); } .plates3 { grid-template-columns: 1fr 1fr 1fr; gap: .4rem; } }
+</style>
+
+<div class="wrap">
+  <header class="measure">
+    <h1>Alexander Wiki: look and feel</h1>
+    <p class="lede">The books as the reference, one web reference, and three directions to choose from.</p>
+    <div class="essence">
+      <blockquote>Handmade, and a pleasure to use.</blockquote>
+      <p>Alexander’s books are good because they were made with great care to be both beautiful and really good to use. The wiki tries to do the same in hypertext. It should show care in the details and draw with the hand. It uses Alexander’s own pictures first, it is useful first, and it stays quiet, with colour where it earns its place.</p>
+      <p class="small">Full text: <code>docs/plans/2026-11-26-brand.md</code>. Pieces of work: <code>docs/plans/2026-11-26-design-brief.md</code>.</p>
+    </div>
+  </header>
+
+<section class="now" id="now-deciding">
+  <h2>Now deciding, 26 Nov</h2>
+  <h3>1. Reading text size</h3>
+  <p class="why">The same paragraph at each size, in the reading column’s real width (36rem). I took reading pages down to 16.8 px to match the Direction B card, and that was too far. The front page opening is 19.2 px, and that is the one you found more readable.</p>
+  <div class="sizes"><div class="size"><div class="lab"><b>Now, reading pages</b>16.8 px</div><p style="font-size:16.8px">Look at the two benches in the photograph. From either bench you can look out of the window, talk to the person opposite, or turn back toward the room. The recess has enough depth to give those three activities a place of their own.</p></div><div class="size"><div class="lab"><b>Option</b>18 px</div><p style="font-size:18px">Look at the two benches in the photograph. From either bench you can look out of the window, talk to the person opposite, or turn back toward the room. The recess has enough depth to give those three activities a place of their own.</p></div><div class="size"><div class="lab"><b>Front page opening</b>19.2 px · Recommended</div><p style="font-size:19.2px">Look at the two benches in the photograph. From either bench you can look out of the window, talk to the person opposite, or turn back toward the room. The recess has enough depth to give those three activities a place of their own.</p></div><div class="size"><div class="lab"><b>Before my change</b>20.8 px</div><p style="font-size:20.8px">Look at the two benches in the photograph. From either bench you can look out of the window, talk to the person opposite, or turn back toward the room. The recess has enough depth to give those three activities a place of their own.</p></div></div>
+  <h3>2. The three plates under “Where to begin”</h3>
+  <p class="why">The bottom of the front page as it is now, with three of B’s pictures added below the four ways in. Window Place is left out because it already appears higher up the page. The pictures don't link anywhere, so this adds no new choices.</p>
+  <div class="mock-frame"><div class="mock-foot"><p class="ttl">Where to begin</p><div class="routes"><div><h4>Concepts</h4><p>What gives one place more life than another? Start with wholeness and centers.</p></div><div><h4>Guides</h4><p>Follow the making of the Eishin campus in Japan.</p></div><div><h4>Living Neighborhoods</h4><p>Take a walk with a neighbor and compare the places each of you would preserve.</p></div><div><h4>A Pattern Language</h4><p>Browse all 253 patterns by number and printed page.</p></div></div><div class="plates3"><figure><img src="img/levels-of-scale-isfahan-porch.jpg" alt="A columned porch in Isfahan, light across the floor."><figcaption>Levels of scale · Isfahan</figcaption></figure><figure><img src="img/eishin-flags.jpg" alt="White flags across a green field marking where Eishin's buildings would stand."><figcaption>Laying out Eishin</figcaption></figure><figure><img src="img/levels-of-scale-mud-cracks.jpg" alt="Dried mud cracked into cells of many sizes."><figcaption>Levels of scale · mud</figcaption></figure></div></div></div>
+</section>
+
+  <h2>The books</h2>
+  <div class="refs">
+    <figure class="ref wide">
+      <img src="img/apl-836-837.jpg" alt="A Pattern Language pages 836 and 837: two soft black and white photographs of window places, then the pattern's instruction in bold and a small hand-drawn diagram labelled low sill, seat and place.">
+      <figcaption><b><cite>A Pattern Language</cite>, pp. 836–7.</b> <span class="take">the hand-drawn diagram, soft black and white photographs, italic captions, cross-references in small capitals (<span class="xref">low sill (222)</span>), running heads in spaced capitals, “Therefore:” before the solution, and three diamonds (✣ ✣ ✣) before the links onward.</span><span class="leave">the page as a fixed frame, and narrow margins made for paper.</span></figcaption>
+    </figure>
+    <figure class="ref wide">
+      <img src="img/noo1-144-145.jpg" alt="The Phenomenon of Life pages 144 and 145: two-column text with the Nature of Order emblem as an ornament above each numbered section heading.">
+      <figcaption><b><cite>The Phenomenon of Life</cite>, pp. 144–5.</b> <span class="take">the emblem as an ornament above each numbered section, headings set in spaced capitals (2.1 / LEVELS OF SCALE), and a drop initial set at text size. The care shows in how the pages are headed.</span><span class="leave">two columns, which don't work on a screen.</span></figcaption>
+    </figure>
+    <figure class="ref wide">
+      <img src="img/noo4-162-163.jpg" alt="The Luminous Ground pages 162 and 163: colour plates of a Derain painting, Turkish tiles and a tiled interior, with italic captions beginning THIS HAS INNER LIGHT and WHILE THIS DOES NOT.">
+      <figcaption><b><cite>The Luminous Ground</cite>, pp. 162–3.</b> <span class="take">colour lives in the plates, set on plain paper. Captions compare a good example with a bad one (“THIS HAS INNER LIGHT … WHILE THIS DOES NOT”), which is a device the wiki could reuse.</span><span class="leave">colour as decoration around the text.</span></figcaption>
+    </figure>
+    <figure class="ref pair">
+      <img src="img/jacket.jpg" alt="The Oxford jacket of A Pattern Language: buff yellow ground, title in black, red emblem of builders raising a frame.">
+      <img src="img/noo4-cover.jpg" alt="The cover of The Luminous Ground: deep blue and teal with the emblem in yellow.">
+      <figcaption><b>Oxford jacket, 1977; <cite>The Luminous Ground</cite>, 2004.</b> <span class="take">the buff yellow (#e4c990) and the deep blue (#1175a4) as the only two candidate accents.</span><span class="leave">the red you rejected, and blue and yellow used together.</span></figcaption>
+    </figure>
+    <figure class="ref">
+      <img src="img/costar.jpg" alt="Co–Star's home page: light serif title on pale grey, small monospaced uppercase buttons, a black band with engraved black and white images.">
+      <figcaption><b>Co–Star, costarastrology.com.</b> <span class="take">a two-voice system, with a light serif for words and a small monospaced uppercase face for the apparatus (12 px, measured), pale grey paper (#f7f7f7) and grey ink (#575657), engraved black and white pictures, and black bands. It is an app that still feels literary.</span><span class="leave">astrology’s mystique, and the thin type at small sizes.</span></figcaption>
+    </figure>
+    <figure class="ref pair wide">
+      <img src="img/before-home.jpg" alt="The current front page of alexander.wiki.">
+      <img src="img/before-works.jpg" alt="The current Works index: covers in a three-column grid under period headings.">
+      <figcaption><b>Before: alexander.wiki today.</b> <span class="take">the reading type, which stays.</span><span class="leave">the generic navbar, and a Works page that is a plain card grid with uneven covers and grey boxes for essays.</span></figcaption>
+    </figure>
+  </div>
+
+  <h2>Three directions</h2>
+  <p class="measure small">Each card shows the navbar, a pattern title, Alexander’s own words with his diagram, and part of the Works index. The reading type, EB Garamond, is the same in all three.</p>
+  <div class="dirs">
+
+    <article class="dir dA">
+      <div class="dir-head">
+        <span class="letter">Direction A</span>
+        <h3>Plain and careful</h3>
+        <p>One Garamond, web-native, and no colour except in the pictures.</p>
+      </div>
+      <div class="spec">
+        <nav class="s-nav" aria-label="Specimen navbar A"><img src="img/mark.png" alt=""><span class="name">Alexander Wiki</span><span class="links"><a href="#">Concepts</a><a href="#">Works</a><a href="#">Patterns</a><a href="#">Practice</a></span></nav>
+        <div class="s-sec s-pattern">
+          <h4 class="s-ptitle"><span class="n">180</span>Window Place<sup>**</sup></h4>
+          <img src="img/window-place.jpg" alt="A stone window seat in a deep recess.">
+        </div>
+        <div class="s-sec s-read">
+          <p>Make it low and self-contained if there is room for that—<a class="xref" href="#">alcoves (179)</a>; keep the sill low—<a class="xref" href="#">low sill (222)</a>.</p>
+          <figure><img src="img/diagram-180.jpg" alt="Alexander's hand-drawn diagram of a window place: low sill, seat, place."><figcaption>The diagram for pattern 180, p. 837.</figcaption></figure>
+        </div>
+        <div class="s-sec s-works">
+          <div class="period">
+            <p class="s-label">The trilogy <span class="yrs">1975–79</span></p>
+            <div class="covers">
+              <a class="cover" href="#"><img src="img/covers/1975-the-oregon-experiment.jpg" alt="The Oregon Experiment cover"><span class="t">The Oregon Experiment</span><span class="y">1975</span></a>
+              <a class="cover" href="#"><img src="img/covers/1977-a-pattern-language.jpg" alt="A Pattern Language cover"><span class="t">A Pattern Language</span><span class="y">1977</span></a>
+              <a class="cover" href="#"><img src="img/covers/1979-the-timeless-way-of-building.jpg" alt="The Timeless Way of Building cover"><span class="t">The Timeless Way of Building</span><span class="y">1979</span></a>
+            </div>
+          </div>
+          <div class="period">
+            <p class="s-label">The Nature of Order <span class="yrs">2002–05</span></p>
+            <div class="covers">
+              <a class="cover" href="#"><img src="img/covers/2002-the-phenomenon-of-life.jpg" alt="The Phenomenon of Life cover"><span class="t">The Phenomenon of Life</span><span class="y">2002</span></a>
+              <a class="cover" href="#"><img src="img/covers/2002-the-process-of-creating-life.jpg" alt="The Process of Creating Life cover"><span class="t">The Process of Creating Life</span><span class="y">2002</span></a>
+              <a class="cover" href="#"><img src="img/covers/2004-the-luminous-ground.jpg" alt="The Luminous Ground cover"><span class="t">The Luminous Ground</span><span class="y">2004</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <dl class="notes">
+        <dt>Palette</dt>
+        <dd><div class="swatches"><span class="sw"><i style="background:#fff"></i>#ffffff</span><span class="sw"><i style="background:#1b1a17"></i>#1b1a17</span><span class="sw"><i style="background:#5d5a54"></i>#5d5a54</span><span class="sw"><i style="background:#d6d3cc"></i>#d6d3cc</span></div></dd>
+        <dt>Type</dt><dd>EB Garamond throughout. Pattern titles in spaced full capitals, flush left, as on p. 833. The navbar is an ordinary web navbar, quietly set, with the current section underlined.</dd>
+        <dt>Works index</dt><dd>One row per period, with its dates set at the right of a hairline rule. Covers keep their own shapes, aligned at the foot.</dd>
+        <dt>Risk</dt><dd>So quiet that it isn’t memorable. Nothing here says “handmade” except the pictures.</dd>
+        <dt>Draws on</dt><dd>The <cite>A Pattern Language</cite> interior.</dd>
+      </dl>
+    </article>
+
+    <article class="dir dB">
+      <div class="dir-head">
+        <span class="letter">Direction B</span>
+        <h3>Field notes <span class="rec">Recommended</span></h3>
+        <p>Alexander’s pages, with Co–Star’s apparatus around them.</p>
+      </div>
+      <div class="spec">
+        <nav class="s-nav" aria-label="Specimen navbar B"><img src="img/mark.png" alt=""><span class="name">Alexander Wiki</span><span class="links"><a href="#">Concepts</a><a href="#">Works</a><a href="#">Patterns</a><a href="#">Practice</a></span></nav>
+        <div class="s-sec s-pattern">
+          <h4 class="s-ptitle"><span class="n">Pattern 180 · p. 833 · **</span>Window Place</h4>
+          <img src="img/window-place.jpg" alt="A stone window seat in a deep recess, in black and white.">
+        </div>
+        <div class="s-sec s-read">
+          <p>Make it low and self-contained if there is room for that—<a class="xref" href="#">alcoves (179)</a>; keep the sill low—<a class="xref" href="#">low sill (222)</a>.</p>
+          <figure><img src="img/diagram-180.jpg" alt="Alexander's hand-drawn diagram of a window place: low sill, seat, place."><figcaption>Diagram · pattern 180 · p. 837</figcaption></figure>
+        </div>
+        <div class="s-sec s-works">
+          <div class="period">
+            <p class="s-label"><span>The trilogy</span><span>1975—1979</span></p>
+            <div class="covers">
+              <a class="cover" href="#"><img src="img/covers/1975-the-oregon-experiment.jpg" alt="The Oregon Experiment cover"><span class="t">The Oregon Experiment</span><span class="y">1975</span></a>
+              <a class="cover" href="#"><img src="img/covers/1977-a-pattern-language.jpg" alt="A Pattern Language cover"><span class="t">A Pattern Language</span><span class="y">1977</span></a>
+              <a class="cover" href="#"><img src="img/covers/1979-the-timeless-way-of-building.jpg" alt="The Timeless Way of Building cover"><span class="t">The Timeless Way of Building</span><span class="y">1979</span></a>
+            </div>
+          </div>
+          <div class="period">
+            <p class="s-label"><span>The Nature of Order</span><span>2002—2005</span></p>
+            <div class="covers">
+              <a class="cover" href="#"><img src="img/covers/2002-the-phenomenon-of-life.jpg" alt="The Phenomenon of Life cover"><span class="t">The Phenomenon of Life</span><span class="y">Book 1 · 2002</span></a>
+              <a class="cover" href="#"><img src="img/covers/2002-the-process-of-creating-life.jpg" alt="The Process of Creating Life cover"><span class="t">The Process of Creating Life</span><span class="y">Book 2 · 2002</span></a>
+              <a class="cover" href="#"><img src="img/covers/2004-the-luminous-ground.jpg" alt="The Luminous Ground cover"><span class="t">The Luminous Ground</span><span class="y">Book 4 · 2004</span></a>
+            </div>
+          </div>
+        </div>
+        <div class="s-foot">15 books · 1963—2012 · Chronology ↓</div>
+      </div>
+      <dl class="notes">
+        <dt>Palette</dt>
+        <dd><div class="swatches"><span class="sw"><i style="background:#f7f7f7"></i>#f7f7f7</span><span class="sw"><i style="background:#575657"></i>#575657</span><span class="sw"><i style="background:#1b1a17"></i>#1b1a17</span><span class="sw"><i style="background:#e4c990"></i>#e4c990 rare</span></div></dd>
+        <dt>Type</dt><dd>EB Garamond for everything you read, with small capitals for titles and cross-references, as already settled. DM Mono, 11–12 px uppercase, only for the apparatus: navbar links, pattern numbers, page references, years and captions.</dd>
+        <dt>Works index</dt><dd>A black band, like Co–Star’s, with covers in full colour and periods labelled with mono dates.</dd>
+        <dt>Risk</dt><dd>The mono could feel techy, and a second face is one more thing to keep consistent.</dd>
+        <dt>Draws on</dt><dd>Co–Star, APL photographs and diagrams.</dd>
+      </dl>
+    </article>
+
+    <article class="dir dC">
+      <div class="dir-head">
+        <span class="letter">Direction C</span>
+        <h3>Luminous ground</h3>
+        <p>Colour from the jacket, and rules drawn by hand.</p>
+      </div>
+      <div class="spec">
+        <nav class="s-nav" aria-label="Specimen navbar C"><img src="img/mark.png" alt=""><span class="name">Alexander Wiki</span><span class="links"><a href="#">Concepts</a><a href="#">Works</a><a href="#">Patterns</a><a href="#">Practice</a></span></nav>
+        <div class="s-sec s-pattern">
+          <h4 class="s-ptitle"><span class="n">180</span>Window Place<sup>**</sup></h4>
+          <img src="img/window-place.jpg" alt="A stone window seat in a deep recess.">
+        </div>
+        <div class="s-sec s-read">
+          <p>Make it low and self-contained if there is room for that—<a class="xref" href="#">alcoves (179)</a>; keep the sill low—<a class="xref" href="#">low sill (222)</a>.</p>
+          <figure><img src="img/diagram-180.jpg" alt="Alexander's hand-drawn diagram of a window place: low sill, seat, place."><figcaption>The diagram for pattern 180, p. 837.</figcaption></figure>
+        </div>
+        <div class="s-sec s-works">
+          <p class="s-label">Fifty years of books</p>
+          <div class="shelf" tabindex="0" aria-label="Works shelf, scroll sideways">
+            <div class="shelf-row">
+              <a class="cover" href="#"><img src="img/covers/1963-community-and-privacy.jpg" alt="Community and Privacy"><span class="t">Community and Privacy</span><span class="y">1963</span></a>
+              <a class="cover" href="#"><img src="img/covers/1964-notes-on-the-synthesis-of-form.jpg" alt="Notes on the Synthesis of Form"><span class="t">Notes</span><span class="y">1964</span></a>
+              <span class="shelf-gap" aria-hidden="true"></span>
+              <a class="cover" href="#"><img src="img/covers/1975-the-oregon-experiment.jpg" alt="The Oregon Experiment"><span class="t">Oregon</span><span class="y">1975</span></a>
+              <a class="cover" href="#"><img src="img/covers/1977-a-pattern-language.jpg" alt="A Pattern Language"><span class="t">APL</span><span class="y">1977</span></a>
+              <a class="cover" href="#"><img src="img/covers/1979-the-timeless-way-of-building.jpg" alt="The Timeless Way of Building"><span class="t">TWB</span><span class="y">1979</span></a>
+              <span class="shelf-gap" aria-hidden="true"></span>
+              <a class="cover" href="#"><img src="img/covers/1981-the-linz-cafe.jpg" alt="The Linz Café"><span class="t">Linz</span><span class="y">1981</span></a>
+              <a class="cover" href="#"><img src="img/covers/1985-the-production-of-houses.jpg" alt="The Production of Houses"><span class="t">Houses</span><span class="y">1985</span></a>
+              <a class="cover" href="#"><img src="img/covers/1987-a-new-theory-of-urban-design.jpg" alt="A New Theory of Urban Design"><span class="t">Urban</span><span class="y">1987</span></a>
+              <a class="cover" href="#"><img src="img/covers/1993-a-foreshadowing-of-21st-century-art.jpg" alt="A Foreshadowing of 21st Century Art"><span class="t">Carpets</span><span class="y">1993</span></a>
+              <a class="cover" href="#"><img src="img/covers/1995-the-mary-rose-museum.jpg" alt="The Mary Rose Museum"><span class="t">Mary Rose</span><span class="y">1995</span></a>
+              <span class="shelf-gap" aria-hidden="true"></span>
+              <a class="cover" href="#"><img src="img/covers/2002-the-phenomenon-of-life.jpg" alt="The Phenomenon of Life"><span class="t">NoO 1</span><span class="y">2002</span></a>
+              <a class="cover" href="#"><img src="img/covers/2002-the-process-of-creating-life.jpg" alt="The Process of Creating Life"><span class="t">NoO 2</span><span class="y">2002</span></a>
+              <a class="cover" href="#"><img src="img/covers/2004-the-luminous-ground.jpg" alt="The Luminous Ground"><span class="t">NoO 4</span><span class="y">2004</span></a>
+              <a class="cover" href="#"><img src="img/covers/2005-a-vision-of-a-living-world.jpg" alt="A Vision of a Living World"><span class="t">NoO 3</span><span class="y">2005</span></a>
+              <a class="cover" href="#"><img src="img/covers/2012-the-battle-for-the-life-and-beauty-of-the-earth.jpg" alt="The Battle for the Life and Beauty of the Earth"><span class="t">Battle</span><span class="y">2012</span></a>
+            </div>
+          </div>
+          <p class="small" style="margin:.6rem 0 0">Scroll sideways. Gaps mark the periods.</p>
+        </div>
+      </div>
+      <dl class="notes">
+        <dt>Palette</dt>
+        <dd><div class="swatches"><span class="sw"><i style="background:#fff"></i>#ffffff</span><span class="sw"><i style="background:#1b1a17"></i>#1b1a17</span><span class="sw"><i style="background:#e4c990"></i>#e4c990</span><span class="sw"><i style="background:#1175a4"></i>#1175a4</span></div></dd>
+        <dt>Type</dt><dd>As in A, with pattern numbers and cross-references in <cite>Nature of Order</cite> blue. Rules under the navbar and headings are drawn by hand, slightly uneven.</dd>
+        <dt>Works index</dt><dd>One shelf across all fifty years, in order, on the jacket yellow. That is the only yellow on the site.</dd>
+        <dt>Risk</dt><dd>Hand-drawn rules can tip into whimsy. The shelf hides titles until you open a book.</dd>
+        <dt>Draws on</dt><dd>The Oxford jacket, Alexander’s pen diagrams.</dd>
+      </dl>
+    </article>
+  </div>
+
+  <h2>Decisions for you</h2>
+  <div class="decisions">
+    <div class="decision"><h4>1. Which direction, or which blend?</h4><p><b>Recommended: B, Field notes, with C’s hand-drawn rules.</b> B is the most clearly web-native and follows your one reference (Co–Star). C’s rules add the hand. If the mono feels too cold, take A with C’s rules.</p></div>
+    <div class="decision"><h4>2. Colour</h4><p><b>Recommended: quiet paper, with colour coming from the pictures.</b> Use the jacket yellow in at most one or two places, such as the Works index, and never in the navbar. Leave out the blue.</p></div>
+    <div class="decision"><h4>3. Works index layout</h4><p><b>Recommended: B’s period rows</b>, with C’s single shelf as a compact strip at the top of the page so you can see all fifty years at a glance. The chronology table stays below.</p></div>
+    <div class="decision"><h4>4. Pattern titles</h4><p>All three set the title in spaced full EB Garamond capitals, flush left, as on p. 833. This replaces today’s mix of Caslon and small capitals. B adds the number and page as a small mono line above. <b>Recommended: B’s</b>.</p></div>
+  </div>
+</div>
