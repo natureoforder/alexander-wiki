@@ -15,7 +15,7 @@ merged_from:
 
 Generative codes evolved from pattern languages, but are much more sophisticated generating systems.
 
-A generative code is a system of unfolding steps that enable people in a community to create a wholesome and healthy neighborhood. The steps are governed by rules of unfolding that are not rigid, but depend on context, and on what came before. The rules work in a way that is similar to the rules that nature follows to unfold an organism or a natural landscape, much as genetic codes unfold embryos. But these rules unfold a neighborhood and its buildings from the whole, and lead to a unique result for each particular place.The rules tell you how to take specific steps, in a certain way that allows unfolding to proceed.
+A generative code is a system of unfolding steps that enable people in a community to create a wholesome and healthy neighborhood. The steps are governed by rules of unfolding that are not rigid, but depend on context, and on what came before. The rules work in a way that is similar to the rules that nature follows to unfold an organism or a natural landscape, much as genetic codes unfold embryos. But these rules unfold a neighborhood and its buildings from the whole, and lead to a unique result for each particular place. The rules tell you how to take specific steps, in a certain way that allows unfolding to proceed.
 
 - Like patterns (identified in *A Pattern Language*, 1975), the rules cover a great range of scales -- all of the major features of the neighborhood, down to the finer details, including open spaces, buildings, connecting paths, rooms, window sills, etc.
 
@@ -107,7 +107,7 @@ Walk the land and record what is already alive there, what is precious and what 
 - [Accurate positioning with GPS](https://www.livingneighborhoods.org/actions/gps.htm) — exact positions, transferred to the map
 - [Everything arises from the wholeness that is there](https://www.livingneighborhoods.org/unfoldings/fromwholeness.htm)
 
-### [3. Choosing density](https://www.livingneighborhoods.org/packets/density-phase.htm)
+### [3. Setting density](https://www.livingneighborhoods.org/packets/density-phase.htm)
 
 - [Density](https://www.livingneighborhoods.org/actions/density.htm) — how much building the land can carry
 
@@ -139,6 +139,6 @@ Begin decisions about building positions, so that the buildings make positive sp
 
 ## Beyond the six phases
 
-The [library of unfoldings](https://www.livingneighborhoods.org/ht-0/libraryofunfoldings.htm) holds further steps written for particular projects: surveying, land tenure, zoning, where the cars go, foundations, colour and light, and who designs. Several steps listed on the original site were never written up; they are named on each phase page.
+The [library of unfoldings](https://www.livingneighborhoods.org/ht-0/libraryofunfoldings.htm) holds further steps written for particular projects: [surveying](https://www.livingneighborhoods.org/unfoldings/surveying.htm), [land tenure](https://www.livingneighborhoods.org/unfoldings/landtenure.htm), [zoning](https://www.livingneighborhoods.org/unfoldings/zoning.htm), [where the cars go](https://www.livingneighborhoods.org/unfoldings/carpositions.htm), [foundations and plinth](https://www.livingneighborhoods.org/unfoldings/foundationsandplinth.htm), [color and light](https://www.livingneighborhoods.org/unfoldings/colorandlight.htm) and [who designs](https://www.livingneighborhoods.org/unfoldings/whodesigns.htm). Several steps listed on the original site were never written up; they are named on each phase page. The original action page also planned three more phases (building layout and design, project management, and craft and construction) that were never published; [running a project](https://www.livingneighborhoods.org/) covers some of that ground.
 
 *From* Building Living Neighborhoods *by Christopher Alexander, Maggie Moore Alexander, Randy Schmidt and Nick Littlestone, with Bev Behrman and Howard Davis. © Center for Environmental Structure. Original pages: [generative code welcome](https://www.livingneighborhoods.org/ht-0/gcwelcome.htm), [action page](https://www.livingneighborhoods.org/ht-0/action.htm), [step list](https://www.livingneighborhoods.org/ht-0/steplist.htm).*

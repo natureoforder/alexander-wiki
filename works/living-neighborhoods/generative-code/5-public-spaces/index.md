@@ -6,7 +6,7 @@ archive_path: "archive/www.livingneighborhoods.org/packets/publicspaces-phase.ht
 source_sha256: "7eafe02b335cce1f93130db0698ec3a986566308d883bb21b6f34454ac92230a"
 ---
 
-**Identify and locate major and minor centers which will work well as public places.** This phase shapes, in outline, the whole configuration of public spaces in the neighborhood, before any building is placed.
+**Identify and locate major and minor centers which will work well as public places.** This phase includes steps to shape, in outline form, the whole global configuration of public spaces in the neighborhood.
 
 ## The steps
 
