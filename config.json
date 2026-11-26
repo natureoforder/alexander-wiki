@@ -46,5 +46,39 @@
   "logo": "/assets/nature-of-order-mark.png",
   "favicon": "/assets/nature-of-order-mark.png",
   "showSidebar": false,
-  "showBuiltWithButton": false
+  "showBuiltWithButton": false,
+  "footer": {
+    "navigation": [
+      {
+        "title": "Alexander's work",
+        "links": [
+          {
+            "name": "Christopher Alexander CES Archive",
+            "href": "https://christopher-alexander-ces-archive.org/"
+          },
+          {
+            "name": "PatternLanguage.com",
+            "href": "https://www.patternlanguage.com/"
+          }
+        ]
+      },
+      {
+        "title": "This project",
+        "links": [
+          {
+            "name": "About",
+            "href": "/about"
+          },
+          {
+            "name": "Changelog",
+            "href": "/changelog"
+          },
+          {
+            "name": "GitHub",
+            "href": "https://github.com/natureoforder/alexander-wiki"
+          }
+        ]
+      }
+    ]
+  }
 }

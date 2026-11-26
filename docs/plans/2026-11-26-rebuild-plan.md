@@ -49,7 +49,7 @@ Not available: *Notes on the Synthesis of Form*, *The Oregon Experiment*, *The P
 
 ## Positioning
 
-There is now an official site for Alexander's whole body of work, set up after his death. This wiki is not that and does not try to catalogue every building. It is about his vision and ideas, and the pragmatics of building with them. Home and About say so and link to the official site.
+The wiki is about Alexander's vision, ideas and the pragmatics of building with them, not a catalogue of his work. The footer and About link out to the [CES Archive](https://christopher-alexander-ces-archive.org/) and [PatternLanguage.com](https://www.patternlanguage.com/).
 
 ## Decisions taken (small, reversible)
 
@@ -93,21 +93,19 @@ Side rail: where Alexander is contested (the Eisenman debate, modernist critics,
 
 Rufus has said to use excerpts liberally. Every excerpt and figure carries book, chapter and printed page, and the site credits Alexander and the Center for Environmental Structure on every page footer and in About, with a contact for takedown requests. Figures are Alexander's own drawings and photographs from the books; third-party photographs are credited as the book credits them.
 
-## Work plan and order
+## Work plan and order (revised with Rufus, 26 Nov)
 
-1. **Foundations** (now): concept-page skill with the page shape; port the Wilber verifier with chapter-level source files; a scan-check step for every excerpt (open the cited PDF page from the private source release, or the page's OCR JSON with its image, and record the check in the source book's `quality/verified-readings.json`); Beads.
-2. **Vertical slice**, in parallel:
-   - **Roadmap design doc → roadmap page.** Fixes the concept list.
-   - **Three pilot concept pages**: the quality without a name (TWB), centers (NoO 1), one property with images (NoO 1 ch. 5 — tests OCR damage and figures).
-   - **Works hub** plus two book pages (*A Pattern Language*, *The Nature of Order*), with covers.
-   - **Brand board** within the accepted brief (Pattern Language interior, yellow jacket, NoO emblem), using `designing-look-and-feel` → front page, pattern-title font, navbar.
-   - **Credits, positioning note, Visionary landing page** with the two talks.
-   - **Notes and Changelog** made visible (changelog is currently excluded from the site).
-3. **Rufus reviews the slice.**
-4. **Volume**, in parallel batches by book, each reviewed by a separate agent against the verifier and the scans: remaining roadmap concepts, the other fourteen properties, remaining works pages, Build with Alexander (room → house → hamlet, with the hamlet aside), cleanup (merge the three wholeness pages, Living Neighborhoods entry page).
-5. **Later**: all 253 pattern pages from the sources text; the full Living Neighborhoods collection once converted and reuse terms are settled; the five books without source text.
+The Nature of Order is the biggest and most mature structure, so it leads and *A Pattern Language* and *The Timeless Way* are brought in around it. Steps:
+
+1. **Works listing.** The works hub and one page per work (cover, summary, contents, materials). Short texts we hold are stored in full beside their work entry: *A City is Not a Tree* (1965) and the 1982 Harvard debate with Peter Eisenman.
+2. **In-depth analysis of the sources.** One compact digest per book in `docs/research/`: the argument chapter by chapter, the key concepts with their defining passages and pages, important figures, and links to the other books. NoO 1–4 first, then TWB and APL. The books are too big to read whole in one pass, so each digest is built chapter by chapter.
+3. **Concept list.** Drawn from the digests. Rufus reviews the first 5–10 names, not the content.
+4. **Roadmap(s)**, in a separate session. There are several ways in: the story of what Alexander was doing, the books in order, the ideas in dependency order. The sketch above is one candidate.
+5. **Concept pages.** Pilots first (the quality without a name, centers, one property with images), then batches.
+6. **Build with Alexander**, organised around Living Neighborhoods: room, house, hamlet, with our hamlet as an aside.
+
+Running alongside: brand board and front page; Visionary page with the two talks; Notes and Changelog made visible. Done already: footer links to the CES Archive and PatternLanguage.com, About page, front-page credits.
 
 ## Open questions for Rufus
 
 - Front-page design reference: the design mentioned in the brief was not found in the repo or Downloads.
-- The official Alexander site to link and position against: confirm which one.

@@ -248,3 +248,5 @@ body {
   font-style: normal;
   quotes: none;
 }
+
+.wiki-credits { max-width: 60rem; margin: 0 auto 3rem; padding: 1rem var(--wiki-gutter) 0; border-top: 1px solid var(--wiki-rule); font-size: .9em; }

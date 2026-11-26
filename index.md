@@ -41,4 +41,8 @@ layout: plain
 </section>
 </div>
 </section>
+<footer class="wiki-credits">
+<p>The ideas, words and pictures here are the work of Christopher Alexander and his collaborators. This wiki is made by Rufus Pollock with help from David Gasquez. <a href="/about">About this wiki</a>.</p>
+<p>For the full archive of Alexander’s work see the <a href="https://christopher-alexander-ces-archive.org/">CES Archive</a> and <a href="https://www.patternlanguage.com/">PatternLanguage.com</a>.</p>
+</footer>
 </div>
