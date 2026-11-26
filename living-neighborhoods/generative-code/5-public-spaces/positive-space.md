@@ -54,7 +54,7 @@ The campanile forms a virtual center at the corner which has the effect of gener
 
 ![](../../assets/actions/oldpics/smplan.jpg)
 
-[**Click here, to watch a interactive movie showing the spaces and volumes of St. Mark's Square unfolding over the period from 560 AD to about 1600 AD.**](https://www.livingneighborhoods.org/unfoldingmovies/stmarks/stmarks-final.htm)
+[**Click here, to watch a interactive movie showing the spaces and volumes of St. Mark's Square unfolding over the period from 560 AD to about 1600 AD.**](../../examples/st-marks-square.md)
 
 ![](../../assets/actions/oldpics/smphoto.jpg)
 
@@ -116,7 +116,7 @@ The campanile forms a virtual center at the corner which has the effect of gener
 
 ![](../../assets/unfoldings/pics/smspace.jpg)
 
-By clicking here, you may watch [a movie showing St. Mark's Square unfolding over the period from 560 AD to about 1600 AD.](https://www.livingneighborhoods.org/unfoldingmovies/stmarks/stmarks-final.htm)
+By clicking here, you may watch [a movie showing St. Mark's Square unfolding over the period from 560 AD to about 1600 AD.](../../examples/st-marks-square.md)
 
 ![](../../assets/unfoldings/pics/smphoto.jpg)
 

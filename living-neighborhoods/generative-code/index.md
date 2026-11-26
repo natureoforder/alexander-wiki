@@ -73,7 +73,7 @@ Conventionally: Changes are done by change orders, and therefore become very exp
 
 Each major part of the design and making process is called a *phase*. Each phase is made up of several *unfoldings*: the small steps you take, in sequence, to reach the goal of that phase. Begin with phase 1, startup and vision, to take the first practical steps towards imagining, designing and building your neighborhood.
 
-Read through the unfoldings and choose the ones that fit your project. The original site suggested copying them into a workbook that you and your colleagues take onto the land (see [the workbook](https://www.livingneighborhoods.org/ht-0/workbook.htm)).
+Read through the unfoldings and choose the ones that fit your project. The original site suggested copying them into a workbook that you and your colleagues take onto the land (see [the workbook](../tools/workbook.md)).
 
 The steps are of three kinds:
 
@@ -83,43 +83,43 @@ The steps are of three kinds:
 
 ## The six phases
 
-### [1. Startup and vision](https://www.livingneighborhoods.org/packets/vision-phase.htm)
+### [1. Startup and vision](1-startup-and-vision/index.md)
 
 Bring people together, describe the idea, and let a shared vision of the place arise.
 
-- [Parameters: a first sketch of your idea](https://www.livingneighborhoods.org/actions/parameters.htm) — fill out a worksheet describing your idea
-- [People and community discussion](https://www.livingneighborhoods.org/actions/people.htm) — slowly and deliberately, bring in people who want to be involved
-- [Vision](https://www.livingneighborhoods.org/actions/vision3.htm) — together, close your eyes and imagine the neighborhood as in a true vision
-- [Making a basemap](https://www.livingneighborhoods.org/actions/basemap.htm) — a detailed map of the area where the neighborhood will be
-- [A poetic pattern language](https://www.livingneighborhoods.org/actions/poeticpl.htm) — write down your vision of the place in the most emotional language
+- [Parameters: a first sketch of your idea](1-startup-and-vision/parameters.md) — fill out a worksheet describing your idea
+- [People and community discussion](1-startup-and-vision/people.md) — slowly and deliberately, bring in people who want to be involved
+- [Vision](1-startup-and-vision/vision.md) — together, close your eyes and imagine the neighborhood as in a true vision
+- [Making a basemap](1-startup-and-vision/basemap.md) — a detailed map of the area where the neighborhood will be
+- [A poetic pattern language](1-startup-and-vision/poetic-pattern-language.md) — write down your vision of the place in the most emotional language
 
-### [2. Diagnosis of the land](https://www.livingneighborhoods.org/packets/diagnosis-phase.htm)
+### [2. Diagnosis of the land](2-diagnosis/index.md)
 
 Walk the land and record what is already alive there, what is precious and what needs repair.
 
-- [Introduction to diagnosis](https://www.livingneighborhoods.org/actions/diagnosis-intro.htm)
-- [The large-structure wholeness diagram](https://www.livingneighborhoods.org/actions/largestructure.htm) — observe and sketch the deep configuration of the whole
-- [Precious places](https://www.livingneighborhoods.org/actions/preciousplaces.htm) — identify the most beautiful and precious places
-- [Magic configurations](https://www.livingneighborhoods.org/actions/magic.htm) — the special spots and lines that paths should follow
-- [Damage and repair](https://www.livingneighborhoods.org/actions/repair.htm) — identify the spots and areas that most need repair
-- [Latent centers](https://www.livingneighborhoods.org/actions/latentcenters.htm)
-- [Drawing the diagnosis](https://www.livingneighborhoods.org/actions/diagnosis.htm) — draw the diagnosis on your map
-- [Accurate positioning with GPS](https://www.livingneighborhoods.org/actions/gps.htm) — exact positions, transferred to the map
-- [Everything arises from the wholeness that is there](https://www.livingneighborhoods.org/unfoldings/fromwholeness.htm)
+- [Introduction to diagnosis](2-diagnosis/introduction.md)
+- [The large-structure wholeness diagram](2-diagnosis/wholeness-structure.md) — observe and sketch the deep configuration of the whole
+- [Precious places](2-diagnosis/precious-places.md) — identify the most beautiful and precious places
+- [Magic configurations](2-diagnosis/magic-configurations.md) — the special spots and lines that paths should follow
+- [Damage and repair](2-diagnosis/damage-and-repair.md) — identify the spots and areas that most need repair
+- [Latent centers](2-diagnosis/latent-centers.md)
+- [Drawing the diagnosis](2-diagnosis/drawing-the-diagnosis.md) — draw the diagnosis on your map
+- [Accurate positioning with GPS](2-diagnosis/gps.md) — exact positions, transferred to the map
+- [Everything arises from the wholeness that is there](2-diagnosis/everything-arises-from-wholeness.md)
 
-### [3. Setting density](https://www.livingneighborhoods.org/packets/density-phase.htm)
+### [3. Setting density](3-density/index.md)
 
-- [Density](https://www.livingneighborhoods.org/actions/density.htm) — how much building the land can carry
+- [Density](3-density/density.md) — how much building the land can carry
 
-### [4. Modifying the code](https://www.livingneighborhoods.org/packets/code-phase.htm)
+### [4. Modifying the code](4-modifying-the-code/index.md)
 
 Adapt the generic code to your place: the special entities and centers that give this neighborhood its character.
 
-- [Entities](https://www.livingneighborhoods.org/actions/entities.htm) — identify the most important entities and centers, described by type but not yet located
-- [The baseline code](https://www.livingneighborhoods.org/actions/baselinecode.htm)
-- [The genetics of a generative code](https://www.livingneighborhoods.org/actions/genetics.htm)
-- [Local and cultural patterns](https://www.livingneighborhoods.org/actions/culture.htm)
-- [Writing a generative code](https://www.livingneighborhoods.org/library/writing-generative-code.htm)
+- [Entities](4-modifying-the-code/entities.md) — identify the most important entities and centers, described by type but not yet located
+- [The baseline code](4-modifying-the-code/baseline-code.md)
+- [The genetics of a generative code](4-modifying-the-code/genetics.md)
+- [Local and cultural patterns](4-modifying-the-code/local-and-cultural-patterns.md)
+- [Writing a generative code](4-modifying-the-code/writing-a-generative-code.md)
 
 ### [5. Public spaces](5-public-spaces/index.md)
 
@@ -130,15 +130,15 @@ Place, size and shape the major public spaces, pedestrians first and cars later.
 - [Positive space](5-public-spaces/positive-space.md) — give each public space a size and shape appropriate to its position
 - [Recursive positive space](5-public-spaces/recursive-positive-space.md) — apply positive space again and again
 
-### [6. Building volumes](https://www.livingneighborhoods.org/packets/buildingvolumes-phase.htm)
+### [6. Building volumes](6-building-volumes/index.md)
 
 Begin decisions about building positions, so that the buildings make positive space between them.
 
-- [Building fronts](https://www.livingneighborhoods.org/actions/housefronts.htm) — position building fronts to generate valuable positive space between them
-- [Building shape](https://www.livingneighborhoods.org/actions/buildingshape.htm)
+- [Building fronts](6-building-volumes/building-fronts.md) — position building fronts to generate valuable positive space between them
+- [Building shape](6-building-volumes/building-shape.md)
 
 ## Beyond the six phases
 
-The [library of unfoldings](https://www.livingneighborhoods.org/ht-0/libraryofunfoldings.htm) holds further steps written for particular projects: [surveying](https://www.livingneighborhoods.org/unfoldings/surveying.htm), [land tenure](https://www.livingneighborhoods.org/unfoldings/landtenure.htm), [zoning](https://www.livingneighborhoods.org/unfoldings/zoning.htm), [where the cars go](https://www.livingneighborhoods.org/unfoldings/carpositions.htm), [foundations and plinth](https://www.livingneighborhoods.org/unfoldings/foundationsandplinth.htm), [color and light](https://www.livingneighborhoods.org/unfoldings/colorandlight.htm) and [who designs](https://www.livingneighborhoods.org/unfoldings/whodesigns.htm). Several steps listed on the original site were never written up; they are named on each phase page. The original action page also planned three more phases (building layout and design, project management, and craft and construction) that were never published; [running a project](https://www.livingneighborhoods.org/) covers some of that ground.
+The [library of unfoldings](../unfoldings/index.md) holds further steps written for particular projects: [surveying](../unfoldings/surveying.md), [land tenure](../unfoldings/land-tenure.md), [zoning](../unfoldings/zoning.md), [where the cars go](../unfoldings/car-positions.md), [foundations and plinth](../unfoldings/foundations-and-plinth.md), [color and light](../unfoldings/color-and-light.md) and [who designs](../unfoldings/who-designs.md). Several steps listed on the original site were never written up; they are named on each phase page. The original action page also planned three more phases (building layout and design, project management, and craft and construction) that were never published; [running a project](../running-a-project/index.md) covers some of that ground.
 
 *From* Building Living Neighborhoods *by Christopher Alexander, Maggie Moore Alexander, Randy Schmidt and Nick Littlestone, with Bev Behrman and Howard Davis. © Center for Environmental Structure. Original pages: [generative code welcome](https://www.livingneighborhoods.org/ht-0/gcwelcome.htm), [action page](https://www.livingneighborhoods.org/ht-0/action.htm), [step list](https://www.livingneighborhoods.org/ht-0/steplist.htm).*

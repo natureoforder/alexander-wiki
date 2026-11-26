@@ -38,7 +38,7 @@ This wiki exercise adapts the Eishin method for a shared courtyard or garden. Br
 
 ## Read the original account
 
-Christopher Alexander, *The Nature of Order*, Book Three, *A Vision of a Living World* (2005), chapter 5, sections 7 and 7A, pp. 173–181. The two systems of centers are on pp. 173–175, the model and the reversal on pp. 175–177, and the site work, drawings and completed first stage on pp. 177–181. For the interviews that produced the school’s pattern language, read chapter 8, pp. 269–273. The original project site also shows the campus. [Eishin campus photographs](https://www.livingneighborhoods.org/ht-0/eishincampus.htm)
+Christopher Alexander, *The Nature of Order*, Book Three, *A Vision of a Living World* (2005), chapter 5, sections 7 and 7A, pp. 173–181. The two systems of centers are on pp. 173–175, the model and the reversal on pp. 175–177, and the site work, drawings and completed first stage on pp. 177–181. For the interviews that produced the school’s pattern language, read chapter 8, pp. 269–273. The authors' own account of the campus, with photographs, is in the Living Neighborhoods edition: [Eishin campus](/living-neighborhoods/examples/eishin-campus).
 
 [^1]: Alexander, *A Vision of a Living World*, ch. 5, p. 173. A teacher drew the connections between the places the school wanted.
 

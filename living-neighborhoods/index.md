@@ -12,11 +12,11 @@ Its core is a *generative code*: a sequence of steps, or *unfoldings*, that a gr
 ## Ways in
 
 - **New to it?** [Start here](start-here.md): who it is for and how the process works.
-- **Want to do it?** [The generative code](generative-code/index.md): six phases, from startup and vision through diagnosis of the land, setting density, modifying the code, public spaces and building volumes. Then the [library of unfoldings](https://www.livingneighborhoods.org/ht-0/libraryofunfoldings.htm) for further steps such as surveying, land tenure and where the cars go.
-- **Running a project?** [Running a project](https://www.livingneighborhoods.org/ht-0/mainsteps.htm): the main steps of work, community, developers, contracts and construction organisation.
-- **Want to see it?** [Examples](https://www.livingneighborhoods.org/ht-0/neighborhoods.htm): Eishin in Japan, Mexicali, West Dean, Fresno, Strood, Samarkand and more.
-- **Want the ideas behind it?** [Ideas](https://www.livingneighborhoods.org/ht-0/theory.htm): generative codes, wholeness, the fifteen properties for neighborhoods, morphogenesis, and the links to *The Nature of Order*.
-- **Going deeper?** [Library](https://www.livingneighborhoods.org/ht-0/archive.htm): papers, drafts, essays and interviews, including the *Generative Codes* book draft and the Strood code.
+- **Want to do it?** [The generative code](generative-code/index.md): six phases, from startup and vision through diagnosis of the land, setting density, modifying the code, public spaces and building volumes. Then the [library of unfoldings](unfoldings/index.md) for further steps such as surveying, land tenure and where the cars go.
+- **Running a project?** [Running a project](running-a-project/main-steps-of-work.md): the main steps of work, community, developers, contracts and construction organisation.
+- **Want to see it?** [Examples](examples/index.md): Eishin in Japan, Mexicali, West Dean, Fresno, Strood, Samarkand and more.
+- **Want the ideas behind it?** [Ideas](ideas/index.md): generative codes, wholeness, the fifteen properties for neighborhoods, morphogenesis, and the links to *The Nature of Order*.
+- **Going deeper?** [Library](library/index.md): papers, drafts, essays and interviews, including the *Generative Codes* book draft and the Strood code.
 
 ## About this edition
 

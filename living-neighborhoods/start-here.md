@@ -16,7 +16,7 @@ merged_from:
 
 **Our goal is to help everyone make our neighborhoods places of belonging, places of health and well-being, and places where people will want to live and work. This has become possible through the use of Generative Codes, Christopher Alexander's latest work in the effort to make possible conception and construction of living, beautiful communities that have real guts -- not the sugary sweetness of pseudo-traditional architecture.**
 
-The tools offered are intended for the use of ordinary people, families, communities, developers, planners, architects, designers and builders; public officials, local representatives, and neighbors; business owners and people who have commercial interests. The processes here are expressed in the belief that the common-sense, plain truth about laying out a neighborhood, or repairing one, is equally valid for all comers, amateurs and professionals. They help people build or rebuild neighborhoods in ways that contribute something to their lives. Many of the tools have their origin in 30 years of work published in Alexander's [*The Nature of Order*](https://www.livingneighborhoods.org/ht-0/natureoforder.htm).
+The tools offered are intended for the use of ordinary people, families, communities, developers, planners, architects, designers and builders; public officials, local representatives, and neighbors; business owners and people who have commercial interests. The processes here are expressed in the belief that the common-sense, plain truth about laying out a neighborhood, or repairing one, is equally valid for all comers, amateurs and professionals. They help people build or rebuild neighborhoods in ways that contribute something to their lives. Many of the tools have their origin in 30 years of work published in Alexander's [*The Nature of Order*](ideas/the-nature-of-order.md).
 
 **In our view, almost any part of the environment may be viewed as a neighborhood.** A neighborhood can be very small (less than an acre), or quite large (hundreds of acres). It can be a hospital, a business, a group of workshops, a place where people live and work. A neighborhood is any group of people and their activities, animals, buildings, plants, and public space. Neighborhoods of different sizes are usually nested inside one another.
 
@@ -24,7 +24,7 @@ The tools offered are intended for the use of ordinary people, families, communi
 
 If you are one of **a group of friends** who are talking about building a new place to live a better life, this website can show you ways of working that are inspiring and related to the things which matter in your lives. The [ACTION & PRACTICE](generative-code/index.md) pages will guide you.
 
-If you are a **developer** or **landowner**, this website can show you ways of working that are more capable of creating healthy, hospitable and beautiful places for people to live, than present forms of practice typically allow. It does not cost more. See the [DEVELOPER'S PAGE](https://www.livingneighborhoods.org/ht-0/developers.htm).
+If you are a **developer** or **landowner**, this website can show you ways of working that are more capable of creating healthy, hospitable and beautiful places for people to live, than present forms of practice typically allow. It does not cost more. See the [DEVELOPER'S PAGE](running-a-project/for-developers.md).
 
 If your **family** or **business** is helping to rebuild an old neighborhood, or moving to a new one, this website will give you tools and a voice which will be heard, so you can genuinely influence what happens.
 
@@ -36,7 +36,7 @@ If you are a **builder** or a **craftsperson**, this site will show you a way of
 
 If you are an **architect** or **engineer**, this site will show you how working with a community, when done well, is likely to create a neighborhood with real beauty and spirit.
 
-If you are a **teacher** or a **student** or an **academic** you will find material throughout this website that naturally forms a basis for class instruction, research, and student projects. To consider teaching the use of generative codes, visit the THEORY & EXAMPLES section ([ideas](https://www.livingneighborhoods.org/ht-0/theory.htm), [examples](https://www.livingneighborhoods.org/ht-0/neighborhoods.htm)). The [archive page](https://www.livingneighborhoods.org/ht-0/archive.htm) provides academic papers, history and background of how generative codes were developed.
+If you are a **teacher** or a **student** or an **academic** you will find material throughout this website that naturally forms a basis for class instruction, research, and student projects. To consider teaching the use of generative codes, visit the THEORY & EXAMPLES section ([ideas](ideas/index.md), [examples](examples/index.md)). The [archive page](library/index.md) provides academic papers, history and background of how generative codes were developed.
 
 ![West Dean: a couple walking out](assets/pics/westdean/couple-walkingout.jpg)
 
@@ -50,7 +50,7 @@ To lay out a neighborhood, or any portion of a neighborhood, you use the "unfold
 
 The unfoldings are arranged in groups, each dealing with a typical phase in creating or repairing a neighborhood. To simplify your tasks, use the groups of unfoldings roughly in the order they are presented. As you become familiar with and work with the unfoldings, you'll find that you can modify them, and create new ones that are specific to the physical attributes and culture of your neighborhood.
 
-Each step was meant to be printed and taken onto the land; the original site offered a [workbook](https://www.livingneighborhoods.org/ht-0/workbook.htm) and an online [drawing pad](https://www.livingneighborhoods.org/drawing-pad/intro.htm) for this.
+Each step was meant to be printed and taken onto the land; the original site offered a [workbook](tools/workbook.md) and an online [drawing pad](tools/drawing-pad.md) for this.
 
 **In this spirit, piece by piece, we of our generation, and the next generations, may be able to rebuild the world.**
 

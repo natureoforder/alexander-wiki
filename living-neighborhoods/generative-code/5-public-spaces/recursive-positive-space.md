@@ -26,7 +26,7 @@ Keep on applying these three rules, one after the other.
 
 You may see the impact of these two rules, in action, in this interactive slide-show of the thousand-year long period while the Venetians built St. Marks's Square.
 
-Click here, and follow the instructions. As you mouse-over the pink and blue tablets on the left of the screeen, you will see what happens. You can keep going backward and forward, until you understand it. Click [an interactive movie showing St. Mark's Square unfolding over the period from 560 AD to about 1600 AD.](https://www.livingneighborhoods.org/unfoldingmovies/stmarks/stmarks-final.htm)
+Click here, and follow the instructions. As you mouse-over the pink and blue tablets on the left of the screeen, you will see what happens. You can keep going backward and forward, until you understand it. Click [an interactive movie showing St. Mark's Square unfolding over the period from 560 AD to about 1600 AD.](../../examples/st-marks-square.md)
 
 You will see the beauty of the place, and the positive space emerging as you go.
 

@@ -44,7 +44,7 @@ Laying out the campus, with flags, so that we could all, together, feel the buil
 
 Of all the projects we have done, this is one where the development of the pattern language and generative process received the most complete, and formal process of discovery of patterns, experiments, modification and formulation of patterns, hammering out a final version in committee, and then formal ratification of our final draft by the body of the whole school: directors, teachers, staff and students.
 
-[*References*](https://www.livingneighborhoods.org/noorefs/annotated-index.htm)
+[*References*](../ideas/nature-of-order-references.md)
 
 ![](../assets/pics/eishin/snowtree2.jpg)
 

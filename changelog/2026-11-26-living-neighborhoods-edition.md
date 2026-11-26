@@ -35,4 +35,4 @@ Each step now reads like a page of a manual, with its rules, a summary of tasks,
 
 ![A step of the generative code: the main center of the neighborhood](images/2026-11-26-ln-main-center.jpg)
 
-Every page links back to its original, and [About this edition](https://alexander.wiki/living-neighborhoods/about) maps each old address to its new page. Works also gains an entry for [Building Living Neighborhoods](https://alexander.wiki/works/2006-building-living-neighborhoods). The full crawl of the original site is preserved in [natureoforder/livingneighborhoods](https://github.com/natureoforder/livingneighborhoods).
+The whole edition is up: 103 pages, with images at full size; the 25 papers in the library link to their PDFs on the original site. Every page links back to its original, and [About this edition](https://alexander.wiki/living-neighborhoods/about) maps each old address to its new page. Works also gains an entry for [Building Living Neighborhoods](https://alexander.wiki/works/2006-building-living-neighborhoods). The full crawl of the original site is preserved in [natureoforder/livingneighborhoods](https://github.com/natureoforder/livingneighborhoods).
