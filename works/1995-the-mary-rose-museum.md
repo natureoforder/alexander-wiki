@@ -8,6 +8,7 @@ cover: /assets/covers/1995-the-mary-rose-museum.jpg
 format: book
 group: building-experiments
 status: verified
+image: /assets/covers/1995-the-mary-rose-museum.jpg
 ---
 
 # The Mary Rose Museum

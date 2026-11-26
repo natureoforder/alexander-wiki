@@ -9,6 +9,7 @@ cover: /assets/covers/1963-community-and-privacy.jpg
 format: book
 group: early
 status: verified
+image: /assets/covers/1963-community-and-privacy.jpg
 ---
 
 # Community and Privacy

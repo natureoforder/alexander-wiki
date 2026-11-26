@@ -8,6 +8,7 @@ cover: /assets/covers/1985-the-production-of-houses.jpg
 format: book
 group: building-experiments
 status: verified
+image: /assets/covers/1985-the-production-of-houses.jpg
 ---
 
 # The Production of Houses

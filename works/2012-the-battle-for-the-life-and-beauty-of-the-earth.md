@@ -9,6 +9,7 @@ cover: /assets/covers/2012-the-battle-for-the-life-and-beauty-of-the-earth.jpg
 format: book
 group: late
 status: verified
+image: /assets/covers/2012-the-battle-for-the-life-and-beauty-of-the-earth.jpg
 ---
 
 # The Battle for the Life and Beauty of the Earth

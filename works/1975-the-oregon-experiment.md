@@ -8,6 +8,7 @@ cover: /assets/covers/1975-the-oregon-experiment.jpg
 format: book
 group: trilogy
 status: verified
+image: /assets/covers/1975-the-oregon-experiment.jpg
 ---
 
 # The Oregon Experiment

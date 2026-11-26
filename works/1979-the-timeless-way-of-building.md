@@ -8,6 +8,7 @@ cover: /assets/covers/1979-the-timeless-way-of-building.jpg
 format: book
 group: trilogy
 status: verified
+image: /assets/covers/1979-the-timeless-way-of-building.jpg
 ---
 
 # The Timeless Way of Building

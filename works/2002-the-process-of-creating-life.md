@@ -9,6 +9,7 @@ cover: /assets/covers/2002-the-process-of-creating-life.jpg
 format: book
 group: nature-of-order
 status: verified
+image: /assets/covers/2002-the-process-of-creating-life.jpg
 ---
 
 # The Process of Creating Life

@@ -5,6 +5,7 @@ slug: centers
 aliases: [center, field of centers, theory of centers, helping between centers]
 status: draft
 works: [nature-of-order-1]
+image: /assets/figures/nature-of-order-1/centers-palumbo-bay-chamfers.jpg
 ---
 
 # Centers

@@ -5,6 +5,7 @@ slug: quality-without-a-name
 aliases: [quality without a name, the quality without a name, life, degrees of life, degree of life, aliveness]
 status: draft
 works: [timeless-way-of-building, nature-of-order-1]
+image: /assets/figures/timeless-way-of-building/quality-without-a-name-windblown-trees.jpg
 ---
 
 # Life (the quality without a name)

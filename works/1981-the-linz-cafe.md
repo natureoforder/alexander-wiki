@@ -8,6 +8,7 @@ cover: /assets/covers/1981-the-linz-cafe.jpg
 format: book
 group: building-experiments
 status: verified
+image: /assets/covers/1981-the-linz-cafe.jpg
 ---
 
 # The Linz Café / Das Linz Café

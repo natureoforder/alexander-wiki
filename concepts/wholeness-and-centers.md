@@ -1,6 +1,7 @@
 ---
 title: Wholeness and centers
 description: What a dot on a sheet of paper and a cyclist under a tree have in common.
+image: /assets/figures/dot-and-field.png
 ---
 
 # Wholeness and centers

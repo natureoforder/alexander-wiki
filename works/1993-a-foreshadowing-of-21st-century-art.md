@@ -9,6 +9,7 @@ cover: /assets/covers/1993-a-foreshadowing-of-21st-century-art.jpg
 format: book
 group: late
 status: verified
+image: /assets/covers/1993-a-foreshadowing-of-21st-century-art.jpg
 ---
 
 # A Foreshadowing of 21st Century Art

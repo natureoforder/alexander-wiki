@@ -8,6 +8,7 @@ cover: /assets/covers/1987-a-new-theory-of-urban-design.jpg
 format: book
 group: building-experiments
 status: verified
+image: /assets/covers/1987-a-new-theory-of-urban-design.jpg
 ---
 
 # A New Theory of Urban Design

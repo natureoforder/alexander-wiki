@@ -2,6 +2,7 @@
 title: "Christopher Alexander: Second Renaissance Visionary"
 description: "Rufus Pollock's 2026 talk to the Building Beauty group on Alexander as a philosopher of a Second Renaissance."
 date: 2026
+image: /assets/notes/talk-h_3cfdUR_l4.jpg
 ---
 
 # Christopher Alexander: Second Renaissance Visionary

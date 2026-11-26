@@ -9,6 +9,7 @@ cover: /assets/covers/2002-the-phenomenon-of-life.jpg
 format: book
 group: nature-of-order
 status: verified
+image: /assets/covers/2002-the-phenomenon-of-life.jpg
 ---
 
 # The Phenomenon of Life

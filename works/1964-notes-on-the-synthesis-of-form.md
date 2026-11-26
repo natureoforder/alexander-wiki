@@ -8,6 +8,7 @@ cover: /assets/covers/1964-notes-on-the-synthesis-of-form.jpg
 format: book
 group: early
 status: verified
+image: /assets/covers/1964-notes-on-the-synthesis-of-form.jpg
 ---
 
 # Notes on the Synthesis of Form

@@ -7,6 +7,7 @@ cover: /assets/covers/1965-a-city-is-not-a-tree.jpg
 format: essay
 group: essays-talks
 status: verified
+image: /assets/covers/1965-a-city-is-not-a-tree.jpg
 ---
 
 # A City is Not a Tree

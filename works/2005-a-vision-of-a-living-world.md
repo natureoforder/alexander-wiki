@@ -9,6 +9,7 @@ cover: /assets/covers/2005-a-vision-of-a-living-world.jpg
 format: book
 group: nature-of-order
 status: verified
+image: /assets/covers/2005-a-vision-of-a-living-world.jpg
 ---
 
 # A Vision of a Living World

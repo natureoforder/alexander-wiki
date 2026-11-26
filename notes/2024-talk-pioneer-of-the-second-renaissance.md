@@ -2,6 +2,7 @@
 title: "Christopher Alexander: Pioneer of the Second Renaissance"
 description: "Rufus Pollock's 2024 talk on Alexander as a pioneer of a Second Renaissance."
 date: 2024
+image: /assets/notes/talk-W5VMwrXA3H0.jpg
 ---
 
 # Christopher Alexander: Pioneer of the Second Renaissance

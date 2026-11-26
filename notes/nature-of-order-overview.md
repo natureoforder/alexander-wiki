@@ -1,6 +1,7 @@
 ---
 title: Overview of The Nature of Order
 description: Rufus Pollock's working overview of the four books of The Nature of Order and the argument that runs through them.
+image: /assets/notes/nature-of-order-overview-01.png
 ---
 
 ## Summary

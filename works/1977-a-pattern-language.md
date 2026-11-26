@@ -9,6 +9,7 @@ cover: /assets/covers/1977-a-pattern-language.jpg
 format: book
 group: trilogy
 status: verified
+image: /assets/covers/1977-a-pattern-language.jpg
 ---
 
 # A Pattern Language

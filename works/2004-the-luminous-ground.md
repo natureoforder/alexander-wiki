@@ -9,6 +9,7 @@ cover: /assets/covers/2004-the-luminous-ground.jpg
 format: book
 group: nature-of-order
 status: verified
+image: /assets/covers/2004-the-luminous-ground.jpg
 ---
 
 # The Luminous Ground

@@ -5,6 +5,7 @@ slug: levels-of-scale
 aliases: [levels of scale, hierarchy of scale, range of scales]
 status: draft
 works: [nature-of-order-1, nature-of-order-2]
+image: /assets/figures/nature-of-order-1/levels-of-scale-two-doors.jpg
 ---
 
 # Levels of scale
