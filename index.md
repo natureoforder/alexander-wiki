@@ -28,7 +28,7 @@ layout: plain
 <p>What gives one place more life than another? Start with <a href="/concepts/wholeness-and-centers">wholeness and centers</a>, then see how <a href="/concepts/generative-codes">generative codes</a> guide what gets built first.</p>
 </section>
 <section class="wiki-route">
-<h3><a href="/practice">Practical guides</a></h3>
+<h3><a href="/practice">Guides</a></h3>
 <p>Follow the making of the <a href="/practice/eishin-campus">Eishin campus</a> in Japan, where teachers and students helped decide how a whole school would sit on the land.</p>
 </section>
 <section class="wiki-route">

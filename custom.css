@@ -59,6 +59,8 @@ body {
 .wiki-mono { font: 400 .76rem/1.4 var(--font-mono); text-transform: uppercase; letter-spacing: .06em; font-variant-numeric: normal; }
 .site-footer-publication-name { font: 500 1.35rem/1.2 var(--font-body); }
 .site-footer-copyright { color: var(--wiki-muted); }
+.site-footer-navigation-title { font: 400 .7rem/1.4 var(--font-mono); text-transform: uppercase; letter-spacing: .06em; color: var(--wiki-muted); }
+.site-footer-navigation-link { font: 400 1rem/1.4 var(--font-body); color: var(--ink); }
 
 .wiki-title-page, .wiki-opening, .wiki-guide { max-width: 60rem; padding-inline: var(--wiki-gutter); margin-inline: auto; }
 .wiki-home h1, .wiki-home h2, .wiki-home h3, .page-header-title { font-variant-caps: all-small-caps; font-weight: 400; letter-spacing: .06em; }
@@ -239,7 +241,8 @@ body {
 .page-body .rendered-mdx:has(.source-reading) blockquote em { font-style: italic; }
 .sc { font-variant-caps: all-small-caps; letter-spacing: .04em; }
 
-.wiki-credits { max-width: 60rem; margin: 0 auto 3rem; padding: 1rem var(--wiki-gutter) 0; border-top: 1px solid var(--wiki-rule); font-size: .9em; }
+.wiki-credits { max-width: 60rem; margin: 0 auto 3rem; padding: 0 var(--wiki-gutter); font-size: .9em; }
+.wiki-credits::before { content: ""; display: block; margin-bottom: 1rem; border-top: 1px solid var(--wiki-rule); } /* rule spans the text, like the rules above it */
 
 /* Works hub: cover grid; works pages: floated cover. */
 /* Works index: a shelf of every book in order (scroll sideways), then one row per
