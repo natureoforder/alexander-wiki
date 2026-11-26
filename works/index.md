@@ -9,7 +9,33 @@ Christopher Alexander (1936–2022) wrote books for half a century, from 1963 to
 
 **Where to start.** For the ideas in Alexander's own voice, read [The Timeless Way of Building](1979-the-timeless-way-of-building.md). To use them on a house or a street, [A Pattern Language](1977-a-pattern-language.md). For the late theory that he thought superseded the patterns, [The Phenomenon of Life](2002-the-phenomenon-of-life.md), Book 1 of *The Nature of Order*.
 
-## The early work
+<div class="works-shelf" role="region" aria-label="All of Alexander’s books in order of publication" tabindex="0">
+<div class="works-shelf-row">
+<a href="/works/1963-community-and-privacy" title="Community and Privacy"><img src="/assets/covers/1963-community-and-privacy.jpg" alt="Community and Privacy" loading="lazy" /><span>1963</span></a>
+<a href="/works/1964-notes-on-the-synthesis-of-form" title="Notes on the Synthesis of Form"><img src="/assets/covers/1964-notes-on-the-synthesis-of-form.jpg" alt="Notes on the Synthesis of Form" loading="lazy" /><span>1964</span></a>
+<span class="works-shelf-gap" aria-hidden="true"></span>
+<a href="/works/1975-the-oregon-experiment" title="The Oregon Experiment"><img src="/assets/covers/1975-the-oregon-experiment.jpg" alt="The Oregon Experiment" loading="lazy" /><span>1975</span></a>
+<a href="/works/1977-a-pattern-language" title="A Pattern Language"><img src="/assets/covers/1977-a-pattern-language.jpg" alt="A Pattern Language" loading="lazy" /><span>1977</span></a>
+<a href="/works/1979-the-timeless-way-of-building" title="The Timeless Way of Building"><img src="/assets/covers/1979-the-timeless-way-of-building.jpg" alt="The Timeless Way of Building" loading="lazy" /><span>1979</span></a>
+<span class="works-shelf-gap" aria-hidden="true"></span>
+<a href="/works/1981-the-linz-cafe" title="The Linz Café"><img src="/assets/covers/1981-the-linz-cafe.jpg" alt="The Linz Café" loading="lazy" /><span>1981</span></a>
+<a href="/works/1985-the-production-of-houses" title="The Production of Houses"><img src="/assets/covers/1985-the-production-of-houses.jpg" alt="The Production of Houses" loading="lazy" /><span>1985</span></a>
+<a href="/works/1987-a-new-theory-of-urban-design" title="A New Theory of Urban Design"><img src="/assets/covers/1987-a-new-theory-of-urban-design.jpg" alt="A New Theory of Urban Design" loading="lazy" /><span>1987</span></a>
+<span class="works-shelf-gap" aria-hidden="true"></span>
+<a href="/works/1993-a-foreshadowing-of-21st-century-art" title="A Foreshadowing of 21st Century Art"><img src="/assets/covers/1993-a-foreshadowing-of-21st-century-art.jpg" alt="A Foreshadowing of 21st Century Art" loading="lazy" /><span>1993</span></a>
+<a href="/works/1995-the-mary-rose-museum" title="The Mary Rose Museum"><img src="/assets/covers/1995-the-mary-rose-museum.jpg" alt="The Mary Rose Museum" loading="lazy" /><span>1995</span></a>
+<span class="works-shelf-gap" aria-hidden="true"></span>
+<a href="/works/2002-the-phenomenon-of-life" title="The Phenomenon of Life"><img src="/assets/covers/2002-the-phenomenon-of-life.jpg" alt="The Phenomenon of Life" loading="lazy" /><span>2002</span></a>
+<a href="/works/2002-the-process-of-creating-life" title="The Process of Creating Life"><img src="/assets/covers/2002-the-process-of-creating-life.jpg" alt="The Process of Creating Life" loading="lazy" /><span>2002</span></a>
+<a href="/works/2004-the-luminous-ground" title="The Luminous Ground"><img src="/assets/covers/2004-the-luminous-ground.jpg" alt="The Luminous Ground" loading="lazy" /><span>2004</span></a>
+<a href="/works/2005-a-vision-of-a-living-world" title="A Vision of a Living World"><img src="/assets/covers/2005-a-vision-of-a-living-world.jpg" alt="A Vision of a Living World" loading="lazy" /><span>2005</span></a>
+<span class="works-shelf-gap" aria-hidden="true"></span>
+<a href="/works/2012-the-battle-for-the-life-and-beauty-of-the-earth" title="The Battle for the Life and Beauty of the Earth"><img src="/assets/covers/2012-the-battle-for-the-life-and-beauty-of-the-earth.jpg" alt="The Battle for the Life and Beauty of the Earth" loading="lazy" /><span>2012</span></a>
+</div>
+<p class="works-shelf-note">15 books · 1963–2012 · lines mark the decades · scroll sideways</p>
+</div>
+
+## The early work <span class="works-dates">1963–1965</span>
 
 Alexander trained in mathematics and architecture at Cambridge and Harvard. His first books look for a rigorous method of design; the essay that followed broke with the tree-like structure that method produced.
 
@@ -19,7 +45,7 @@ Alexander trained in mathematics and architecture at Cambridge and Harvard. His 
 <a class="works-card" href="/works/1965-a-city-is-not-a-tree"><span class="works-card-plain">A City is Not a Tree<small>Essay</small></span><span class="works-card-title">A City is Not a Tree</span><span class="works-card-year">1965</span></a>
 </div>
 
-## The trilogy
+## The trilogy <span class="works-dates">1975–1979</span>
 
 Three books published by Oxford University Press as one work, numbered as volumes 1–3 of the Center for Environmental Structure series: the theory, the language, and a community using it.
 
@@ -29,7 +55,7 @@ Three books published by Oxford University Press as one work, numbered as volume
 <a class="works-card" href="/works/1975-the-oregon-experiment"><img src="/assets/covers/1975-the-oregon-experiment.jpg" alt="The Oregon Experiment book cover" loading="lazy" /><span class="works-card-title">The Oregon Experiment</span><span class="works-card-year">1975</span></a>
 </div>
 
-## The building experiments
+## The building experiments <span class="works-dates">1981–1995</span>
 
 Through the 1980s and 1990s Alexander tested the ideas on the ground: a café, self-built houses in Mexico, a simulated city, a museum. Each book reports one experiment.
 
@@ -40,7 +66,7 @@ Through the 1980s and 1990s Alexander tested the ideas on the ground: a café, s
 <a class="works-card" href="/works/1995-the-mary-rose-museum"><img src="/assets/covers/1995-the-mary-rose-museum.jpg" alt="The Mary Rose Museum book cover" loading="lazy" /><span class="works-card-title">The Mary Rose Museum</span><span class="works-card-year">1995</span></a>
 </div>
 
-## The Nature of Order
+## The Nature of Order <span class="works-dates">2002–2005</span>
 
 Alexander's four-volume summation, published by his own Center for Environmental Structure after more than twenty years of drafts: what life in buildings is, how it is made, what a world made that way would look like, and what it implies about the universe.
 
@@ -51,7 +77,7 @@ Alexander's four-volume summation, published by his own Center for Environmental
 <a class="works-card" href="/works/2004-the-luminous-ground"><img src="/assets/covers/2004-the-luminous-ground.jpg" alt="Book 4: The Luminous Ground book cover" loading="lazy" /><span class="works-card-title">Book 4: The Luminous Ground</span><span class="works-card-year">2004</span></a>
 </div>
 
-## Carpets and the last battle
+## Carpets and the last battle <span class="works-dates">1993–2012</span>
 
 A study of carpets that first worked out the theory of centers, and the story of the Eishin campus in Japan, Alexander's largest built project and last major book.
 
@@ -60,7 +86,7 @@ A study of carpets that first worked out the theory of centers, and the story of
 <a class="works-card" href="/works/2012-the-battle-for-the-life-and-beauty-of-the-earth"><img src="/assets/covers/2012-the-battle-for-the-life-and-beauty-of-the-earth.jpg" alt="The Battle for the Life and Beauty of the Earth book cover" loading="lazy" /><span class="works-card-title">The Battle for the Life and Beauty of the Earth</span><span class="works-card-year">2012</span></a>
 </div>
 
-## Talks and debates
+## Talks and debates <span class="works-dates">1982–1996</span>
 
 Shorter pieces where Alexander states his position to an audience, with full text or recordings where we have them.
 
