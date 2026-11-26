@@ -62,7 +62,8 @@
 .ar-act__num { color: var(--ar-faint); font-size: 1.1rem; }
 .ar-act__title { font-weight: 500; font-size: clamp(1.55rem, 3vw, 2.1rem); line-height: 1.15; margin: .1rem auto .5rem; max-width: 34rem; text-wrap: balance; }
 /* site heading rules (custom.css, prose) left-align h2s; keep act titles centred */
-.ar-root .ar-act h2.ar-act__title { text-align: center; margin-left: auto; margin-right: auto; font-variant-caps: normal; letter-spacing: 0; }
+.ar-root .ar-act h2.ar-act__title { display: block; text-align: center; margin-left: auto; margin-right: auto; font-variant-caps: normal; letter-spacing: 0; }
+.ar-root .heading-link { display: none; }
 .ar-act__sub { max-width: 38rem; margin: 0 auto; font-size: 1.14rem; line-height: 1.45; color: var(--ar-soft); text-wrap: pretty; }
 .ar-act__rule { width: 3rem; border: 0; border-top: 1px solid var(--ar-rule); margin: 1.1rem auto 0; }
 
