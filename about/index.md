@@ -5,7 +5,9 @@ description: Why this wiki exists, what it covers, and who made it.
 
 # About this wiki
 
-Christopher Alexander spent his life asking why some places feel alive and others do not, and how ordinary people could make places of the first kind. His answers reach well past architecture. They take in how we see, how things grow, and what feeling and value are. This wiki is a way into those ideas, set out in his own words wherever possible.
+Christopher Alexander (1936–2022) was the architect and thinker behind *A Pattern Language*, *The Timeless Way of Building* and *The Nature of Order*. He and his collaborators spent their lives asking why some places feel alive and others do not, and how ordinary people could make places of the first kind. Their answers reach well past architecture. They take in how we see, how things grow, and what feeling and value are. This wiki is a way into those ideas, set out in his own words wherever possible.
+
+Most of his books and nearly all his buildings were made with others, among them Sara Ishikawa, Murray Silverstein, Max Jacobson, Ingrid Fiksdahl-King, Shlomo Angel, Howard Davis, Hajo Neis, Gary Black, Artemis Anninou, Randy Schmidt and Maggie Moore Alexander. When we write "Alexander" we mean him and the people he worked with, and each work's page names its authors.
 
 ## What it is for
 
