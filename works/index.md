@@ -57,7 +57,7 @@ showToc: false
 <div class="works-grid">
 <a class="works-card" href="/works/1963-community-and-privacy"><img src="/assets/covers/1963-community-and-privacy.jpg" alt="Community and Privacy book cover" loading="lazy" /><span class="works-card-title">Community and Privacy</span><span class="works-card-year">1963</span></a>
 <a class="works-card" href="/works/1964-notes-on-the-synthesis-of-form"><img src="/assets/covers/1964-notes-on-the-synthesis-of-form.jpg" alt="Notes on the Synthesis of Form book cover" loading="lazy" /><span class="works-card-title">Notes on the Synthesis of Form</span><span class="works-card-year">1964</span></a>
-<a class="works-card" href="/works/1965-a-city-is-not-a-tree"><span class="works-card-plain">A City is Not a Tree<small>Essay</small></span><span class="works-card-title">A City is Not a Tree</span><span class="works-card-year">1965</span></a>
+<a class="works-card" href="/works/1965-a-city-is-not-a-tree"><img src="/assets/covers/1965-a-city-is-not-a-tree.jpg" alt="Opening page of A City is Not a Tree, Architectural Forum, 1965" loading="lazy" /><span class="works-card-title">A City is Not a Tree</span><span class="works-card-year">1965</span></a>
 </div>
 </section>
 
