@@ -16,7 +16,7 @@ description: Rufus Pollock's working overview of the four books of The Nature of
       - ===> we create "living" buildings by following the same kinds of generative whole-enhancing processes as living things
         - ====> have a generative sequence that identifies and develop centers - develop centers and apply symmetry preserving transformations (here's a list of 15) and use patterns for creating and enhancing centers (see "A Pattern Language")
 
-![image](https://github.com/nature-of-order/nature-or-order/assets/180658/f40bfcf8-ed87-4402-ab70-a79d80f59aea)
+![image](/assets/notes/nature-of-order-overview-01.png)
 
 *Source: Book 2*
 
@@ -24,7 +24,7 @@ description: Rufus Pollock's working overview of the four books of The Nature of
   - A: because the whole system is designed around a different (non-generative) approach
     - ==> to build living things we need a paradigmatic shift in our entire society!
 
-![image](https://github.com/nature-of-order/nature-or-order/assets/180658/47c909c1-385c-4fe4-947b-0b8c3c5de20c)
+![image](/assets/notes/nature-of-order-overview-02.png)
 
 *Source: Book 2, part III*
 
@@ -34,24 +34,24 @@ description: Rufus Pollock's working overview of the four books of The Nature of
 
 Nature of Order is the culmination and consolidation of all of Alexander's work in one multi-volume work. It supersedes and integrates all the previous work including A Pattern Language.
 
-![image](https://github.com/nature-of-order/nature-or-order/assets/180658/cdf58c8d-9d07-4502-b03b-976dcd166ae1)
+![image](/assets/notes/nature-of-order-overview-03.png)
 
 ### Nature of Order itself with table of contents
 
-![image](https://github.com/nature-of-order/nature-or-order/assets/180658/d79673f0-6b4d-46e1-a2e7-baa3440d808f)
+![image](/assets/notes/nature-of-order-overview-04.png)
 
 ### Book 1
 
-![image](https://github.com/nature-of-order/nature-or-order/assets/180658/5e71cad9-1eb3-40f8-81e6-6e12d2aefac5)
+![image](/assets/notes/nature-of-order-overview-05.png)
 
 ### Book 2
 
-![image](https://github.com/nature-of-order/nature-or-order/assets/180658/4f637e99-4165-402b-acda-d7d6911f9143)
+![image](/assets/notes/nature-of-order-overview-06.png)
 
 ### Book 3
 
-![image](https://github.com/nature-of-order/nature-or-order/assets/180658/121eb508-3a46-41f9-aefa-04504ec5ab39)
+![image](/assets/notes/nature-of-order-overview-07.png)
 
 ### Book 4
 
-![image](https://github.com/nature-of-order/nature-or-order/assets/180658/017ade70-9778-45e4-98b9-dcf535bad1ee)
+![image](/assets/notes/nature-of-order-overview-08.png)
