@@ -14,6 +14,14 @@
         "href": "/concepts"
       },
       {
+        "name": "Works",
+        "href": "/works"
+      },
+      {
+        "name": "Visionary",
+        "href": "/visionary"
+      },
+      {
         "name": "Practical guides",
         "href": "/practice"
       },
@@ -24,6 +32,10 @@
       {
         "name": "Patterns",
         "href": "/patterns"
+      },
+      {
+        "name": "Notes",
+        "href": "/notes"
       }
     ],
     "social": [
@@ -38,7 +50,6 @@
     "/.beads",
     "/docs",
     "/skills",
-    "/changelog",
     "AGENTS.md",
     "CLAUDE.md",
     "README.md"
