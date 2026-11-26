@@ -18,6 +18,25 @@ Drawn from the six research digests (`natureoforder/sources/texts/*/digest.md`),
 - **Naming**: Alexander's own term where he has a good one, in his spelling (center, color); plain English where his term is opaque or missing, marked "ours".
 - **One idea, one page**, even when he renamed it across books; the page tells the history.
 
+## Revised after critique (26 Nov) — proposed to Rufus
+
+An independent review argued, and we agree, that two pairs in the draft ten overlap and that the ten had no social side. Proposed core ten, in reading order:
+
+1. **Life (the quality without a name)** `quality-without-a-name` — merges the felt quality (TWB) and degrees of life (NoO 1); Alexander links them himself (NoO 1 p. 36).
+2. **Wholeness** `wholeness`
+3. **Centers** `centers`
+4. **The fifteen properties** `fifteen-properties`
+5. **The mirror of the self** `mirror-of-the-self` — moved after the properties, as in NoO 1 (ch. 8): the test reads better once you know what it tests for.
+6. **Structure-preserving transformations** `structure-preserving-transformations` — his precise, operational term; "unfolding wholeness" becomes its opening section and a glossary entry.
+7. **Living process** `living-process`
+8. **Pattern language** `pattern-language`
+9. **Belonging** `belonging` — who builds and for whom; the moral centre of TWB, APL and NoO 3.
+10. **The "I"** `the-i` — last, keeping his own doubt.
+
+Other changes: "Making" → **The architect-builder**; "Value as fact" → **Value is objective**; **Semilattice ("A City is Not a Tree")** added as a main page; Step-by-step adaptation folds into Living process; Making wholeness heals the maker folds into Being alive, The goal of tears into Deep feeling, Beings into The "I"; patterns of events opens the Patterns page. Net about 44 pages.
+
+The original draft follows for reference.
+
 ## 2. For Rufus: the core ten
 
 In the order a newcomer would meet them, following roadmap candidate A (felt quality, test, structure, process, shared language, ground). Only the names need your eye.
