@@ -2,7 +2,9 @@
 
 Source: Christopher Alexander, *The Nature of Order: An Essay on the Art of Building and the Nature of the Universe*, Book Four, *The Luminous Ground* (Berkeley: Center for Environmental Structure, 2004). Digest built from the machine-draft OCR text in `natureoforder/sources/texts/nature-of-order-04-the-luminous-ground/markdown/`. Page numbers are printed pages, taken from each file's `page_starts`. Quotes are verbatim from that text with obvious OCR slips silently corrected (see section 7); check against the scan before publishing any of them.
 
-<!-- SECTION-1 -->
+## 1. The book in brief
+
+Book Four is where Alexander says what he thinks the first three books imply about reality. Books 1–3 established living structure, the processes that generate it, and built examples. Book 4 asks what a center actually is and why degree of life should track, for everyone, the degree to which a thing is a picture of one's own self. His answer is that living centers are connected to a single, personal ground he calls the "I", so that matter is not inert, value-neutral mechanism but "center-making stuff" in which value, life and a self-like quality belong to space itself. Part One argues this from the failure of the mechanistic world-picture (ch. 1), the history of art (ch. 2), the experience of relatedness (ch. 3) and the idea of centers as beings (chs. 4–5). Part Two gives the metaphysical model (ch. 6), its nearest visible evidence in colour (ch. 7), and what it asks of a maker: unity felt as sadness, healing, pleasing yourself, making a gift to God (chs. 8–11). The conclusion sketches a modified physics; the epilogue defends the method and admits his own doubt. Throughout he presents it as an extension of science, held open to test, and as a practical necessity for building, in his words "a vision of the universe and its luminous ground" that follows from "the empirical truths about architecture" (p. 154).
 
 ## 2. The argument, chapter by chapter
 
@@ -144,3 +146,123 @@ Examples: white slip on black glaze, six inches across (p. 303); Barton the carp
 
 > "This quality, when it appears in things, people, in a moment, in an event, is god. It is not an indication of God living behind all things, but it is actually God itself." (p. 302)
 
+### Conclusion to the Four Books: A Modified Picture of the Universe (pp. 317–338)
+
+The cosmological proposal in full. Present physics says everything is made of a matter-space continuum and, as a rule of method, treats it as inert. Alexander picks up two lines already inside physics: wholeness as a real structure (quantum mechanics shows behaviour depends on the gestalt of the whole apparatus; he cites Bohm and Hiley's "ontological" interpretation and prefers his own Book 1 account of wholeness as a structure of local symmetries), and mind as a feature of the universe (Wald, Pauli, Schrödinger, von Weizsäcker, Bohm, Josephson, Bell, Penrose). What nobody has shown is how mind and matter connect in a workable way; his candidate is the recursive field of centers. The modified physics leaves present physics nearly intact and adds: wholeness and centers of unequal life; value as part of space itself; time asymmetry, with all laws conjectured to be special cases of structure-preserving unfolding; a personal quality in space; and windows from every region to an undifferentiated ground (three-point summary p. 327). Space is "pliable", changing its nature as centers intensify, and consciousness is one of the stronger connections to the ground. Eleven "new assumptions" (pp. 330–331) answer the ten of chapter 1, among them "Everything matters", "Ornament and function are indistinguishable" and "Matter itself is not a mechanism". He rejects the compatibilist view (Polkinghorne, and a student who says his picture of the universe is already "quite flexible enough") that science and spirit can simply coexist without interacting, citing Crick's *Astonishing Hypothesis* as the honest outcome of the present picture. He claims the central assumption is testable and that experiments will be devised.
+
+Examples: remembering a face's gestalt without its features (p. 320); the two-slit experiment (pp. 320, 326); snow crystals and embryos (p. 326); the Coventry Carol, Mozart's 40th, Beethoven's 14th quartet, Ravenna, Sanjusangendo (pp. 328–329); the thought experiment of regarding a cat as part of the same I (pp. 329–330); schoolroom atoms as "little whirling mechanisms" (p. 333); the tourist at Salzburg cathedral listening to a taped guide during a Haydn Sanctus (pp. 334–335).
+
+> "a conception of matter-space in which each spatial region, at every scale, has a relative value, and a relative degree of life." (p. 325)
+
+> "Matter itself is not a mechanism: It is a potentially soul-like materiality which is essentially what we call self." (p. 331)
+
+> "In this conception, value is not something merely grafted onto space, as a passenger might be who carries no weight and does no work." (p. 332)
+
+### Epilogue: Empirical Certainty and Enduring Doubt (pp. 339–344)
+
+A statement of method and an unusually candid confession. Descartes' method worked by pretending everything is a machine and removing the observer; it was an antidote for his time, and its price was a world that seems value-free. Alexander's method adds a second kind of observation, the observer's own feeling of relative wholeness, held to the same standard as science because it is shared and repeatable; without it centers cannot even be identified, so the non-mechanical nature of space could never come into view. Both methods are to be used, each in its domain, and with that he says Whitehead's bifurcation "is then solved" (p. 343). He closes by admitting that the 20th-century scientist in him still cannot quite believe it, and rests the case on elimination: no other scheme he could construct accounts for the facts of life in buildings.
+
+> "I have simply found a way of taking the scientific standard of shared knowledge based on common observation, and extended this idea so that it covers inner realities, not only outer ones." (p. 340)
+
+> "I want to believe it. I cannot believe it. But I believe it must be true." (p. 344)
+
+## 3. Key concepts
+
+| Concept | His own defining phrase | Where developed | Related |
+|---|---|---|---|
+| The "I" (eternal self) | "It is not ego. It is not me. It is not individual at all" (p. 2); "There is, in this view I am putting forward, only one I, altogether." (p. 63) | Preface; ch. 3, esp. pp. 63–64 (three qualities: personal, single, suffused with relatedness); ch. 6 | Ground, relatedness, mirror of the self |
+| Relatedness | "the relatedness through which I feel that my own self and the tree in the field are directly connected is the most fundamental relation that there is" (pp. 56–57) | Ch. 2 pp. 34–35; ch. 3 throughout | The I, living structure, numinous places |
+| Mirror of the self as evidence | "the observation that people experience living structure as like, or similar to their own self" (p. 54) | Ch. 3 pp. 53–56; recap p. 140 | Degree of life, objectivity of value |
+| Being | "It is a name for a center which is connected to the I." (p. 74) | Ch. 4, esp. pp. 74–79, 94–97; ch. 5 | Living center, recursion, fundamental process |
+| "Whatever you make must be a being" | "every portion of space, must be made a being" (p. 95) | Ch. 4 pp. 95–97 | Fundamental process, innocence |
+| Ground / plenum / the Blazing One | "a single plenum or Ground. Above all, it is single, and it is personal." (p. 149) | Ch. 6; ch. 7 p. 233; conclusion pp. 326–328 | The I, pure unity, the void |
+| Center as window (tunneling) | "any zone of matter which to some extent opens a window towards this I" (p. 151) | Ch. 6 pp. 149–151; conclusion p. 328 | Center, degree of life, consciousness |
+| The two I-hypotheses | "Either the ground is a psychological description of the way we experience living structure. Or it is a factually supportable, previously unknown aspect of matter." (p. 153) | Ch. 6 pp. 148, 152–154; ch. 8 p. 259; ch. 11 pp. 314–315 | Enduring doubt, method |
+| Inner light | "the color quality which arises as something comes to life, and as it approaches and reveals the I" (p. 160) | Ch. 7 pp. 160–172, 233–240 | Eleven color properties, unity |
+| Eleven color properties | "the ways that centers of color create and intensify life in one another" (p. 173) | Ch. 7 pp. 173–229; comparison with the fifteen, p. 230 | Fifteen properties, field of centers |
+| Subdued brilliance | "when we are just to the edge of feeling that we have taken away its brilliance, we put something back — and all of a sudden the color really shines" (p. 220) | Ch. 7 pp. 220–226 | Inner calm, not-separateness |
+| Unity as sadness | "What I aim for is, most concretely, sadness." (p. 246) | Ch. 8 | Unity, echoes, feeling |
+| Making heals the maker | "People are deeply nourished by the process of creating wholeness." (p. 263) | Ch. 9 | Feeling as criterion, patterns as permission |
+| Pleasing yourself | "In order to create living structure, we must please ourselves." (p. 272) | Ch. 10 | True self, thought police, the childlike |
+| Not-separateness as a state of mind; gift to God | "you make each building in a way which is a gift to God" (p. 304) | Ch. 11 pp. 304–310 | Ego, humility, religion and building |
+| Mechanistic world-picture and the bifurcation of nature | "the intellectual device of treating entities in nature as if they were inert" (p. 13) | Ch. 1; conclusion pp. 319, 332–333; epilogue | Whitehead, Descartes, value |
+| Ten tacit assumptions | "These tacit assumptions form the mental prison which we currently inhabit" (p. 20) | Ch. 1 pp. 18–20 and notes pp. 24–28 | Eleven new assumptions (pp. 330–331) |
+| Life and value as attributes of space | "pure life itself, as an attribute of space itself" (p. 140); "each spatial region, at every scale, has a relative value" (p. 325) | Recap pp. 139–140; conclusion pp. 325–328 | Matter-space, wholeness, modified physics |
+| Extended method of observation | "extended this idea so that it covers inner realities, not only outer ones" (p. 340) | Epilogue pp. 340–343; Author's Note | Descartes' method, objectivity of feeling |
+
+## 4. Figures worth using
+
+Extracted figures sit in the source edition's `markdown/figures/bulk/` as `pdf-NNNN-NN.jpg`, where NNNN is the PDF page (printed page + 18). Reproduction rights are not cleared; many are museum works (see the book's picture credits, p. 355 ff.).
+
+- Preface, p. 4: black-and-white terrazzo inlay in a concrete step, Berkeley, 1974 (`pdf-0022-01.jpg`). His own first example of "grazing existence".
+- Ch. 3, p. 50: dewdrops in winter (`pdf-0068-01.jpg`). The opening test of relatedness.
+- Ch. 3, pp. 51–52: the oak stump against a modern building he "barely" feels related to (`pdf-0069-01.jpg`, `pdf-0070-01.jpg`, `pdf-0070-02.jpg`).
+- Ch. 3, p. 54: the Kizaemon tea bowl (`pdf-0072-01.jpg`).
+- Ch. 4, pp. 77–78: African head against the 1985 diskette cover and Ernest Born's lettering (`pdf-0095-01.jpg`, `pdf-0096-01.jpg`). The clearest being / not-being comparison.
+- Ch. 4, pp. 82–83: Merseyside docks and the Aquitania (`pdf-0100-01.jpg`, `pdf-0101-01.jpg`). Beings in an industrial setting.
+- Ch. 4, pp. 84–89: Chartres plan, glass, buttresses, apse carving (`pdf-0102-01.jpg` to `pdf-0107-01.jpg`).
+- Ch. 4, p. 100: students' painted Easter eggs (`pdf-0118-01.jpg`).
+- Ch. 5, pp. 113–114: the blossom carpet fragment and two weaker blossoms (`pdf-0131-01.jpg` and following).
+- Ch. 5, p. 117: the hand-cut star on the Martinez carpentry shop (`pdf-0135-01.jpg`, `pdf-0135-02.jpg`).
+- Ch. 5, p. 132: Fra Angelico, *The Dream of Innocent* (`pdf-0150-01.jpg`). Cover the black to see the blue die.
+- Ch. 6, pp. 147–148: Ryoan-ji moss garden, Baptistery ceiling, and the small marble panel (`pdf-0165-01.jpg`, `pdf-0165-02.jpg`, `pdf-0166-01.jpg`).
+- Ch. 7, pp. 162–163: the four-way inner light comparison, Derain against Monkton, 13th- against 16th-century tile (`pdf-0180-*.jpg`, `pdf-0181-*.jpg`). The chapter needs colour reproduction to work at all.
+- Ch. 7, pp. 231–232: student colour exercises showing colour depends on geometry.
+- Ch. 8, p. 251: buildings around the lake at Eishin (`pdf-0269-01.jpg`).
+- Ch. 10, pp. 278–281: Mexicali housing and the blue glasses beside the standard glass (`pdf-0296-01.jpg`, `pdf-0299-01.jpg`).
+- Ch. 11, p. 305: three walnut offsets, 1/8, 3/32, 1/16 inch (`pdf-0323-01.jpg`, `pdf-0323-02.jpg`).
+- Ch. 11, p. 314: diagrams A and B, mind-mirrors-building against maker and thing dissolving before the ground (`pdf-0332-01.jpg`). The only diagram of the metaphysics; worth redrawing.
+- Conclusion, p. 329: the Coventry Carol score (`pdf-0347-*.jpg`).
+
+## 5. Links to the other books
+
+Cross-references below are Alexander's own unless marked editorial.
+
+- **Book 1, *The Phenomenon of Life*.** The mirror-of-the-self test (chs. 8–9) is reinterpreted from measuring instrument to evidence about reality (p. 54). Wholeness and centers (chs. 3–4), the recursive definition of life (chs. 4, 7) and the fifteen properties (ch. 5) are the base; Book 4 says the properties turned out to be consequences of centers (p. 139) and that centers were left unexplained until the ground was added (p. 152). Appendix 3 (receptive state of mind) and appendix 6 (symmetry calculations) are cited at pp. 134 and 322. Not-separateness and inner calm return as states of mind of the maker (ch. 11).
+- **Book 2, *The Process of Creating Life*.** Unfolding and structure-preserving transformations (ch. 1 for the principle of unfolding wholeness, ch. 6 for the fundamental process) are restated as the rule that every center must be made a being (p. 95) and as pleasing yourself (p. 273), and extended into a conjecture that all physical law is a special case (pp. 325–326). The Sala House, the "horrible buildings" of ch. 4 and Eishin's pattern-language interviews are reused.
+- **Book 3, *A Vision of a Living World*.** Supplies the built evidence; Book 4 re-reads its projects as attempts to make beings (p. 97) and reuses West Dean, Eishin, the Martinez gunite work (Book 3 chs. 15–16) and the banker's kitchen.
+- ***A Pattern Language* (1977).** ALCOVE (APL pp. 828–32) is the worked example of a pattern as permission to feel (pp. 266–267). This is his own late account of what patterns are for.
+- ***A Foreshadowing of 21st Century Art* (1993).** The carpet argument of ch. 5 is taken from it (pp. 31–42, 79–88 of that book, per note p. 134).
+- ***The Timeless Way of Building*.** Editorial: "the quality without a name" appears once, identified with "spirit made actual" (p. 302), which ties the 1979 term to the Book 4 metaphysics.
+- **Internal numbering.** The text refers to colour as "chapter 6" (pp. 22, 341) and to the gift-to-God chapter as "chapter 12" (p. 153), while "chapter 6" elsewhere means The Blazing One (pp. 8, 314). An earlier chapter numbering seems to have survived editing; cite by title.
+
+## 6. Stories and cases
+
+- Terrazzo step, Shasta Road office, Berkeley, 1974 (pp. 3–4).
+- Point Reyes beach (p. 7).
+- Mr. Ishiguro, the eighty-year-old plasterer, and the black shikkui at Eishin (p. 47).
+- Bruno Walter on Mozart and Mahler (p. 45).
+- West Dean Visitor's Centre, Sussex: north wall (p. 43), mockups, arches, columns (pp. 118–131), entrance (p. 246), the effort on its geometry (pp. 286 ff.).
+- Child's bed alcove with fretsaw flowers, Berkeley, 1985 (p. 44).
+- John North the shepherd: "I like the weather every day" (p. 56).
+- The two cushions experiment with Bill McClung (pp. 64–65).
+- Charli Danielsen's native plant nursery, Tilden Park (pp. 65–66).
+- Sala House kitchen (p. 67); André Sala's grandfather's farm kitchen (p. 274).
+- The Austrian cabinetmaker at the Linz exhibit, 1981 (p. 95).
+- The Easter egg class (pp. 99–100).
+- The styrofoam star, CES carpentry shop, Martinez (pp. 116–117).
+- The flute in the Indian village at night (pp. 133–134).
+- Martinez House columns and the threat of tears (pp. 243–247).
+- Eishin campus: the teachers' wish for water and the lake (pp. 250–252).
+- The back yard with ducks and fish (pp. 256–257).
+- Barbara Winslow's thesis on healing (p. 264).
+- Veronica's blue chair (p. 274).
+- The investment banker: "Is it really OK to have this much fun?" (p. 275).
+- Mexicali slides ridiculed at Berkeley, 1979, and the whispered confession (pp. 277–278).
+- Blue glasses with Henk Verweg, Leerdam, 1997 (pp. 280–281).
+- The Puerto Rico bridge with Scott Hunter of T. Y. Lin, 1995 (pp. 294–297).
+- Barton's walnut sliver (p. 305); the coffee stand that shouted (pp. 309–310).
+- The cat regarded as part of the same I (pp. 329–330).
+- The student who thought his picture of the universe "quite flexible enough" (p. 332).
+- The tourist's telephone during the Sanctus, Salzburg cathedral (pp. 334–335).
+
+## 7. Text quality notes
+
+- **Machine draft throughout.** OCR is good in plain body text and poor in captions, running heads, italic passages and anything set over a picture. Systematic slips silently corrected in quotes here: "1" or "l" for "I" (serious in this book, where "the I" is the subject; "the 1" is frequent), "2oth/zoth/roth" for "20th", "ir/rhe/thar" for "it/the/that", "nor" for "not", broken hyphenation, and dropped spaces.
+- **Italics are lost.** Alexander italicises key sentences; emphasis cannot be recovered from this text.
+- **Garbled or missing lines.** Preface p. 2, one sentence about the structure being "inextricably connected" to the human person is unreadable. Ch. 3 p. 58 has a garbled line near the end of section 5. Section headings are sometimes missing or mis-numbered (ch. 4 has no visible 6, 14; ch. 5 no 7; ch. 11 no 5). The conclusion's final paragraph (p. 335, the Salzburg story) breaks off mid-sentence. New assumption #2 on p. 330 is printed out of order relative to its gloss.
+- **Quotes that needed more than trivial repair** (check against scan): p. 154 "a vision of the universe and its luminous ground, follows as a necessary result of the empirical truths about architecture" (three words damaged; this is the book's title phrase); p. 309 "as things becomes more unified" (corrected to "become"; may be the printed text); p. 302 "is god" lower case as in OCR; p. 160 the inner light definition ends "the I?" in the OCR, where "?" is a footnote marker.
+- **Page anchors.** Pages come from `page_starts` anchors; a quote close to a page turn may be off by one. Quotes spanning a turn are cited as ranges (pp. 56–57). Stray page numbers ("2I", "I40", "I5I") are embedded in body text.
+- **Figures.** Captions are often interleaved with body text and badly garbled (names such as "Marisse", "Genile de Fabriano", "Kisaemon"); take artist and title from the scan or the picture credits.
+- **Not read in full.** Chapters 1–3, 6, the recapitulation, the conclusion and the epilogue were read in full (chapter 1's long endnotes on the ten assumptions only in part). Chapters 4, 5 and 7–11 were read by section: openings, conclusions and the sections named above. The eleven individual colour-property sections (pp. 174–229), ch. 4 on Matisse and Bonnard (pp. 100–104), ch. 10 sections 9–12 in detail, ch. 11's yellow tower (pp. 305–307) and the conclusion's notes (pp. 335–338) deserve a second pass before concept pages are written from them.
+- **Alexander's own slips.** Donne is paraphrased, not quoted (p. 269); Descartes' *Discourse* is dated "three hundred years ago" and the method to "about the year 1600" (p. 340); "Roger Bacon" appears where Francis Bacon is evidently meant (p. 13). Report these as his wording, do not silently fix.
