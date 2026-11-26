@@ -67,9 +67,9 @@ body {
 .wiki-home :is(h1, h2, h3) { margin: 0 !important; padding: 0 !important; }
 .wiki-home .heading-link { display: none; }
 .wiki-title-page { text-align: center; padding-top: clamp(2.2rem, 4.2vw, 4.2rem); }
-.wiki-title-page h1 { color: var(--ink); font-size: clamp(1.9rem, 4vw, 2.8rem); line-height: 1.02; text-wrap: balance; }
-.wiki-title-page p { max-width: 46ch; margin: .65rem auto 0; font: italic clamp(1.05rem, 1.5vw, 1.2rem)/1.4 var(--font-body); color: var(--wiki-muted); text-wrap: balance; }
-.wiki-title-page p cite { font-style: normal; }
+.wiki-title-page h1 { color: var(--ink); font-size: clamp(2.4rem, 5.4vw, 3.9rem); line-height: 1.02; text-wrap: balance; }
+.wiki-title-page p { max-width: 46ch; margin: 1.2rem auto 0; font: 400 clamp(1.08rem, 1.5vw, 1.22rem)/1.45 var(--font-body); color: var(--wiki-muted); text-wrap: balance; }
+.wiki-title-page p cite { font-style: italic; }
 .wiki-opening { display: grid; grid-template-columns: minmax(0, 1.32fr) minmax(0, .8fr); align-items: center; gap: clamp(2.5rem, 7vw, 6rem); padding-block: clamp(2rem, 4.2vw, 3.5rem); }
 .wiki-opening-text { color: var(--ink); font: 400 clamp(1.08rem, 1.4vw, 1.2rem)/1.45 var(--font-body); }
 .wiki-opening-text p { margin: 0; text-wrap: pretty; }
