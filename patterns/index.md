@@ -13,11 +13,22 @@ Where do you go for ten minutes of green? Which window does everyone in your hou
 
 For an outdoor exercise, [Positive Outdoor Space](positive-outdoor-space.md) (106, p. 517) asks you to walk the edge of a garden and trace the shape the buildings leave between them.
 
-Every pattern is here in full, as printed in 1977, with its photographs, drawings and links to the patterns it connects to. The index gives the pattern number and the page where it begins. Jump to [Towns](#towns), [Buildings](#buildings), or [Construction](#construction).
+Every pattern is here in full, as printed in 1977, with its photographs, drawings and links to the patterns it connects to. The index gives the pattern number and the page where it begins. Jump to [Using This Book](#using-this-book), [Towns](#towns), [Buildings](#buildings), or [Construction](#construction).
 
-The authors begin with [Using This Book](/patterns/using-this-book) and a [Summary of the Language](/patterns/summary-of-the-language), which runs through all 253 patterns in sequence, and end the opening with [Choosing a Language for Your Project](/patterns/choosing-a-language). Each section has its own introduction: [Towns](/patterns/towns), [Buildings](/patterns/buildings), [Construction](/patterns/construction).
+Each section has its own introduction: [Towns](/patterns/towns), [Buildings](/patterns/buildings), [Construction](/patterns/construction).
 
 Christopher Alexander, Sara Ishikawa, and Murray Silverstein, with Max Jacobson, Ingrid Fiksdahl-King, and Shlomo Angel. *A Pattern Language*, Oxford University Press, 1977. [Publisher’s edition](https://www.oup.com.au/books/general-interest/art-technology/9780195019193)
+
+## Using This Book
+
+The authors open the book by explaining what a pattern language is, how the patterns connect, and how to choose a language for your own project. The summary runs through all 253 patterns in sequence.
+
+| No. | Section | Page |
+| ---: | --- | ---: |
+|  | [Using This Book](/patterns/using-this-book) | ix |
+|  | [Summary of the Language](/patterns/summary-of-the-language) | xviii |
+|  | [Choosing a Language for Your Project](/patterns/choosing-a-language) | xxxv |
+|  | [The Poetry of the Language](/patterns/choosing-a-language#the-poetry-of-the-language) | xli |
 
 ## Towns
 
