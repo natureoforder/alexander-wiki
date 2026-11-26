@@ -7,7 +7,7 @@ layout: plain
 <div class="wiki-home">
 <header class="wiki-title-page">
 <h1>Christopher Alexander Wiki</h1>
-<p>A field guide to the ideas, buildings, and everyday places of Christopher Alexander and his collaborators.</p>
+<p>Christopher Alexander (1936–2022) was the architect and thinker behind <cite>A Pattern Language</cite> and <cite>The Nature of Order</cite>. This is a field guide to the ideas, buildings and places he made with his collaborators.</p>
 </header>
 <section class="wiki-opening" aria-label="Introduction">
 <div class="wiki-opening-text">
@@ -42,7 +42,7 @@ layout: plain
 </div>
 </section>
 <footer class="wiki-credits">
-<p>The ideas, words and pictures here are the work of Christopher Alexander and his collaborators. This wiki is made by Rufus Pollock with help from David Gasquez. <a href="/about">About this wiki</a>.</p>
+<p>The ideas, words and pictures here are the work of Christopher Alexander and his collaborators, among them Sara Ishikawa, Murray Silverstein, Max Jacobson, Ingrid Fiksdahl-King, Shlomo Angel, Howard Davis, Hajo Neis, Artemis Anninou and Maggie Moore Alexander, and the Center for Environmental Structure. Where we write “Alexander”, read “Alexander and his collaborators”. This wiki is made by Rufus Pollock with help from David Gasquez. <a href="/about">About this wiki</a>.</p>
 <p>For the full archive of Alexander’s work see the <a href="https://christopher-alexander-ces-archive.org/">CES Archive</a> and <a href="https://www.patternlanguage.com/">PatternLanguage.com</a>.</p>
 </footer>
 </div>
