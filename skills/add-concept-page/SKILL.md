@@ -118,3 +118,15 @@ Passing the script only proves the quote equals our markdown, which is an OCR dr
 ## After adding a page
 
 Update `concepts/index.md` (keep its order, star core terms), link the page from and to genuinely related concepts, and read `docs/plans/2026-11-26-rebuild-plan.md` for where the concept sits in the roadmap. Commit the sources-repo fixes and this repo's page separately.
+
+## Lessons from the pilot pages (26 Nov)
+
+The three pilots (`concepts/quality-without-a-name.md`, `concepts/centers.md`, `concepts/levels-of-scale.md`) are the reference pages. Match their shape and voice.
+
+- **Quotation share.** Aim for roughly two thirds of the words to be Alexander's.
+- **Every quote reads on its own** or follows a one-line lead-in that sets it up. Elide only whole sentences.
+- **Figures: re-crop from the PDF.** The automatic crops in `figures/bulk/` are low-resolution and sometimes split. Render the page with `pdftoppm`, crop, and check each image against the page. Save to `assets/figures/<book>/` with caption and page.
+- **Verified readings.** Record each OCR fix in the book's `quality/verified-readings.json`. NoO books use `{"lines": [...], "replacement": "..."}`; TWB uses `["wrong", "right"]` pairs, and a page may now carry several. Copy an existing entry as the template.
+- **Small capitals** use the `.sc` class, not inline styles. His italics inside a quote show upright, because quotes are set in italic.
+- **Co-authored books.** Name the authors on first mention (see `docs/voice.md`).
+- **Before handing off:** `verify_quotes.py --strict` passes, and every internal link resolves.

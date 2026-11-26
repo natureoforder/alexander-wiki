@@ -23,4 +23,6 @@ We set the wiki's type by putting a spread of *A Pattern Language* beside our ow
 - **Body size.** Text is set at 1.15–1.3rem, scaling with the screen. This is the size of the pattern commentary above, and every reading page now uses it.
 - **Paragraphs.** A space between paragraphs, with no first-line indent.
 - **Plate and commentary.** On wide screens a pattern opens as a two-page spread, with the plate on the left and our commentary on the right. On phones the two stack.
-- **Quiet frame.** White paper, near-black ink and hairline rules. No colour except in figures.
+- **Titles.** Pattern titles are set in spaced full capitals, flush left, as on p. 833. The pattern number sits above them on a small line of its own.
+- **Two voices.** Everything you read is set in EB Garamond. A small monospaced face (DM Mono) is used only for the working parts: the navbar, pattern numbers, page references and years. We took this from the Co–Star app, which pairs a serif for its words with a mono for its labels.
+- **Quiet frame.** White paper, near-black ink and hairline rules. Colour comes from the pictures. The yellow of the Oxford jacket appears in one place only, the shelf of books on the [Works](/works) page.

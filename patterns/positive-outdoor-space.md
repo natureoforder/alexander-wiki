@@ -5,10 +5,10 @@ layout: plain
 ---
 
 <div class="pattern-reading">
-<nav class="pattern-trail" aria-label="Breadcrumb"><a href="/patterns">A Pattern Language</a> <span aria-hidden="true">/</span> 106</nav>
 <div class="pattern-spread">
 <section class="pattern-plate" aria-labelledby="pattern-106-title">
-<h1 class="pattern-title" id="pattern-106-title"><span class="pattern-number">106</span> <span>Positive Outdoor Space</span><sup aria-label="two stars">**</sup></h1>
+<p class="pattern-meta"><a href="/patterns">A Pattern Language</a> · Pattern 106 · p. 517 · <span aria-label="two stars">**</span></p>
+<h1 class="pattern-title" id="pattern-106-title">Positive Outdoor Space</h1>
 <figure class="pattern-figure"><img src="/assets/figures/positive-outdoor-space.svg" alt="Two plans of the same workshops. A hedge gives the open corner a garden-shaped enclosure and leaves a way out to the lane." width="420" height="440" /><figcaption>Original diagram. The buildings stay put. Follow the ground between them in each plan.</figcaption></figure>
 </section>
 <section class="pattern-commentary" aria-label="Reading the pattern">

@@ -9,13 +9,13 @@ Why do two places that serve the same purpose feel so different? And if we can r
 
 ## Learning to see
 
-- [The quality without a name](quality-without-a-name.md) asks what we mean when we call a place alive.
+- ★ [Life (the quality without a name)](quality-without-a-name.md) is the one quality Alexander finds in every good place: first left unnamed, later called life and claimed to exist in some degree in every part of space.
 - [Wholeness](wholeness.md) describes the structure already present in a place before we change it.
-- [Centers](centers.md) are the regions that draw their strength from their relationships with other regions.
+- ★ [Centers](centers.md) are the coherent zones a place is made of. Each is made of other centers, and they come to life by helping one another.
 - [The mirror of the self](mirror-of-the-self.md) is Alexander’s method of comparing two things by asking which feels closer to one’s own deepest self.
 - [The fifteen properties](fifteen-properties.md) give names to recurring ways centers help each other. Each property has its own entry.
 
-1. [Levels of scale](levels-of-scale.md)
+1. [Levels of scale](levels-of-scale.md): centers at a well-marked range of sizes, each helping the next, shown in Alexander's own paired photographs.
 2. [Strong centers](strong-centers.md)
 3. [Boundaries](boundaries.md)
 4. [Alternating repetition](alternating-repetition.md)
@@ -41,7 +41,7 @@ Why do two places that serve the same purpose feel so different? And if we can r
 
 ## Making the work possible
 
-- [On-site design decisions](on-site-design-decisions.md) asks who can act when a builder discovers a better arrangement after the drawings have been agreed. [Original question about contractors](https://github.com/natureoforder/nature-of-order/issues/1)
-- [Making living centers](making-living-centers.md) follows Alexander’s account of the columns at West Dean into Book Four’s question about the experience of the maker.
+- [On-site design decisions](../notes/on-site-design-decisions.md) asks who can act when a builder discovers a better arrangement after the drawings have been agreed. [Original question about contractors](https://github.com/natureoforder/nature-of-order/issues/1)
+- [Making living centers](../notes/making-living-centers.md) follows Alexander’s account of the columns at West Dean into Book Four’s question about the experience of the maker.
 
 For field exercises and project accounts, visit the [practical guides](../practice/index.md). For the questions behind this collection, see Rufus Pollock’s [overview of The Nature of Order](https://github.com/natureoforder/nature-of-order/issues/2) and [notes on The Timeless Way of Building](https://github.com/natureoforder/pattern-language/blob/main/Timeless%20Way%20Notes.md).

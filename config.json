@@ -22,24 +22,24 @@
         "href": "/works"
       },
       {
-        "name": "Visionary",
-        "href": "/visionary"
-      },
-      {
-        "name": "Practical guides",
-        "href": "/practice"
-      },
-      {
-        "name": "Living Neighborhoods",
-        "href": "/living-neighborhoods"
-      },
-      {
         "name": "Patterns",
         "href": "/patterns"
       },
       {
+        "name": "Guides",
+        "href": "/practice"
+      },
+      {
+        "name": "Visionary",
+        "href": "/visionary"
+      },
+      {
         "name": "Notes",
         "href": "/notes"
+      },
+      {
+        "name": "Changelog",
+        "href": "/changelog"
       }
     ],
     "social": [
@@ -64,19 +64,6 @@
   "showBuiltWithButton": false,
   "footer": {
     "navigation": [
-      {
-        "title": "Alexander's work",
-        "links": [
-          {
-            "name": "Christopher Alexander CES Archive",
-            "href": "https://christopher-alexander-ces-archive.org/"
-          },
-          {
-            "name": "PatternLanguage.com",
-            "href": "https://www.patternlanguage.com/"
-          }
-        ]
-      },
       {
         "title": "This project",
         "links": [

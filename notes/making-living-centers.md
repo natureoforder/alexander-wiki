@@ -13,7 +13,7 @@ This is what Alexander is after when he asks a maker to give a center **life**. 
 
 Later in Book Four, Alexander asks why the experience of making a place whole can stay with someone for days. He recalls Barbara Winslow, a student in a 1977 seminar, who kept a diary of what happened to her while working on drawings and paintings. She described an unfamiliar peacefulness. Alexander recognizes in her account something he had felt even after a modest adjustment that finally worked. For him the connection runs both ways. A person gives shape to a place, and the quality achieved in the place can change how that person feels.[^3]
 
-When you next adjust something by hand, try noticing when you stop. What tells you the chair, lamp, or picture finally sits well with its surroundings? Can you show somebody else what changed? [Wholeness and centers](wholeness-and-centers.md)
+When you next adjust something by hand, try noticing when you stop. What tells you the chair, lamp, or picture finally sits well with its surroundings? Can you show somebody else what changed? [Wholeness and centers](../concepts/wholeness-and-centers.md)
 
 [^1]: Christopher Alexander, *The Nature of Order*, Book Four, *The Luminous Ground*, ch. 5, p. 126. Alexander describes the capital at about 1.70 metres and the middle of the arch at about 2.10 metres.
 
