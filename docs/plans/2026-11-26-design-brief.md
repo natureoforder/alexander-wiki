@@ -14,7 +14,7 @@ The pieces of design work, each judged against the [brand](2026-11-26-brand.md).
 2. **Navbar.** Rufus: "needs some work… probably a different font". It is generic today. Restyle the markup Flowershow already outputs: emblem, name, links, one rule, and a working menu on phones.
 3. **Pattern titles.** Rufus: WINDOW PLACE "need a different font". On p. 833 the title is set in full capitals, widely spaced, flush left, with oldstyle figures. Ours mixes Caslon with small capitals and is centred.
 4. **Works index.** Rufus: "design of works index page is important - could be by time but in a grid too and beautiful". There are 15 covers (`assets/covers/`; the filenames stay stable through the high-res pass), plus essays and talks, grouped into six periods, with a chronology table. Index pages work at two levels, the overview and each work's page, and the design should serve both. Keep its classes `works-*`.
-5. **Front page.** Rufus doesn't want it reworked much. Only light changes that follow from 1–3, and better use of the books' pictures where that helps.
+5. **Front page.** Rufus doesn't want it reworked much. Only light changes that follow from 1–3, and better use of the books' pictures where that helps. Per [voice.md](../voice.md), it introduces him in one line and credits his collaborators by name. Both are done (26 Nov).
 
 ## Constraints
 
