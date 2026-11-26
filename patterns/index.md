@@ -15,10 +15,6 @@ For an outdoor exercise, [Positive Outdoor Space](positive-outdoor-space.md) (10
 
 Every pattern is here in full, as printed in 1977, with its photographs, drawings and links to the patterns it connects to. The index gives the pattern number and the page where it begins. Jump to [Using This Book](#using-this-book), [Towns](#towns), [Buildings](#buildings), or [Construction](#construction).
 
-Each section has its own introduction: [Towns](/patterns/towns), [Buildings](/patterns/buildings), [Construction](/patterns/construction).
-
-Christopher Alexander, Sara Ishikawa, and Murray Silverstein, with Max Jacobson, Ingrid Fiksdahl-King, and Shlomo Angel. *A Pattern Language*, Oxford University Press, 1977. [Publisher’s edition](https://www.oup.com.au/books/general-interest/art-technology/9780195019193)
-
 ## Using This Book
 
 The authors open the book by explaining what a pattern language is, how the patterns connect, and how to choose a language for your own project. The summary runs through all 253 patterns in sequence.
@@ -36,6 +32,7 @@ Start here for questions about shared ground. How far must children walk to play
 
 | No. | Pattern | Page |
 | ---: | --- | ---: |
+|  | [Introduction](/patterns/towns) | 1 |
 | 1 | [Independent Regions](/patterns/independent-regions) | 10 |
 | 2 | [The Distribution Of Towns](/patterns/the-distribution-of-towns) | 16 |
 | 3 | [City Country Fingers](/patterns/city-country-fingers) | 21 |
@@ -137,6 +134,7 @@ Follow a route from the street to a seat indoors. These patterns consider how to
 
 | No. | Pattern | Page |
 | ---: | --- | ---: |
+|  | [Introduction](/patterns/buildings) | 461 |
 | 95 | [Building Complex](/patterns/building-complex) | 468 |
 | 96 | [Number Of Stories](/patterns/number-of-stories) | 473 |
 | 97 | [Shielded Parking](/patterns/shielded-parking) | 477 |
@@ -254,6 +252,7 @@ These patterns take the reader onto the building site, from the arrangement of t
 
 | No. | Pattern | Page |
 | ---: | --- | ---: |
+|  | [Introduction](/patterns/construction) | 933 |
 | 205 | [Structure Follows Social Spaces](/patterns/structure-follows-social-spaces) | 940 |
 | 206 | [Efficient Structure](/patterns/efficient-structure) | 946 |
 | 207 | [Good Materials](/patterns/good-materials) | 955 |
