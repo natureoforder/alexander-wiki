@@ -1,6 +1,6 @@
 # Research digests
 
-One compact digest per source book, built chapter by chapter from `natureoforder/sources/texts/`. They feed the concept list, the roadmap and the concept pages. Not published (`docs/` is excluded from the site).
+One compact digest per source book, built chapter by chapter from `natureoforder/sources/texts/`. They feed the concept list, the roadmap and the concept pages. Not published (`docs/` is excluded from the site). When a digest is finished, its canonical copy moves to the sources repo beside its book (`natureoforder/sources/texts/<book>/digest.md`) for future AI and research use, and this folder keeps a pointer.
 
 ## Digest shape
 
