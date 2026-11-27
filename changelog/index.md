@@ -7,6 +7,7 @@ description: What has changed on Alexander Wiki, newest first.
 
 What has changed on Alexander Wiki, newest first.
 
+- 2026-11-27: [Alexander's key passages for building, in full](2026-11-27-key-passages-for-building.md)
 - 2026-11-27: [The Nature of Order in pictures](2026-11-27-nature-of-order-in-pictures.md)
 - 2026-11-26: [A City is Not a Tree, in full](2026-11-26-a-city-is-not-a-tree.md)
 - 2026-11-26: [Living Neighborhoods, re-edited for readers](2026-11-26-living-neighborhoods-edition.md)
