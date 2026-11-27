@@ -487,3 +487,10 @@ body {
   .noo-books { grid-template-columns: repeat(2, 1fr); max-width: 22rem; }
   .noo-row--3, .noo-row--4 { grid-template-columns: repeat(2, 1fr); }
 }
+
+/* Our own words on reading pages: boxed, so they are never mistaken for Alexander's text. */
+.wiki-ours { margin: 1.4rem 0 2.2rem; padding: 1rem 1.25rem 1.05rem; border: 1px solid var(--wiki-rule); background: var(--wiki-frame); font-size: .95em; line-height: 1.5; }
+.wiki-ours p { margin: 0; }
+.wiki-ours p + p { margin-top: .6em; }
+.wiki-ours__label { display: block; margin-bottom: .45rem; font: 400 .66rem/1.3 var(--font-mono); text-transform: uppercase; letter-spacing: .07em; color: var(--wiki-muted); }
+.wiki-ours--note { margin: 1rem 0 1.2rem; padding: .55rem .9rem; font-size: .88em; }
