@@ -54,6 +54,8 @@ Alexander believed that the trouble with modern building is at root a trouble wi
 >
 > — *The Luminous Ground*, ch. 1, "Our Present Picture of the Universe", p. 13
 
+In the same chapter he names ten tacit assumptions behind this split, from "matters of value in architecture are subjective" to "at a profound level, architecture is irrelevant". [Read the ten tacit assumptions in his words](ten-tacit-assumptions.md).
+
 He does not reject the mechanical picture but adds to it: Descartes's method for what can be treated as a machine, and the observer's own feeling of wholeness, shared and repeatable, where wholeness is the question. If both are used together, he claims, the bifurcation "is then solved" (p. 343).
 
 ## The "I" and the luminous ground

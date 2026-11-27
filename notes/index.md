@@ -16,6 +16,7 @@ Rufus Pollock's own notes, questions and working materials on Alexander. These a
 
 ## The Nature of Order
 
+- [Ten tacit assumptions of the modern worldview](ten-tacit-assumptions.md): Alexander's list, from *The Luminous Ground*, of the hidden premises that make value seem subjective, with his notes.
 - [*The Nature of Order* in pictures](/nature-of-order): the quick way in that grew from this overview, eight questions told through his own pictures.
 - [Overview of *The Nature of Order*](nature-of-order-overview.md): a working overview of the four books and the argument that runs through them.
 - [Pattern languages, sequences and generative codes](pattern-languages-sequences-generative-codes.md): how pattern languages gave way to sequences and then generative codes.
