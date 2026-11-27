@@ -36,7 +36,7 @@ _Not yet compiled._
 
 ## Materials
 
-- **On this wiki:** [Laying out the Eishin campus](../practice/eishin-campus.md) and [Laying out the Eishin campus in Alexander's words](../practice/eishin-campus-reading.md), drawn from *A Vision of a Living World*.
+- **On this wiki:** [Laying out the Eishin campus](../practice/eishin-campus.md) and [Laying out a hamlet or a campus: Alexander's method at Eishin](../practice/eishin-campus-reading.md), drawn from *A Vision of a Living World*.
 - **Text:** not in the project's sources repository.
 - **Rufus's notes:** [The purpose of architecture](https://github.com/natureoforder/pattern-language/blob/main/purpose-of-architecture.md).
 
