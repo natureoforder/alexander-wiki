@@ -4,6 +4,8 @@ Keep each Markdown paragraph on one line. Write concept entries in original pros
 
 Before adding or editing a concept page, read `skills/add-concept-page/SKILL.md`: it sets the page shape and requires running `skills/add-concept-page/scripts/verify_quotes.py` and a scan check on every excerpt.
 
+Pictures are welcome, including screenshots of book pages. When a screenshot is mainly text (an epigraph, a passage, a contents page), also give the text in Markdown under it, checked against the source, so it can be read and searched.
+
 Follow `docs/voice.md` for how we speak about Alexander and his collaborators.
 
 Track work in Beads and order dependencies with bd dep. At session close fetch, push Git and verify Beads sync. The pre-push hook runs bd dolt push, which is also the manual fallback.

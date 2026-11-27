@@ -12,7 +12,7 @@ showToc: false
 </header>
 <div class="works-intro">
 <p>Christopher Alexander (1936–2022) wrote books for half a century, from 1963 to 2012. Most readers start with <em>A Pattern Language</em>, but it is one book in a long argument that runs from a search for a method of design, through patterns, to a theory of wholeness and living process. Below, the major works are grouped by period, each with its own page; a <a href="#chronology">full chronological list</a> follows, including essays and talks.</p>
-<p><strong>Where to start.</strong> For the ideas in Alexander's own voice, read <a href="/works/1979-the-timeless-way-of-building">The Timeless Way of Building</a>. To use them on a house or a street, <a href="/works/1977-a-pattern-language">A Pattern Language</a>. For the late theory that he thought superseded the patterns, <a href="/works/2002-the-phenomenon-of-life">The Phenomenon of Life</a>, Book 1 of <em>The Nature of Order</em>.</p>
+<p><strong>Where to start.</strong> For the ideas in Alexander's own voice, read <a href="/works/1979-the-timeless-way-of-building">The Timeless Way of Building</a>. To use them on a house or a street, <a href="/works/1977-a-pattern-language">A Pattern Language</a>. For the late theory that he thought superseded the patterns, <a href="/works/2002-the-phenomenon-of-life">The Phenomenon of Life</a>, Book 1 of <em>The Nature of Order</em>, or first <a href="/nature-of-order">the four books in pictures</a>.</p>
 </div>
 
 <section class="works-timeline" aria-label="Every book in order of publication">

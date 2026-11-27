@@ -4,6 +4,8 @@ description: Rufus Pollock's working overview of the four books of The Nature of
 image: /assets/notes/nature-of-order-overview-01.png
 ---
 
+This sketch grew into [The Nature of Order in pictures](/nature-of-order), a quick visual way into the four books.
+
 ## Summary
 
 - Qu: What is the nature of the "well" spaces?
