@@ -23,6 +23,8 @@ Rufus Pollock's own notes, questions and working materials on Alexander. These a
 
 ## Reading notes
 
+- [The peach tree and the quality without a name](the-peach-tree-and-the-quality.md): the opening of *The Timeless Way*, chapter 2, and the seven words he tries for the quality, in his own words.
+- [*The Timeless Way* as a map](timeless-way-map.md): the book's detailed contents, where each chapter is one sentence, so the whole argument reads in a few minutes.
 - [Notes on *The Timeless Way of Building*](timeless-way-notes.md): chapter notes and pasted illustrations.
 
 ## Working lists

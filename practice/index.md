@@ -11,6 +11,10 @@ What can you learn about a place by walking it that you would miss on a drawing?
 
 The Eishin school needed a street for its high-school classrooms and a center for its college. For months the team could see how to join them on paper and still had no answer that fit the land. Read how a ridge changed the plan, then try two arrangements for a gathering place at full size. [Read Alexander’s account, pp. 174–177](eishin-campus-reading.md), or [try the field exercise](eishin-campus.md).
 
+## Agree a shared vision first
+
+Before the flags went into the tea fields, the Eishin teachers and students talked their way to a shared picture of the place: some two hundred plain statements, agreed by vote, which then decided most of the layout. Alexander's account works for a hamlet as well as a school. [Read it in his words, pp. 259–273](eishin-collective-vision.md)
+
 ## Make a neighborhood diagnosis
 
 Take a neighbor and a map. Walk separately long enough to notice different things, then compare the places each of you would protect or change. The exercise leads into the original Living Neighborhoods workbooks. [A first walk](../living-neighborhoods/first-walk.md)
