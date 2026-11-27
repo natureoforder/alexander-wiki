@@ -55,6 +55,7 @@ This is where Alexander's late theory is laid down: centers, living structure an
 
 - **Text:** the project's private sources repository holds a full scan and a chapter-by-chapter machine-transcribed reading edition. It is used to check quotations on this wiki and is not published.
 - **Series:** [The Process of Creating Life](2002-the-process-of-creating-life.md) (Book 2) · [A Vision of a Living World](2005-a-vision-of-a-living-world.md) (Book 3) · [The Luminous Ground](2004-the-luminous-ground.md) (Book 4)
+- **Way in:** [The Nature of Order in pictures](/nature-of-order), all four books in eight questions and sixty of their pictures.
 - **External:** [PatternLanguage.com](https://www.patternlanguage.com/), the Center for Environmental Structure's site. Open Library also lists a 2020 reissue of the four books.
 
 ## Notes

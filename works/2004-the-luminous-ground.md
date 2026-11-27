@@ -57,6 +57,7 @@ Book 4 is the most speculative and personal of Alexander's books, and the one mo
 
 - **Text:** the project's private sources repository holds a full scan and a chapter-by-chapter machine-transcribed reading edition. It is used to check quotations on this wiki and is not published.
 - **Series:** [The Phenomenon of Life](2002-the-phenomenon-of-life.md) (Book 1) · [The Process of Creating Life](2002-the-process-of-creating-life.md) (Book 2) · [A Vision of a Living World](2005-a-vision-of-a-living-world.md) (Book 3)
+- **Way in:** [The Nature of Order in pictures](/nature-of-order), all four books in eight questions and sixty of their pictures.
 - **Related:** [A Foreshadowing of 21st Century Art](1993-a-foreshadowing-of-21st-century-art.md), whose study of carpets anticipates the book's chapters on colour.
 
 ## Notes

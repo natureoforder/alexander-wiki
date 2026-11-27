@@ -14,7 +14,7 @@ image: /assets/social-card.jpg
 <div class="wiki-opening-text">
 <p><strong>Why does one window become everyone’s favorite place to sit? How do families laying out a neighborhood decide where a path should go?</strong></p>
 <p>Alexander and his collaborators spent decades studying questions like these in buildings, on drawing boards, and out on the land.</p>
-<p class="wiki-start"><a href="/concepts">Start with the concepts</a><span aria-hidden="true"> · </span><a href="/living-neighborhoods/first-walk">Take a first walk</a></p>
+<p class="wiki-start"><a href="/nature-of-order">The Nature of Order in pictures</a><span aria-hidden="true"> · </span><a href="/concepts">Start with the concepts</a><span aria-hidden="true"> · </span><a href="/living-neighborhoods/first-walk">Take a first walk</a></p>
 </div>
 <figure class="wiki-window">
 <a href="/patterns/window-place"><img src="/assets/patterns/window-place.jpg" alt="A stone window seat in a deep recess." /></a>

@@ -75,6 +75,7 @@ Books 1 and 2 state the theory; Book 3 is the evidence that it can be built. It 
 
 - **Text:** the project's private sources repository holds a full scan and a chapter-by-chapter machine-transcribed reading edition. It is used to check quotations on this wiki and is not published.
 - **Series:** [The Phenomenon of Life](2002-the-phenomenon-of-life.md) (Book 1) · [The Process of Creating Life](2002-the-process-of-creating-life.md) (Book 2) · [The Luminous Ground](2004-the-luminous-ground.md) (Book 4)
+- **Way in:** [The Nature of Order in pictures](/nature-of-order), all four books in eight questions and sixty of their pictures.
 - **Note on dates:** Book 3 was the last volume to appear (copyright 2005), after Book 4 (2004).
 
 ## Notes

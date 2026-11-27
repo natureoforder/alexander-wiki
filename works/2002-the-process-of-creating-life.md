@@ -71,6 +71,7 @@ Book 2 is where patterns are placed inside a larger theory: Alexander presents t
 
 - **Text:** the project's private sources repository holds a full scan and a chapter-by-chapter machine-transcribed reading edition. It is used to check quotations on this wiki and is not published.
 - **Series:** [The Phenomenon of Life](2002-the-phenomenon-of-life.md) (Book 1) · [A Vision of a Living World](2005-a-vision-of-a-living-world.md) (Book 3) · [The Luminous Ground](2004-the-luminous-ground.md) (Book 4)
+- **Way in:** [The Nature of Order in pictures](/nature-of-order), all four books in eight questions and sixty of their pictures.
 
 ## Notes
 

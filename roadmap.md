@@ -11,6 +11,7 @@ showToc: false
 <h1 class="ar-title"><span class="ar-title__over">The work of Alexander and colleagues</span>A Roadmap</h1>
 <p class="ar-lede">Christopher Alexander (1936–2022) was the architect and thinker behind <em>The Nature of Order</em> and, with his colleagues at the Center for Environmental Structure, <em>A Pattern Language</em>. Why do some places make you feel more alive? He spent fifty years on that question. This is a way into his answer, one question at a time, each opening the next.</p>
 <div class="ar-ways"><div class="ar-ways__head ar-sc">Or take a shorter trail</div><div class="ar-ways__list">
+<a class="ar-way" href="/nature-of-order"><span class="ar-way__title">In pictures</span><span class="ar-way__note">The four books of <em>The Nature of Order</em> in eight questions and sixty of his pictures.</span></a>
 <a class="ar-way" href="/roadmap/make-a-place"><span class="ar-way__title">To make a place</span><span class="ar-way__note">For anyone shaping a house, a garden, a school or a street.</span></a>
 <a class="ar-way" href="/roadmap/thesis"><span class="ar-way__title">The thesis</span><span class="ar-way__note">His central claim, in five steps.</span></a>
 <a class="ar-way" href="/roadmap/from-patterns"><span class="ar-way__title">From patterns or software</span><span class="ar-way__note">From the patterns you know to what came after.</span></a>

@@ -41,7 +41,8 @@
 .ar-ways { max-width: var(--ar-text); margin: 0 auto 2.6rem; text-align: center; }
 .ar-ways__head { color: var(--ar-faint); font-size: 1rem; margin-bottom: .7rem; }
 .ar-ways__list { display: grid; grid-template-columns: 1fr; gap: .6rem; }
-@media (min-width: 700px) { .ar-ways__list { grid-template-columns: repeat(3, 1fr); gap: 1rem; } }
+@media (min-width: 700px) { .ar-ways__list { grid-template-columns: repeat(2, 1fr); gap: 1rem; } }
+@media (min-width: 1000px) { .ar-ways__list { grid-template-columns: repeat(4, 1fr); } }
 .ar-root a.ar-way { display: block; border-top: 1px solid var(--ar-rule); padding: .6rem .4rem 0; text-decoration: none; }
 .ar-way__title { display: block; font-size: 1.2rem; line-height: 1.25; }
 .ar-way__note { display: block; font-size: 1rem; line-height: 1.35; color: var(--ar-soft); font-style: italic; }
